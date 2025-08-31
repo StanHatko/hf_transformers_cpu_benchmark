@@ -46,25 +46,26 @@ def encode_inputs(tokenizer, inputs: list):
     return x
 
 
-def generate_llm(model, input_data, max_tokens: int):
+def generate_llm(model, input_data: list, max_tokens: int):
     """
     Run the LLM on the input data.
     """
 
     t1 = time.time()
-    outputs = model.generate(
-        **input_data,
-        max_new_tokens=max_tokens,
-        temperature=0,
-        seed=1337,
-    )
+    outputs = [
+        model.generate(
+            **x,
+            max_new_tokens=max_tokens,
+        )
+        for x in input_data
+    ]
     t2 = time.time()
 
     print(f"Took {round(t2 - t1, 2)} seconds to run LLM.")
     return outputs
 
 
-def decode_outputs(tokenizer, input_data, output_data):
+def decode_outputs(tokenizer, input_data: list, output_data: list):
     """
     Convert numeric outputs back into tokens.
     """
@@ -72,8 +73,8 @@ def decode_outputs(tokenizer, input_data, output_data):
     t1 = time.time()
     r = []
     for x, y in zip(input_data, output_data):
-        z = y[x["input_ids"].shape[-1] :]
-        w = tokenizer.decode(z)
+        nx = x["input_ids"].shape[-1]
+        w = tokenizer.decode(y[0, nx:])
         r.append(w)
     t2 = time.time()
 
