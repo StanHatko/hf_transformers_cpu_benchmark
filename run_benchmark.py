@@ -3,8 +3,10 @@
 Check speed of running LLM on CPU with huggingface transformers.
 """
 
+import os
 import time
 
+import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 
@@ -56,6 +58,7 @@ def generate_llm(model, input_data: list, max_tokens: int):
         model.generate(
             **x,
             max_new_tokens=max_tokens,
+            do_sample=False,
         )
         for x in input_data
     ]
@@ -82,12 +85,16 @@ def decode_outputs(tokenizer, input_data: list, output_data: list):
     return r
 
 
-def benchmark_llm(model_name: str, max_tokens: int):
+def benchmark_llm(model_name: str, num_cpu: int, max_tokens: int):
     """
     Benchmark speed of running specified LLM on some queries.
     """
 
-    print("Benchmark speed of model:", model_name)
+    print("Benchmark speed of model on CPU:", model_name)
+    print("Number of CPU cores to use:", num_cpu)
+    os.environ["OMP_NUM_THREADS"] = str(num_cpu)
+    torch.set_num_threads(num_cpu)
+
     tokenizer, model = load_tokenizer_model(model_name)
 
     # TODO: replace hardcoded input!
