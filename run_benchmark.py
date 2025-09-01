@@ -4,6 +4,8 @@ Check speed of running LLM on CPU with huggingface transformers.
 """
 
 import os
+import psutil
+import sys
 import time
 
 import torch
@@ -53,24 +55,45 @@ def encode_inputs(tokenizer, inputs: list):
     return x
 
 
-def generate_llm(model, input_data: list, max_tokens: int):
+def generate_llm(model, input_data: list, num_cpu: int, max_tokens: int):
     """
     Run the LLM on the input data.
+    Generate in parallel on specified number of CPUs.
     """
 
+    r = []
+    pids = []
     t1 = time.time()
-    outputs = [
-        model.generate(
-            **x,
-            max_new_tokens=max_tokens,
-            do_sample=False,
-        )
-        for x in input_data
-    ]
-    t2 = time.time()
 
-    print(f"Took {round(t2 - t1, 2)} seconds to run LLM.")
-    return outputs
+    for i, x in enumerate(input_data):
+        print("Running for entry:", i)
+
+        p = os.fork()
+        if p == 0:
+            y = [
+                model.generate(
+                    **x,
+                    max_new_tokens=max_tokens,
+                    do_sample=False,
+                )
+                for x in input_data
+            ]
+            print(f"Done child process for {i}.")
+            sys.exit(0)
+        else:
+            print("Continue run for next...")
+            pids.append(p)
+
+    print("Wait for processes to finish...")
+    for p in pids:
+        print("Check for pid:", p)
+        while psutil.pid_exists(p):
+            time.sleep(0.1)
+    print("Done waiting for all processes to finish.")
+
+    t2 = time.time()
+    print(f"Took {round(t2 - t1, 2)} seconds to generate LLM predictions.")
+    breakpoint()
 
 
 def decode_outputs(tokenizer, input_data: list, output_data: list):
@@ -99,7 +122,7 @@ def benchmark_llm(model_name: str, num_queries: int, num_cpu: int, max_tokens: i
     print("Number of queries:", num_queries)
     print("Number of CPU cores to use:", num_cpu)
 
-    torch.set_num_threads(num_cpu)
+    torch.set_num_threads(1)
     tokenizer, model = load_tokenizer_model(model_name)
 
     # TODO: replace hardcoded input!
@@ -111,6 +134,6 @@ def benchmark_llm(model_name: str, num_queries: int, num_cpu: int, max_tokens: i
         ],
     )
 
-    num_outputs = generate_llm(model, inputs, max_tokens)
+    num_outputs = generate_llm(model, inputs, num_cpu, max_tokens)
     final_outputs = decode_outputs(tokenizer, inputs, num_outputs)
     print("Contents of final outputs:", final_outputs)
