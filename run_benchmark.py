@@ -37,16 +37,13 @@ def encode_inputs(tokenizer, inputs: list):
     """
 
     t1 = time.time()
-    x = [
-        tokenizer.apply_chat_template(
-            messages,
-            add_generation_prompt=True,
-            tokenize=True,
-            return_dict=True,
-            return_tensors="pt",
-        )
-        for messages in inputs
-    ]
+    x = tokenizer.apply_chat_template(
+        inputs,
+        add_generation_prompt=True,
+        tokenize=True,
+        return_dict=True,
+        return_tensors="pt",
+    )
     t2 = time.time()
 
     print(f"Took {round(t2 - t1, 2)} seconds to encode inputs.")
@@ -59,17 +56,15 @@ def generate_llm(model, input_data: list, max_tokens: int):
     """
 
     t1 = time.time()
-    outputs = [
-        model.generate(
-            **x,
-            max_new_tokens=max_tokens,
-            do_sample=False,
-        )
-        for x in input_data
-    ]
+    outputs = model.generate(
+        **input_data,
+        max_new_tokens=max_tokens,
+        do_sample=False,
+    )
     t2 = time.time()
 
     print(f"Took {round(t2 - t1, 2)} seconds to run LLM.")
+    breakpoint()
     return outputs
 
 
