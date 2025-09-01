@@ -16,7 +16,7 @@ def load_tokenizer_model(model_name: str) -> tuple:
     """
 
     t1 = time.time()
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    tokenizer = AutoTokenizer.from_pretrained(model_name, padding_side="left")
     model = AutoModelForCausalLM.from_pretrained(model_name)
     t2 = time.time()
     print(f"Took {round(t2 - t1, 2)} seconds to load model.")
@@ -49,17 +49,21 @@ def encode_inputs(tokenizer, inputs: list):
     """
 
     t1 = time.time()
-    x = tokenizer.apply_chat_template(
-        inputs,
-        add_generation_prompt=True,
-        tokenize=True,
-        return_dict=True,
-        return_tensors="pt",
-    )
+    y = [
+        tokenizer.apply_chat_template(
+            x,
+            add_generation_prompt=True,
+            tokenize=True,
+            return_dict=True,
+            return_tensors="pt",
+            padding=True,
+        )
+        for x in inputs
+    ]
     t2 = time.time()
 
     print(f"Took {round(t2 - t1, 2)} seconds to encode inputs.")
-    return x
+    return y
 
 
 def generate_llm(model, input_data: list, max_tokens: int):
@@ -68,15 +72,13 @@ def generate_llm(model, input_data: list, max_tokens: int):
     """
 
     t1 = time.time()
-    outputs = model.generate(
-        **input_data,
-        max_new_tokens=max_tokens,
-        do_sample=False,
-    )
+    outputs = [
+        model.generate(**x, max_new_tokens=max_tokens, do_sample=False)
+        for x in input_data
+    ]
     t2 = time.time()
 
     print(f"Took {round(t2 - t1, 2)} seconds to run LLM.")
-    breakpoint()
     return outputs
 
 
@@ -87,6 +89,7 @@ def decode_outputs(tokenizer, input_data: list, output_data: list):
 
     t1 = time.time()
     r = []
+    breakpoint()
     for x, y in zip(input_data, output_data):
         nx = x["input_ids"].shape[-1]
         w = tokenizer.decode(y[0, nx:])
@@ -114,5 +117,6 @@ def benchmark_llm(model_name: str, input_file: str, num_cpu: int, max_tokens: in
     input_encoded = encode_inputs(tokenizer, input_raw)
 
     output_encoded = generate_llm(model, input_encoded, max_tokens)
+    breakpoint()
     output_decoded = decode_outputs(tokenizer, input_encoded, output_encoded)
     print("Contents of final outputs:", output_decoded)
