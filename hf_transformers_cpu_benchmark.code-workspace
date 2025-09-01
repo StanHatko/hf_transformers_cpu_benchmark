@@ -9,8 +9,10 @@
 			"autotune",
 			"fullgraph",
 			"huggingface",
+			"ints",
 			"Justfile",
-			"PYTHONPATH"
+			"PYTHONPATH",
+			"Qwen"
 		]
 	}
 }

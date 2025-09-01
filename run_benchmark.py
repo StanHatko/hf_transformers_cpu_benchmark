@@ -10,112 +10,132 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 
-def load_tokenizer_model(model_name: str) -> tuple:
+class Benchmark:
     """
-    Load the model and tokenizer.
-    """
-
-    t1 = time.time()
-    tokenizer = AutoTokenizer.from_pretrained(model_name, padding_side="left")
-    model = AutoModelForCausalLM.from_pretrained(model_name)
-    t2 = time.time()
-    print(f"Took {round(t2 - t1, 2)} seconds to load model.")
-
-    print("Compile the model...")
-    model = torch.compile(model, mode="max-autotune", fullgraph=True)
-    t3 = time.time()
-    print(f"Took {round(t3 - t2, 2)} seconds to compile model.")
-
-    return tokenizer, model
-
-
-def load_inputs(input_file: str) -> list:
-    """
-    Load the input data.
-    """
-    t1 = time.time()
-    with open(input_file, "r", encoding="utf-8") as f:
-        inputs_raw = json.load(f)
-    t2 = time.time()
-    print(f"Took {round(t2 - t1, 2)} seconds to load input data.")
-    return inputs_raw
-
-
-def encode_inputs(tokenizer, inputs: list):
-    """
-    Convert list of inputs into tokenized inputs, with PyTorch tensors.
-    Parameter inputs is list, each entry of which is a list of messages.
-    Runs on CPU here so OK for not to move to GPU device.
+    Benchmark LLM on CPU.
+    Methods add data to object during run.
     """
 
-    t1 = time.time()
-    y = [
-        tokenizer.apply_chat_template(
-            x,
-            add_generation_prompt=True,
-            tokenize=True,
-            return_dict=True,
-            return_tensors="pt",
-            padding=True,
-        )
-        for x in inputs
-    ]
-    t2 = time.time()
+    def __init__(self, model_name: str, input_file: str, num_cpu: int, max_tokens: int):
+        print("Benchmark speed of model:", model_name)
+        print("Input file:", input_file)
+        print("Number of CPU cores to use:", num_cpu)
+        print("Maximum number of output tokens:", max_tokens)
 
-    print(f"Took {round(t2 - t1, 2)} seconds to encode inputs.")
-    return y
+        self.model_name = model_name
+        self.num_cpu = num_cpu
+        self.input_file = input_file
+        self.max_tokens = max_tokens
+        self.times = {}
 
+        torch.set_num_threads(num_cpu)
+        self.tokenizer, self.model = self.load_tokenizer_model()
+        self.inputs_raw = self.load_inputs()
+        self.inputs_encoded = self.encode_inputs()
+        self.outputs_llm = self.generate_llm()
+        self.outputs_decoded = self.decode_outputs()
 
-def generate_llm(model, input_data: list, max_tokens: int):
-    """
-    Run the LLM on the input data.
-    """
+    def time_benchmark(self, name: str, t1: float, t2: float):
+        """
+        Print and add time benchmark.
+        """
+        t = t2 - t1
+        dt = round(t, 2)
+        print(f"Operation {name} took {dt} seconds.")
+        self.times[name] = t
 
-    t1 = time.time()
-    outputs = [
-        model.generate(**x, max_new_tokens=max_tokens, do_sample=False)
-        for x in input_data
-    ]
-    t2 = time.time()
+    def load_tokenizer_model(self) -> tuple:
+        """
+        Load the model and tokenizer.
+        """
 
-    print(f"Took {round(t2 - t1, 2)} seconds to run LLM.")
-    return outputs
+        t1 = time.time()
+        tokenizer = AutoTokenizer.from_pretrained(self.model_name, padding_side="left")
+        model = AutoModelForCausalLM.from_pretrained(self.model_name)
+        t2 = time.time()
+        self.time_benchmark("load_model", t1, t2)
 
+        print("Compile the model...")
+        model = torch.compile(model, mode="max-autotune", fullgraph=True)
+        t3 = time.time()
+        self.time_benchmark("compile_model", t2, t3)
 
-def decode_outputs(tokenizer, input_data: list, output_data: list):
-    """
-    Convert numeric outputs back into tokens.
-    """
+        return tokenizer, model
 
-    t1 = time.time()
-    r = []
-    for x, y in zip(input_data, output_data):
-        nx = x["input_ids"].shape[-1]
-        for i in range(y.shape[0]):
-            w = tokenizer.decode(y[i, nx:])
-            r.append(w)
-    t2 = time.time()
+    def load_inputs(self):
+        """
+        Load the input data.
+        """
 
-    print(f"Took {round(t2 - t1, 2)} seconds to decode LLM output.")
-    return r
+        t1 = time.time()
+        with open(self.input_file, "r", encoding="utf-8") as f:
+            inputs_raw = json.load(f)
+        t2 = time.time()
+
+        self.time_benchmark("load_input", t1, t2)
+        return inputs_raw
+
+    def encode_inputs(self):
+        """
+        Convert list of inputs into tokenized inputs, with PyTorch tensors.
+        Parameter inputs is list, each entry of which is a list of messages.
+        Runs on CPU here so OK for not to move to GPU device.
+        """
+
+        t1 = time.time()
+        inputs_encoded = [
+            self.tokenizer.apply_chat_template(
+                x,
+                add_generation_prompt=True,
+                tokenize=True,
+                return_dict=True,
+                return_tensors="pt",
+                padding=True,
+            )
+            for x in self.inputs_raw
+        ]
+        t2 = time.time()
+
+        self.time_benchmark("encode_input", t1, t2)
+        return inputs_encoded
+
+    def generate_llm(self):
+        """
+        Run the LLM on the input data.
+        """
+
+        t1 = time.time()
+        outputs = [
+            self.model.generate(**x, max_new_tokens=self.max_tokens, do_sample=False)
+            for x in self.inputs_encoded
+        ]
+        t2 = time.time()
+
+        self.time_benchmark("generate_llm", t1, t2)
+        return outputs
+
+    def decode_outputs(self):
+        """
+        Convert numeric outputs back into tokens.
+        """
+
+        t1 = time.time()
+        r = []
+        for x, y in zip(self.inputs_encoded, self.outputs_llm):
+            nx = x["input_ids"].shape[-1]
+            for i in range(y.shape[0]):
+                w = self.tokenizer.decode(y[i, nx:])
+                r.append(w)
+        t2 = time.time()
+
+        self.time_benchmark("decode_outputs", t1, t2)
+        return r
 
 
 def benchmark_llm(model_name: str, input_file: str, num_cpu: int, max_tokens: int):
     """
     Benchmark speed of running specified LLM on some queries.
     """
-
-    print("Benchmark speed of model on CPU:", model_name)
-    print("Input file:", input_file)
-    print("Number of CPU cores to use:", num_cpu)
-    print("Maximum number of output tokens:", max_tokens)
-
-    torch.set_num_threads(num_cpu)
-    tokenizer, model = load_tokenizer_model(model_name)
-
-    input_raw = load_inputs(input_file)
-    input_encoded = encode_inputs(tokenizer, input_raw)
-
-    output_encoded = generate_llm(model, input_encoded, max_tokens)
-    output_decoded = decode_outputs(tokenizer, input_encoded, output_encoded)
-    print("Contents of final outputs:", output_decoded)
+    print(f"Benchmark speed of model on CPU with {num_cpu} cores...")
+    b = Benchmark(model_name, input_file, num_cpu, max_tokens)
+    breakpoint()
