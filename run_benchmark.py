@@ -90,26 +90,24 @@ def decode_outputs(tokenizer, input_data: list, output_data: list):
     return r
 
 
-def benchmark_llm(model_name: str, num_cpu: int, max_tokens: int):
+def benchmark_llm(model_name: str, num_queries: int, num_cpu: int, max_tokens: int):
     """
     Benchmark speed of running specified LLM on some queries.
     """
 
     print("Benchmark speed of model on CPU:", model_name)
+    print("Number of queries:", num_queries)
     print("Number of CPU cores to use:", num_cpu)
-    os.environ["OMP_NUM_THREADS"] = str(num_cpu)
-    torch.set_num_threads(num_cpu)
 
+    torch.set_num_threads(num_cpu)
     tokenizer, model = load_tokenizer_model(model_name)
 
     # TODO: replace hardcoded input!
-    messages = [
-        {"role": "user", "content": "Who are you?"},
-    ]
     inputs = encode_inputs(
         tokenizer,
         [
-            messages,
+            [{"role": "user", "content": f"Who are you #{i}?"}]
+            for i in range(num_queries)
         ],
     )
 
