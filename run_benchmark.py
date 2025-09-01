@@ -4,6 +4,7 @@ Check speed of running LLM on CPU with huggingface transformers.
 """
 
 import json
+import math
 import time
 
 import torch
@@ -132,10 +133,31 @@ class Benchmark:
         return r
 
 
-def benchmark_llm(model_name: str, input_file: str, num_cpu: int, max_tokens: int):
+def benchmark_llm(
+    model_name: str,
+    input_file: str,
+    num_cpu: int,
+    max_tokens: int,
+    output_file: str,
+):
     """
     Benchmark speed of running specified LLM on some queries.
     """
+
     print(f"Benchmark speed of model on CPU with {num_cpu} cores...")
     b = Benchmark(model_name, input_file, num_cpu, max_tokens)
-    breakpoint()
+
+    n_input_tokens = sum([math.prod(x["input_ids"].shape) for x in b.inputs_encoded])
+    n_total_tokens = sum([math.prod(x.shape) for x in b.outputs_llm])
+    n_output_tokens = n_total_tokens - n_input_tokens
+
+    r = b.times.copy()
+    r["n_input_tokens"] = n_input_tokens
+    r["n_total_tokens"] = n_total_tokens
+    r["n_output_tokens"] = n_output_tokens
+    r["output"] = b.outputs_decoded
+
+    print("Save to output file:", output_file)
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(r, f)
+    print("Done saving to output file.")
