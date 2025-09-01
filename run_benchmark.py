@@ -89,11 +89,11 @@ def decode_outputs(tokenizer, input_data: list, output_data: list):
 
     t1 = time.time()
     r = []
-    breakpoint()
     for x, y in zip(input_data, output_data):
         nx = x["input_ids"].shape[-1]
-        w = tokenizer.decode(y[0, nx:])
-        r.append(w)
+        for i in range(y.shape[0]):
+            w = tokenizer.decode(y[i, nx:])
+            r.append(w)
     t2 = time.time()
 
     print(f"Took {round(t2 - t1, 2)} seconds to decode LLM output.")
@@ -117,6 +117,5 @@ def benchmark_llm(model_name: str, input_file: str, num_cpu: int, max_tokens: in
     input_encoded = encode_inputs(tokenizer, input_raw)
 
     output_encoded = generate_llm(model, input_encoded, max_tokens)
-    breakpoint()
     output_decoded = decode_outputs(tokenizer, input_encoded, output_encoded)
     print("Contents of final outputs:", output_decoded)
