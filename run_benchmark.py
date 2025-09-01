@@ -19,8 +19,13 @@ def load_tokenizer_model(model_name: str) -> tuple:
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForCausalLM.from_pretrained(model_name)
     t2 = time.time()
-
     print(f"Took {round(t2 - t1, 2)} seconds to load model.")
+
+    print("Compile the model...")
+    model = torch.compile(model)
+    t3 = time.time()
+    print(f"Took {round(t3 - t2, 2)} seconds to compile model.")
+
     return tokenizer, model
 
 
