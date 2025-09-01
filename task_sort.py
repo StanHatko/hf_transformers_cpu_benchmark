@@ -9,7 +9,7 @@ import numpy as np
 
 
 def _gen_problem(gen, num_ints: int):
-    sort_list = gen.integers(0, 10000, num_ints)
+    sort_list = ", ".join([str(int(t)) for t in gen.integers(0, 10000, num_ints)])
     return [
         {
             "role": "user",
