@@ -44,5 +44,5 @@ def generate_task_sort(
     x = [_gen_batch(gen, num_per_batch, num_ints) for _ in range(num_batches)]
 
     with open(out_file, "w", encoding="utf-8") as f:
-        json.dump(x, f)
+        json.dump(x, f, indent="")
     print("Done saving generated problems to output file.")

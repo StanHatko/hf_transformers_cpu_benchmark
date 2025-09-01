@@ -159,5 +159,5 @@ def benchmark_llm(
 
     print("Save to output file:", output_file)
     with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(r, f)
+        json.dump(r, f, indent="")
     print("Done saving to output file.")
