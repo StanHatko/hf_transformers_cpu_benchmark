@@ -22,7 +22,7 @@ def load_tokenizer_model(model_name: str) -> tuple:
     print(f"Took {round(t2 - t1, 2)} seconds to load model.")
 
     print("Compile the model...")
-    model = torch.compile(model)
+    model = torch.compile(model, mode="max-autotune", fullgraph=True)
     t3 = time.time()
     print(f"Took {round(t3 - t2, 2)} seconds to compile model.")
 
