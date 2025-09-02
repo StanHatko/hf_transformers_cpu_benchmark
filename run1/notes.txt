@@ -1,24 +1,18 @@
-(uv_env) ubuntu@ip-172-31-28-68:~/hf_transformers_cpu_benchmark$ just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run1/task.json 32 200 run1/out-32.json
+(uv_env) ubuntu@ip-172-31-28-68:~/hf_transformers_cpu_benchmark$ just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run1/task.json 32 50 run1/out-32.json
 Benchmark speed of model on CPU with 32 cores...
 Benchmark speed of model: Qwen/Qwen3-4B-Instruct-2507
 Input file: run1/task.json
 Number of CPU cores to use: 32
-Maximum number of output tokens: 200
-tokenizer_config.json: 10.8kB [00:00, 67.1MB/s]
-vocab.json: 2.78MB [00:00, 236MB/s]
-merges.txt: 1.67MB [00:00, 138MB/s]
-tokenizer.json: 100%|███████████████████████████████████████████████████████████████████████████████| 11.4M/11.4M [00:00<00:00, 54.3MB/s]
-config.json: 100%|██████████████████████████████████████████████████████████████████████████████████████| 727/727 [00:00<00:00, 13.1MB/s]
-model.safetensors.index.json: 32.8kB [00:00, 194MB/s]
-model-00003-of-00003.safetensors: 100%|██████████████████████████████████████████████████████████████| 99.6M/99.6M [00:00<00:00, 115MB/s]
-model-00001-of-00003.safetensors: 100%|██████████████████████████████████████████████████████████████| 3.96G/3.96G [00:37<00:00, 105MB/s]
-model-00002-of-00003.safetensors: 100%|█████████████████████████████████████████████████████████████| 3.99G/3.99G [00:46<00:00, 85.2MB/s]
-Fetching 3 files: 100%|████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:46<00:00, 15.64s/it]
-Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00,  4.23it/s]
-generation_config.json: 100%|███████████████████████████████████████████████████████████████████████████| 238/238 [00:00<00:00, 4.32MB/s]
-Operation load_model took 49.17 seconds.
+Maximum number of output tokens: 50
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00,  4.27it/s]
+Operation load_model took 1.58 seconds.
 Compile the model...
-Operation compile_model took 0.75 seconds.
+Operation compile_model took 0.13 seconds.
 Operation load_input took 0.0 seconds.
 Operation encode_input took 0.04 seconds.
-The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+  0%|                                                                                                             | 0/10 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [08:34<00:00, 51.43s/it]
+Operation generate_llm took 514.35 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run1/out-32.json
+Done saving to output file.
