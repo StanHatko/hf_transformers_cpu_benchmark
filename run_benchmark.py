@@ -8,6 +8,7 @@ import math
 import time
 
 import torch
+from tqdm import tqdm
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 
@@ -108,7 +109,7 @@ class Benchmark:
         t1 = time.time()
         outputs = [
             self.model.generate(**x, max_new_tokens=self.max_tokens, do_sample=False)
-            for x in self.inputs_encoded
+            for x in tqdm(self.inputs_encoded)
         ]
         t2 = time.time()
 
