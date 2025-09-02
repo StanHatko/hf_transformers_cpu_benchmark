@@ -1,3 +1,60 @@
+(uv_env) ubuntu@ip-172-31-28-68:~/hf_transformers_cpu_benchmark$ just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run1/task.json 4 50 run1/out-4.json
+Benchmark speed of model on CPU with 4 cores...
+Benchmark speed of model: Qwen/Qwen3-4B-Instruct-2507
+Input file: run1/task.json
+Number of CPU cores to use: 4
+Maximum number of output tokens: 50
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████| 3/3 [00:02<00:00,  1.37it/s]
+Operation load_model took 2.91 seconds.
+Compile the model...
+Operation compile_model took 0.13 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.03 seconds.
+  0%|                                                                                                             | 0/10 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [27:33<00:00, 165.35s/it]
+Operation generate_llm took 1653.54 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run1/out-4.json
+Done saving to output file.
+
+(uv_env) ubuntu@ip-172-31-28-68:~/hf_transformers_cpu_benchmark$ just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run1/task.json 8 50 run1/out-8.json
+Benchmark speed of model on CPU with 8 cores...
+Benchmark speed of model: Qwen/Qwen3-4B-Instruct-2507
+Input file: run1/task.json
+Number of CPU cores to use: 8
+Maximum number of output tokens: 50
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████| 3/3 [00:01<00:00,  2.30it/s]
+Operation load_model took 1.99 seconds.
+Compile the model...
+Operation compile_model took 0.13 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.04 seconds.
+  0%|                                                                                                             | 0/10 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [12:46<00:00, 76.68s/it]
+Operation generate_llm took 766.8 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run1/out-8.json
+Done saving to output file.
+
+(uv_env) ubuntu@ip-172-31-28-68:~/hf_transformers_cpu_benchmark$ just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run1/task.json 16 50 run1/out-16.json
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-4B-Instruct-2507
+Input file: run1/task.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 50
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00,  3.59it/s]
+Operation load_model took 1.52 seconds.
+Compile the model...
+Operation compile_model took 0.13 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.04 seconds.
+  0%|                                                                                                             | 0/10 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [11:16<00:00, 67.64s/it]
+Operation generate_llm took 676.41 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run1/out-16.json
+Done saving to output file.
+
 (uv_env) ubuntu@ip-172-31-28-68:~/hf_transformers_cpu_benchmark$ just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run1/task.json 32 50 run1/out-32.json
 Benchmark speed of model on CPU with 32 cores...
 Benchmark speed of model: Qwen/Qwen3-4B-Instruct-2507
@@ -15,4 +72,23 @@ Operation encode_input took 0.04 seconds.
 Operation generate_llm took 514.35 seconds.
 Operation decode_outputs took 0.0 seconds.
 Save to output file: run1/out-32.json
+Done saving to output file.
+
+(uv_env) ubuntu@ip-172-31-28-68:~/hf_transformers_cpu_benchmark$ just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run1/task.json 64 50 run1/out-64.jsonn
+Benchmark speed of model on CPU with 64 cores...
+Benchmark speed of model: Qwen/Qwen3-4B-Instruct-2507
+Input file: run1/task.json
+Number of CPU cores to use: 64
+Maximum number of output tokens: 50
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00,  3.94it/s]
+Operation load_model took 1.44 seconds.
+Compile the model...
+Operation compile_model took 0.13 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.04 seconds.
+  0%|                                                                                                             | 0/10 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████| 10/10 [11:22<00:00, 68.22s/it]
+Operation generate_llm took 682.21 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run1/out-64.json
 Done saving to output file.
