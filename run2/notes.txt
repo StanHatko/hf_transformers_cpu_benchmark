@@ -1,0 +1,93 @@
+just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run2/task.json 8 150 run2/out-8.json
+
+Benchmark speed of model on CPU with 8 cores...
+Benchmark speed of model: Qwen/Qwen3-4B-Instruct-2507
+Input file: run2/task.json
+Number of CPU cores to use: 8
+Maximum number of output tokens: 150
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████| 3/3 [00:01<00:00,  2.41it/s]
+Operation load_model took 2.0 seconds.
+Compile the model...
+Operation compile_model took 0.13 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.02 seconds.
+  0%|                                                                                       | 0/1 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+100%|██████████████████████████████████████████████████████████████████████████████| 1/1 [06:25<00:00, 385.53s/it]
+Operation generate_llm took 385.53 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run2/out-8.json
+Done saving to output file.
+
+
+just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run2/task.json 16 150 run2/out-16.json
+
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-4B-Instruct-2507
+Input file: run2/task.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 150
+tokenizer_config.json: 10.8kB [00:00, 71.7MB/s]
+vocab.json: 2.78MB [00:00, 227MB/s]
+merges.txt: 1.67MB [00:00, 222MB/s]
+tokenizer.json: 100%|████████████████████████████████████████████████████████| 11.4M/11.4M [00:00<00:00, 48.0MB/s]
+config.json: 100%|███████████████████████████████████████████████████████████████| 727/727 [00:00<00:00, 12.8MB/s]
+model.safetensors.index.json: 32.8kB [00:00, 174MB/s]
+model-00003-of-00003.safetensors: 100%|███████████████████████████████████████| 99.6M/99.6M [00:00<00:00, 204MB/s]
+model-00001-of-00003.safetensors: 100%|██████████████████████████████████████| 3.96G/3.96G [00:41<00:00, 94.9MB/s]
+model-00002-of-00003.safetensors: 100%|██████████████████████████████████████| 3.99G/3.99G [00:47<00:00, 84.2MB/s]
+Fetching 3 files: 100%|█████████████████████████████████████████████████████████████| 3/3 [00:47<00:00, 15.81s/it]
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████| 3/3 [00:00<00:00,  3.55it/s]
+generation_config.json: 100%|████████████████████████████████████████████████████| 238/238 [00:00<00:00, 4.18MB/s]
+Operation load_model took 49.86 seconds.
+Compile the model...
+Operation compile_model took 0.7 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.02 seconds.
+  0%|                                                                                       | 0/1 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+100%|██████████████████████████████████████████████████████████████████████████████| 1/1 [04:24<00:00, 264.62s/it]
+Operation generate_llm took 264.63 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run2/out-16.json
+Done saving to output file.
+
+
+just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run2/task.json 32 150 run2/out-32.json
+
+Benchmark speed of model on CPU with 32 cores...
+Benchmark speed of model: Qwen/Qwen3-4B-Instruct-2507
+Input file: run2/task.json
+Number of CPU cores to use: 32
+Maximum number of output tokens: 150
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████| 3/3 [00:00<00:00,  4.18it/s]
+Operation load_model took 1.74 seconds.
+Compile the model...
+Operation compile_model took 0.13 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.02 seconds.
+  0%|                                                                                       | 0/1 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+100%|██████████████████████████████████████████████████████████████████████████████| 1/1 [04:22<00:00, 262.94s/it]
+Operation generate_llm took 262.94 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run2/out-32.json
+Done saving to output file.
+
+
+just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run2/task.json 64 150 run2/out-64.json
+
+Benchmark speed of model on CPU with 64 cores...
+Benchmark speed of model: Qwen/Qwen3-4B-Instruct-2507
+Input file: run2/task.json
+Number of CPU cores to use: 64
+Maximum number of output tokens: 150
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████| 3/3 [00:00<00:00,  3.84it/s]
+Operation load_model took 1.49 seconds.
+Compile the model...
+Operation compile_model took 0.13 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.02 seconds.
+  0%|                                                                                       | 0/1 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+100%|██████████████████████████████████████████████████████████████████████████████| 1/1 [05:23<00:00, 323.24s/it]
+Operation generate_llm took 323.24 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run2/out-64.json
+Done saving to output file.

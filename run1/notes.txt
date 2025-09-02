@@ -1,4 +1,5 @@
-(uv_env) ubuntu@ip-172-31-28-68:~/hf_transformers_cpu_benchmark$ just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run1/task.json 4 50 run1/out-4.json
+just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run1/task.json 4 50 run1/out-4.json
+
 Benchmark speed of model on CPU with 4 cores...
 Benchmark speed of model: Qwen/Qwen3-4B-Instruct-2507
 Input file: run1/task.json
@@ -17,7 +18,9 @@ Operation decode_outputs took 0.0 seconds.
 Save to output file: run1/out-4.json
 Done saving to output file.
 
-(uv_env) ubuntu@ip-172-31-28-68:~/hf_transformers_cpu_benchmark$ just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run1/task.json 8 50 run1/out-8.json
+
+just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run1/task.json 8 50 run1/out-8.json
+
 Benchmark speed of model on CPU with 8 cores...
 Benchmark speed of model: Qwen/Qwen3-4B-Instruct-2507
 Input file: run1/task.json
@@ -36,7 +39,9 @@ Operation decode_outputs took 0.0 seconds.
 Save to output file: run1/out-8.json
 Done saving to output file.
 
-(uv_env) ubuntu@ip-172-31-28-68:~/hf_transformers_cpu_benchmark$ just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run1/task.json 16 50 run1/out-16.json
+
+just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run1/task.json 16 50 run1/out-16.json
+
 Benchmark speed of model on CPU with 16 cores...
 Benchmark speed of model: Qwen/Qwen3-4B-Instruct-2507
 Input file: run1/task.json
@@ -55,7 +60,9 @@ Operation decode_outputs took 0.0 seconds.
 Save to output file: run1/out-16.json
 Done saving to output file.
 
-(uv_env) ubuntu@ip-172-31-28-68:~/hf_transformers_cpu_benchmark$ just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run1/task.json 32 50 run1/out-32.json
+
+just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run1/task.json 32 50 run1/out-32.json
+
 Benchmark speed of model on CPU with 32 cores...
 Benchmark speed of model: Qwen/Qwen3-4B-Instruct-2507
 Input file: run1/task.json
@@ -74,7 +81,9 @@ Operation decode_outputs took 0.0 seconds.
 Save to output file: run1/out-32.json
 Done saving to output file.
 
-(uv_env) ubuntu@ip-172-31-28-68:~/hf_transformers_cpu_benchmark$ just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run1/task.json 64 50 run1/out-64.jsonn
+
+just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run1/task.json 64 50 run1/out-64.jsonn
+
 Benchmark speed of model on CPU with 64 cores...
 Benchmark speed of model: Qwen/Qwen3-4B-Instruct-2507
 Input file: run1/task.json

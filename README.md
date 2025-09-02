@@ -27,6 +27,7 @@ Another run on AWS EC2 US Ohio region, with instance type `c7a.8xlarge` (32 vCPU
 ```bash
 just generate_task_sort 1 32 20 2025002 run2/task.json
 
+just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run2/task.json 8 150 run2/out-8.json
 just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run2/task.json 16 150 run2/out-16.json
 just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run2/task.json 32 150 run2/out-32.json
 just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run2/task.json 64 150 run2/out-64.json
@@ -37,6 +38,7 @@ Same data as previous, but now use different model:
 ```bash
 just generate_task_sort 1 32 20 2025002 run3/task.json
 
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run3/task.json 8 150 run3/out-8.json
 just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run3/task.json 16 150 run3/out-16.json
 just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run3/task.json 32 150 run3/out-32.json
 just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run3/task.json 64 150 run3/out-64.json
