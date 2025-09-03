@@ -10,6 +10,19 @@ just run_benchmark Qwen/Qwen3-4B-Instruct-2507 /tmp/task1.json 2 40 /tmp/out1-2.
 just run_benchmark Qwen/Qwen3-4B-Instruct-2507 /tmp/task1.json 4 40 /tmp/out1-4.json
 ```
 
+Install dependencies and software on EC2 instance:
+
+```bash
+sudo apt update
+sudo apt install python3-pip
+sudo apt install python3.12-venv
+python3 -m venv env
+source env/bin/activate
+pip install uv
+uv pip install torch torchvision transformers numpy pandas rust-just
+git clone https://github.com/StanHatko/hf_transformers_cpu_benchmark
+```
+
 Run test on AWS EC2 US Ohio region, with instance type `c7a.8xlarge` (32 vCPU, 64 GiB RAM):
 
 ```bash
