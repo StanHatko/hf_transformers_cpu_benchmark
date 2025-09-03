@@ -46,7 +46,8 @@ just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run2/task.json 32 150 run2/out-32
 just run_benchmark Qwen/Qwen3-4B-Instruct-2507 run2/task.json 64 150 run2/out-64.json
 ```
 
-Same data as previous, but now use different model:
+Same data as previous, but now use different model (30 billion parameter Qwen3 MoE model)
+and instance type `r8i.8xlarge` (32 vCPU, 256 GiB RAM):
 
 ```bash
 just generate_task_sort 1 32 20 2025002 run3/task.json
