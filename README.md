@@ -57,3 +57,16 @@ just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run3/task.json 16 150 run3/o
 just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run3/task.json 32 150 run3/out-32.json
 just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run3/task.json 64 150 run3/out-64.json
 ```
+
+In last test, process had 116 GB of RAM in resident set (monitor using top command).
+
+With 16 cores, last test took 242.91 seconds for batch with 4352 input tokens and
+4800 output tokens (including padding for both).
+Total number of tokens is 9152, so speed per total tokens is 37.68 tokens / second.
+Speed per generated output token (including padding) is 19.76 tokens / second.
+
+All this is before any CPU-optimization discussed in https://huggingface.co/docs/transformers/perf_infer_cpu,
+like using optimum and BetterTransformer.
+Intel bfloat16 support would also be good to test.
+The choice of parallelism (`torch.set_num_threads` vs. having each entry in its own thread)
+also needs to be looked into.

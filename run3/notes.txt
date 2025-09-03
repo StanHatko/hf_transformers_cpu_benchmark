@@ -1,0 +1,83 @@
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run3/task.json 8 150 run3/out-8.json
+
+Benchmark speed of model on CPU with 8 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run3/task.json
+Number of CPU cores to use: 8
+Maximum number of output tokens: 150
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 16/16 [07:44<00:00, 29.05s/it]
+generation_config.json: 100%|████████████████████████████████████████████████████| 239/239 [00:00<00:00, 3.57MB/s]
+Operation load_model took 467.5 seconds.
+Compile the model...
+Operation compile_model took 0.82 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.02 seconds.
+  0%|                                                                                       | 0/1 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+100%|██████████████████████████████████████████████████████████████████████████████| 1/1 [05:04<00:00, 304.69s/it]
+Operation generate_llm took 304.69 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run3/out-8.json
+Done saving to output file.
+
+
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run3/task.json 16 150 run3/out-16.json
+
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run3/task.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 150
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 16/16 [00:15<00:00,  1.06it/s]
+Operation load_model took 17.48 seconds.
+Compile the model...
+Operation compile_model took 0.12 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.02 seconds.
+  0%|                                                                                       | 0/1 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+100%|██████████████████████████████████████████████████████████████████████████████| 1/1 [04:02<00:00, 242.91s/it]
+Operation generate_llm took 242.91 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run3/out-16.json
+Done saving to output file.
+
+
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run3/task.json 32 150 run3/out-32.json
+
+Benchmark speed of model on CPU with 32 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run3/task.json
+Number of CPU cores to use: 32
+Maximum number of output tokens: 150
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 16/16 [00:16<00:00,  1.01s/it]
+Operation load_model took 18.8 seconds.
+Compile the model...
+Operation compile_model took 0.12 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.02 seconds.
+  0%|                                                                                       | 0/1 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+100%|██████████████████████████████████████████████████████████████████████████████| 1/1 [05:11<00:00, 311.12s/it]
+Operation generate_llm took 311.12 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run3/out-32.json
+Done saving to output file.
+
+
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run3/task.json 64 150 run3/out-64.json
+
+Benchmark speed of model on CPU with 64 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run3/task.json
+Number of CPU cores to use: 64
+Maximum number of output tokens: 150
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████| 16/16 [00:22<00:00,  1.38s/it]
+Operation load_model took 25.06 seconds.
+Compile the model...
+Operation compile_model took 0.12 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.02 seconds.
+  0%|                                                                                       | 0/1 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+100%|█████████████████████████████████████████████████████████████████████████████| 1/1 [19:45<00:00, 1185.25s/it]
+Operation generate_llm took 1185.25 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run3/out-64.json
+Done saving to output file.
