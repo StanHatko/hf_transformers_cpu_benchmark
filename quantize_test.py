@@ -35,48 +35,18 @@ print("Model dtype:", model.dtype)
 y1 = do_prediction(model)
 
 
-# Test quantize model with TorchAO.
-from transformers import TorchAoConfig, AutoModelForCausalLM, AutoTokenizer
-from torchao.quantization import (
-    Int8DynamicActivationInt8WeightConfig,
-    Int8WeightOnlyConfig,
-)
-
-quant_config = Int8DynamicActivationInt8WeightConfig()
-# quant_config = Int8WeightOnlyConfig()
-quantization_config = TorchAoConfig(quant_type=quant_config)
-
-# Load and quantize the model.
-quantized_model = AutoModelForCausalLM.from_pretrained(
-    model_name,
-    torch_dtype="auto",
-    device_map="cpu",
-    quantization_config=quantization_config,
-)
-print("Model dtype:", quantized_model.dtype)
-
-# Test model prediction.
-y2a = do_prediction(quantized_model)
-y2b = do_prediction(quantized_model)
-
-# Show difference.
-print(torch.abs(torch.abs(y1.logits - y2b.logits)))
-print(torch.abs(torch.abs(y2a.logits - y2b.logits)))
-
-
-# Compile the model.
+# Compile the model with openvino backend.
 comp_model = torch.compile(
-    quantized_model,
+    model,
     backend="openvino",
 )
 print("Model dtype:", comp_model.dtype)
 
 # Test model prediction.
-y3a = do_prediction(comp_model)
-y3b = do_prediction(comp_model)
+y2a = do_prediction(comp_model)
+y2b = do_prediction(comp_model)
 
 # Show difference.
-print(torch.abs(torch.abs(y1.logits - y3b.logits)))
-print(torch.abs(torch.abs(y2b.logits - y3b.logits)))
-print(torch.abs(torch.abs(y3a.logits - y3b.logits)))
-# Did not generate speedup.
+print(torch.abs(torch.abs(y1.logits - y2b.logits)))
+print(torch.abs(torch.abs(y2a.logits - y2b.logits)))
+# First is much slower, second very slightly faster.
