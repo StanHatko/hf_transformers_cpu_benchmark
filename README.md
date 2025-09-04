@@ -88,7 +88,10 @@ just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run4/task.json 32 150 run4/o
 just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run4/task.json 64 150 run4/out-64.json
 ```
 
-After first run (due to initialization overhead I suspect), next runs were faster than run3.
+After first run (due to initialization overhead I suspect), next runs for run4 were faster than run3.
+Fastest run was with 16 cores taking 166.14 seconds for generation, which means a speed of
+55.09 tokens / total token or 28.89 seconds / output token (including padding).
+
 
 Rerun with AWQ-quantized model on same `r8i.8xlarge` instance:
 
@@ -99,4 +102,17 @@ just run_benchmark cpatonn/Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit run5/task.json 
 just run_benchmark cpatonn/Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit run5/task.json 16 150 run5/out-16.json
 just run_benchmark cpatonn/Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit run5/task.json 32 150 run5/out-32.json
 just run_benchmark cpatonn/Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit run5/task.json 64 150 run5/out-64.json
+```
+
+Higher memory usage than run4 and much slower than run4.
+
+Run with int8 GPTQ quantized model on same instance:
+
+```bash
+just generate_task_sort 1 32 20 2025002 run6/task.json
+
+just run_benchmark QuantTrio/Qwen3-30B-A3B-Instruct-2507-GPTQ-Int8 run6/task.json 8 150 run6/out-8.json
+just run_benchmark QuantTrio/Qwen3-30B-A3B-Instruct-2507-GPTQ-Int8 run6/task.json 16 150 run6/out-16.json
+just run_benchmark QuantTrio/Qwen3-30B-A3B-Instruct-2507-GPTQ-Int8 run6/task.json 32 150 run6/out-32.json
+just run_benchmark QuantTrio/Qwen3-30B-A3B-Instruct-2507-GPTQ-Int8 run6/task.json 64 150 run6/out-64.json
 ```
