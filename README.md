@@ -90,7 +90,7 @@ just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run4/task.json 64 150 run4/o
 
 After first run (due to initialization overhead I suspect), next runs for run4 were faster than run3.
 Fastest run was with 16 cores taking 166.14 seconds for generation, which means a speed of
-55.09 tokens / total token or 28.89 seconds / output token (including padding).
+55.09 total tokens / second or 28.89 output tokens / seconds (including padding for both).
 
 
 Rerun with AWQ-quantized model on same `r8i.8xlarge` instance:
