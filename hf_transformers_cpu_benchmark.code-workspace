@@ -8,12 +8,15 @@
 		"cSpell.words": [
 			"autotune",
 			"bfloat",
+			"cpatonn",
+			"dtype",
 			"fullgraph",
 			"huggingface",
 			"ints",
 			"Justfile",
 			"PYTHONPATH",
-			"Qwen"
+			"Qwen",
+			"xlarge"
 		]
 	}
 }

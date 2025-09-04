@@ -87,3 +87,16 @@ just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run4/task.json 16 150 run4/o
 just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run4/task.json 32 150 run4/out-32.json
 just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run4/task.json 64 150 run4/out-64.json
 ```
+
+After first run (due to initialization overhead I suspect), next runs were faster than run3.
+
+Rerun with AWQ-quantized model on same `r8i.8xlarge` instance:
+
+```bash
+just generate_task_sort 1 32 20 2025002 run5/task.json
+
+just run_benchmark cpatonn/Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit run5/task.json 8 150 run5/out-8.json
+just run_benchmark cpatonn/Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit run5/task.json 16 150 run5/out-16.json
+just run_benchmark cpatonn/Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit run5/task.json 32 150 run5/out-32.json
+just run_benchmark cpatonn/Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit run5/task.json 64 150 run5/out-64.json
+```
