@@ -1,0 +1,45 @@
+just run_benchmark cpatonn/Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit run5/task.json 8 150 run5/out-8.json
+
+Benchmark speed of model on CPU with 8 cores...
+Benchmark speed of model: cpatonn/Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit
+Input file: run5/task.json
+Number of CPU cores to use: 8
+Maximum number of output tokens: 150
+Compressing model: 31351it [00:06, 5079.11it/s]
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████| 4/4 [06:06<00:00, 91.52s/it]
+generation_config.json: 100%|████████████████████████████████████████████████████████████████| 222/222 [00:00<00:00, 3.27MB/s]
+Model dtype: torch.bfloat16
+Operation load_model took 378.64 seconds.
+Compile the model...
+Operation compile_model took 0.0 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.02 seconds.
+  0%|                                                                                                   | 0/1 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+100%|█████████████████████████████████████████████████████████████████████████████████████████| 1/1 [19:02<00:00, 1142.14s/it]
+Operation generate_llm took 1142.14 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run5/out-8.json
+Done saving to output file.
+
+
+just run_benchmark cpatonn/Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit run5/task.json 16 150 run5/out-16.json
+
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: cpatonn/Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit
+Input file: run5/task.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 150
+Compressing model: 31351it [00:06, 4961.57it/s]
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████| 4/4 [06:10<00:00, 92.55s/it]
+Model dtype: torch.bfloat16
+Operation load_model took 383.06 seconds.
+Compile the model...
+Operation compile_model took 0.0 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.02 seconds.
+  0%|                                                                                                   | 0/1 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+100%|██████████████████████████████████████████████████████████████████████████████████████████| 1/1 [11:57<00:00, 717.58s/it]
+Operation generate_llm took 717.58 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run5/out-16.json
+Done saving to output file.
