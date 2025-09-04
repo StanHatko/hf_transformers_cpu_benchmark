@@ -9,7 +9,7 @@ import time
 
 import torch
 from tqdm import tqdm
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForCausalLM, QuantoConfig
 
 
 class Benchmark:
@@ -18,13 +18,21 @@ class Benchmark:
     Methods add data to object during run.
     """
 
-    def __init__(self, model_name: str, input_file: str, num_cpu: int, max_tokens: int):
+    def __init__(
+        self,
+        model_name: str,
+        input_file: str,
+        num_cpu: int,
+        max_tokens: int,
+        quantize: str,
+    ):
         print("Benchmark speed of model:", model_name)
         print("Input file:", input_file)
         print("Number of CPU cores to use:", num_cpu)
         print("Maximum number of output tokens:", max_tokens)
 
         self.model_name = model_name
+        self.quantize = quantize
         self.num_cpu = num_cpu
         self.input_file = input_file
         self.max_tokens = max_tokens
@@ -46,6 +54,22 @@ class Benchmark:
         print(f"Operation {name} took {dt} seconds.")
         self.times[name] = t
 
+    def _load_model_core(self):
+        match self.quantize:
+            case "none":
+                return AutoModelForCausalLM.from_pretrained(
+                    self.model_name,
+                    dtype="auto",
+                )
+            case "quanto_int8":
+                return AutoModelForCausalLM.from_pretrained(
+                    self.model_name,
+                    dtype="auto",
+                    quantization_config=QuantoConfig(weights="int8"),
+                )
+            case _:
+                raise NotImplementedError()
+
     def load_tokenizer_model(self) -> tuple:
         """
         Load the model and tokenizer.
@@ -53,7 +77,7 @@ class Benchmark:
 
         t1 = time.time()
         tokenizer = AutoTokenizer.from_pretrained(self.model_name, padding_side="left")
-        model = AutoModelForCausalLM.from_pretrained(self.model_name, dtype="auto")
+        model = self._load_model_core()
         print("Model dtype:", model.dtype)
         t2 = time.time()
         self.time_benchmark("load_model", t1, t2)
@@ -141,13 +165,14 @@ def benchmark_llm(
     num_cpu: int,
     max_tokens: int,
     output_file: str,
+    quantize: str = "none",
 ):
     """
     Benchmark speed of running specified LLM on some queries.
     """
 
     print(f"Benchmark speed of model on CPU with {num_cpu} cores...")
-    b = Benchmark(model_name, input_file, num_cpu, max_tokens)
+    b = Benchmark(model_name, input_file, num_cpu, max_tokens, quantize)
 
     n_input_tokens = sum([math.prod(x["input_ids"].shape) for x in b.inputs_encoded])
     n_total_tokens = sum([math.prod(x.shape) for x in b.outputs_llm])

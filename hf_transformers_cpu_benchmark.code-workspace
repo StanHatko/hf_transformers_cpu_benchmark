@@ -16,6 +16,7 @@
 			"Justfile",
 			"openvino",
 			"PYTHONPATH",
+			"quanto",
 			"Qwen",
 			"xlarge"
 		]

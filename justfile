@@ -17,7 +17,7 @@ generate_task_sort num_batches num_per_batch num_ints seed out_file:
 
 
 # Run benchmarking program, add data params as this develops.
-run_benchmark model_name input_file num_cpu max_tokens out_file:
+run_benchmark model_name input_file num_cpu max_tokens out_file quantize="none":
     #!/usr/bin/env python
     from run_benchmark import benchmark_llm
 
@@ -27,4 +27,5 @@ run_benchmark model_name input_file num_cpu max_tokens out_file:
         {{num_cpu}},
         {{max_tokens}},
         "{{out_file}}",
+        "{{quantize}}"
     )

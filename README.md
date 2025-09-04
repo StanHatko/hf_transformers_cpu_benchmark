@@ -92,7 +92,6 @@ After first run (due to initialization overhead I suspect), next runs for run4 w
 Fastest run was with 16 cores taking 166.14 seconds for generation, which means a speed of
 55.09 total tokens / second or 28.89 output tokens / seconds (including padding for both).
 
-
 Rerun with AWQ-quantized model on same `r8i.8xlarge` instance:
 
 ```bash
@@ -106,16 +105,18 @@ just run_benchmark cpatonn/Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit run5/task.json 
 
 Higher memory usage than run4 and much slower than run4.
 
-Run with int8 GPTQ quantized model on same instance:
+Run with int8 GPTQ quantized model `QuantTrio/Qwen3-30B-A3B-Instruct-2507-GPTQ-Int8` on same same instance
+gave error that needs GPU.
+
+## Tests on EC2, Enable Quantization
+
+Test on same `r8i.8xlarge` instance with `int8` quantization done using `optimum-quanto`:
 
 ```bash
 just generate_task_sort 1 32 20 2025002 run6/task.json
 
-just run_benchmark QuantTrio/Qwen3-30B-A3B-Instruct-2507-GPTQ-Int8 run6/task.json 8 150 run6/out-8.json
-just run_benchmark QuantTrio/Qwen3-30B-A3B-Instruct-2507-GPTQ-Int8 run6/task.json 16 150 run6/out-16.json
-just run_benchmark QuantTrio/Qwen3-30B-A3B-Instruct-2507-GPTQ-Int8 run6/task.json 32 150 run6/out-32.json
-just run_benchmark QuantTrio/Qwen3-30B-A3B-Instruct-2507-GPTQ-Int8 run6/task.json 64 150 run6/out-64.json
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run6/task.json 8 150 run6/out-8.json quanto_int8
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run6/task.json 16 150 run6/out-16.json quanto_int8
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run6/task.json 32 150 run6/out-32.json quanto_int8
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run6/task.json 64 150 run6/out-64.json quanto_int8
 ```
-
-No needs GPU, come back to this soon.
-Look into another int8 quantization method and openvino.
