@@ -10,6 +10,8 @@ just run_benchmark Qwen/Qwen3-4B-Instruct-2507 /tmp/task1.json 2 40 /tmp/out1-2.
 just run_benchmark Qwen/Qwen3-4B-Instruct-2507 /tmp/task1.json 4 40 /tmp/out1-4.json
 ```
 
+## Tests on EC2, Original Settings
+
 Install dependencies and software on EC2 instance:
 
 ```bash
@@ -70,3 +72,18 @@ like using optimum and BetterTransformer.
 Intel bfloat16 support would also be good to test.
 The choice of parallelism (`torch.set_num_threads` vs. having each entry in its own thread)
 also needs to be looked into.
+
+## Tests on EC2, Set `dtype=auto`
+
+This should use more optimized dtype instead of default float32 on CPU.
+
+Rerun previous on same `r8i.8xlarge`, but now with `dtype=auto` set:
+
+```bash
+just generate_task_sort 1 32 20 2025002 run4/task.json
+
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run4/task.json 8 150 run4/out-8.json
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run4/task.json 16 150 run4/out-16.json
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run4/task.json 32 150 run4/out-32.json
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run4/task.json 64 150 run4/out-64.json
+```

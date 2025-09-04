@@ -53,7 +53,8 @@ class Benchmark:
 
         t1 = time.time()
         tokenizer = AutoTokenizer.from_pretrained(self.model_name, padding_side="left")
-        model = AutoModelForCausalLM.from_pretrained(self.model_name)
+        model = AutoModelForCausalLM.from_pretrained(self.model_name, dtype="auto")
+        print("Model dtype:", model.dtype)
         t2 = time.time()
         self.time_benchmark("load_model", t1, t2)
 
