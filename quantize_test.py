@@ -6,10 +6,15 @@ import json
 import math
 import time
 
+import nncf
+from nncf import compress_weights
+import optimum.intel.openvino
+import openvino
+import openvino.torch
 import torch
 from tqdm import tqdm
 import transformers
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForCausalLM, QuantoConfig
 
 model_name = "Qwen/Qwen3-4B-Instruct-2507"
 
@@ -35,10 +40,27 @@ print("Model dtype:", model.dtype)
 y1 = do_prediction(model)
 
 
+# Compress the weights.
+quant_model = AutoModelForCausalLM.from_pretrained(
+    model_name,
+    torch_dtype="auto",
+    quantization_config=QuantoConfig(weights="int8"),
+)
+
+# Test model prediction.
+y2a = do_prediction(quant_model)
+y2b = do_prediction(quant_model)
+
+# Show difference.
+print(torch.abs(torch.abs(y1.logits - y2b.logits)))
+print(torch.abs(torch.abs(y2a.logits - y2b.logits)))
+# Generated significant speedup, proceed with this.
+
+
 # Compile the model with openvino backend.
 t1 = time.time()
 comp_model = torch.compile(
-    model,
+    quant_model,
     backend="openvino",
     options={
         "device": "cpu",
@@ -48,10 +70,11 @@ t2 = time.time()
 print("Time to compile model:", t2 - t1)
 
 # Test model prediction.
-y2a = do_prediction(comp_model)
-y2b = do_prediction(comp_model)
+y3a = do_prediction(comp_model)
+y3b = do_prediction(comp_model)
 
 # Show difference.
-print(torch.abs(torch.abs(y1.logits - y2b.logits)))
-print(torch.abs(torch.abs(y2a.logits - y2b.logits)))
-# First is much slower, second very slightly faster.
+print(torch.abs(torch.abs(y1.logits - y3b.logits)))
+print(torch.abs(torch.abs(y2b.logits - y3b.logits)))
+print(torch.abs(torch.abs(y3a.logits - y3b.logits)))
+# No significant affect.
