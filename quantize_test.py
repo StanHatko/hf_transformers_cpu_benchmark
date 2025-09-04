@@ -17,14 +17,22 @@ model_name = "Qwen/Qwen3-4B-Instruct-2507"
 x = torch.randint(100000, (1, 64))
 
 
+def do_prediction(model):
+    t1 = time.time()
+    with torch.no_grad():
+        y = model(x)
+    t2 = time.time()
+    print("Time:", t2 - t1)
+    return y
+
+
 # Load model, without quantization.
 tokenizer = AutoTokenizer.from_pretrained(model_name, padding_side="left")
 model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype="auto")
 print("Model dtype:", model.dtype)
 
 # Test model prediction.
-with torch.no_grad():
-    y1 = model(x)
+y1 = do_prediction(model)
 
 
 # Test quantize model with TorchAO.
@@ -48,25 +56,27 @@ quantized_model = AutoModelForCausalLM.from_pretrained(
 print("Model dtype:", quantized_model.dtype)
 
 # Test model prediction.
-with torch.no_grad():
-    y2 = quantized_model(x)
+y2a = do_prediction(quantized_model)
+y2b = do_prediction(quantized_model)
 
 # Show difference.
-print(torch.abs(torch.abs(y1.logits - y2.logits)))
+print(torch.abs(torch.abs(y1.logits - y2b.logits)))
+print(torch.abs(torch.abs(y2a.logits - y2b.logits)))
 
 
 # Compile the model.
 comp_model = torch.compile(
     quantized_model,
     backend="openvino",
-    fullgraph=True,
 )
 print("Model dtype:", comp_model.dtype)
 
 # Test model prediction.
-with torch.no_grad():
-    y3 = comp_model(x)
+y3a = do_prediction(comp_model)
+y3b = do_prediction(comp_model)
 
 # Show difference.
-print(torch.abs(torch.abs(y1.logits - y3.logits)))
-print(torch.abs(torch.abs(y2.logits - y3.logits)))
+print(torch.abs(torch.abs(y1.logits - y3b.logits)))
+print(torch.abs(torch.abs(y2b.logits - y3b.logits)))
+print(torch.abs(torch.abs(y3a.logits - y3b.logits)))
+# Did not generate speedup.
