@@ -22,7 +22,7 @@ def do_prediction(model):
     with torch.no_grad():
         y = model(x)
     t2 = time.time()
-    print("Time:", t2 - t1)
+    print("Time to predict:", t2 - t1)
     return y
 
 
@@ -36,11 +36,16 @@ y1 = do_prediction(model)
 
 
 # Compile the model with openvino backend.
+t1 = time.time()
 comp_model = torch.compile(
     model,
     backend="openvino",
+    options={
+        "device": "cpu",
+    },
 )
-print("Model dtype:", comp_model.dtype)
+t2 = time.time()
+print("Time to compile model:", t2 - t1)
 
 # Test model prediction.
 y2a = do_prediction(comp_model)
