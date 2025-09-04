@@ -14,6 +14,7 @@
 			"huggingface",
 			"ints",
 			"Justfile",
+			"openvino",
 			"PYTHONPATH",
 			"Qwen",
 			"xlarge"

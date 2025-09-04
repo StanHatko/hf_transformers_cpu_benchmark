@@ -116,3 +116,6 @@ just run_benchmark QuantTrio/Qwen3-30B-A3B-Instruct-2507-GPTQ-Int8 run6/task.jso
 just run_benchmark QuantTrio/Qwen3-30B-A3B-Instruct-2507-GPTQ-Int8 run6/task.json 32 150 run6/out-32.json
 just run_benchmark QuantTrio/Qwen3-30B-A3B-Instruct-2507-GPTQ-Int8 run6/task.json 64 150 run6/out-64.json
 ```
+
+No needs GPU, come back to this soon.
+Look into another int8 quantization method and openvino.
