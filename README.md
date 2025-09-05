@@ -119,4 +119,11 @@ just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run6/task.json 8 150 run6/ou
 just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run6/task.json 16 150 run6/out-16.json quanto_int8
 just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run6/task.json 32 150 run6/out-32.json quanto_int8
 just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run6/task.json 64 150 run6/out-64.json quanto_int8
+
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run6/task.json 8 150 run6/out2-8.json quanto_int8
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run6/task.json 16 150 run6/out2-16.json quanto_int8
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run6/task.json 32 150 run6/out2-32.json quanto_int8
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run6/task.json 64 150 run6/out2-64.json quanto_int8
 ```
+
+Need to benchmark in more depth with smaller things before coming back to full runs.

@@ -1,0 +1,192 @@
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run6/task.json 8 150 run6/out-8.json quanto_int8
+
+Benchmark speed of model on CPU with 8 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run6/task.json
+Number of CPU cores to use: 8
+Maximum number of output tokens: 150
+Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████| 16/16 [07:35<00:00, 28.46s/it]
+Model dtype: torch.bfloat16
+Operation load_model took 557.88 seconds.
+Compile the model...
+Operation compile_model took 0.37 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.02 seconds.
+  0%|                                                                                                          | 0/1 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [04:33<00:00, 273.19s/it]
+Operation generate_llm took 273.19 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run6/out-8.json
+Done saving to output file.
+
+
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run6/task.json 16 150 run6/out-16.json quanto_int8
+
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run6/task.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 150
+Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████| 16/16 [00:24<00:00,  1.53s/it]
+Model dtype: torch.bfloat16
+Operation load_model took 126.8 seconds.
+Compile the model...
+Operation compile_model took 0.12 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.02 seconds.
+  0%|                                                                                                          | 0/1 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [03:24<00:00, 204.84s/it]
+Operation generate_llm took 204.84 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run6/out-16.json
+Done saving to output file.
+
+
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run6/task.json 32 150 run6/out-32.json quanto_int8
+
+Benchmark speed of model on CPU with 32 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run6/task.json
+Number of CPU cores to use: 32
+Maximum number of output tokens: 150
+Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████| 16/16 [00:28<00:00,  1.79s/it]
+Model dtype: torch.bfloat16
+Operation load_model took 130.96 seconds.
+Compile the model...
+Operation compile_model took 0.12 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.02 seconds.
+  0%|                                                                                                          | 0/1 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [03:58<00:00, 238.24s/it]
+Operation generate_llm took 238.24 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run6/out-32.json
+Done saving to output file.
+
+
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run6/task.json 64 150 run6/out-64.json quanto_int8
+
+Benchmark speed of model on CPU with 64 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run6/task.json
+Number of CPU cores to use: 64
+Maximum number of output tokens: 150
+Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████| 16/16 [00:50<00:00,  3.14s/it]
+Model dtype: torch.bfloat16
+Operation load_model took 152.0 seconds.
+Compile the model...
+Operation compile_model took 0.12 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.02 seconds.
+  0%|                                                                                                          | 0/1 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [13:18<00:00, 798.52s/it]
+Operation generate_llm took 798.52 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run6/out-64.json
+Done saving to output file.
+
+
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run6/task.json 8 150 run6/out2-8.json quanto_int8
+
+Benchmark speed of model on CPU with 8 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run6/task.json
+Number of CPU cores to use: 8
+Maximum number of output tokens: 150
+Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████| 16/16 [00:27<00:00,  1.72s/it]
+Model dtype: torch.bfloat16
+Operation load_model took 129.66 seconds.
+Compile the model...
+Operation compile_model took 0.12 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.02 seconds.
+  0%|                                                                                                          | 0/1 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [04:36<00:00, 276.81s/it]
+Operation generate_llm took 276.81 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run6/out2-8.json
+Done saving to output file.
+
+
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run6/task.json 16 150 run6/out2-16.json quanto_int8
+
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run6/task.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 150
+Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████| 16/16 [00:23<00:00,  1.47s/it]
+Model dtype: torch.bfloat16
+Operation load_model took 125.61 seconds.
+Compile the model...
+Operation compile_model took 0.12 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.02 seconds.
+  0%|                                                                                                          | 0/1 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [03:31<00:00, 211.67s/it]
+Operation generate_llm took 211.67 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run6/out2-16.json
+Done saving to output file.
+
+
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run6/task.json 32 150 run6/out2-32.json quanto_int8
+
+Benchmark speed of model on CPU with 32 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run6/task.json
+Number of CPU cores to use: 32
+Maximum number of output tokens: 150
+Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████| 16/16 [00:25<00:00,  1.61s/it]
+Model dtype: torch.bfloat16
+Operation load_model took 127.19 seconds.
+Compile the model...
+Operation compile_model took 0.12 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.02 seconds.
+  0%|                                                                                                          | 0/1 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [04:01<00:00, 241.31s/it]
+Operation generate_llm took 241.31 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run6/out2-32.json
+Done saving to output file.
+
+
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run6/task.json 64 150 run6/out2-64.json quanto_int8
+
+Benchmark speed of model on CPU with 64 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run6/task.json
+Number of CPU cores to use: 64
+Maximum number of output tokens: 150
+Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████| 16/16 [00:49<00:00,  3.12s/it]
+Model dtype: torch.bfloat16
+Operation load_model took 152.43 seconds.
+Compile the model...
+Operation compile_model took 0.12 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.02 seconds.
+  0%|                                                                                                          | 0/1 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [13:18<00:00, 798.70s/it]
+Operation generate_llm took 798.7 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run6/out2-64.json
+Done saving to output file.
+
+
+time dd if=/dev/zero of=/dev/shm/zf1 count=16 bs=1G
+
+16+0 records in
+16+0 records out
+17179869184 bytes (17 GB, 16 GiB) copied, 6.86896 s, 2.5 GB/s
+
+real	0m6.921s
+user	0m0.001s
+sys	0m6.919s
+
+
+time cp /dev/shm/zf1 /dev/shm/zf2
+
+real	0m5.560s
+user	0m0.000s
+sys	0m5.560s
