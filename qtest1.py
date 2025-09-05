@@ -7,6 +7,7 @@ import math
 import time
 
 import torch
+import torchao
 import nncf
 import optimum.intel.openvino
 import openvino
@@ -17,7 +18,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 model_name = "Qwen/Qwen3-4B-Instruct-2507"
 
 # Input data for testing.
-x = torch.randint(100000, (1, 64))
+n = 128
+x = torch.tensor([list(range(10000, 10000 + n))])
 
 
 def do_prediction(model):
@@ -38,15 +40,17 @@ print("Model dtype:", model.dtype)
 y1a = do_prediction(model)
 y1b = do_prediction(model)
 """
-Time to predict: 5.375474452972412
-Time to predict: 4.652477979660034
+Time to predict: 10.654382705688477
+Time to predict: 9.399781465530396
 """
 
 
-# Do computation layer-by-layer.
-v1 = model.model.embed_tokens(x)
-v2 = list()
-v2.append(model.model.layers[0](v1))
+# Test layers with torchao quantization.
+torchao.quantization.quantize_(
+    model,
+    torchao.quantization.Int8DynamicActivationInt8WeightConfig(),
+)
 
-# Test layers with and without NCCF compression.
-breakpoint()
+# Test model prediction.
+y2a = do_prediction(model)
+y2b = do_prediction(model)
