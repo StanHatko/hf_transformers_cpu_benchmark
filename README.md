@@ -148,9 +148,17 @@ with `file_size` being size (like `1G`) and `log_file` path of log file to save 
 Check memory speed on AWS `r8i.8xlarge` instance:
 
 ```bash
+# Test at various data sizes.
 ./memory_benchmark.sh 1G ~/memtest_1G.txt
 ./memory_benchmark.sh 2G ~/memtest_2G.txt
 ./memory_benchmark.sh 4G ~/memtest_4G.txt
 ./memory_benchmark.sh 8G ~/memtest_8G.txt
 ./memory_benchmark.sh 12G ~/memtest_12G.txt
+
+# Rerun 12G test a few times.
+./memory_benchmark.sh 12G ~/memtest_12G-1.txt
+./memory_benchmark.sh 12G ~/memtest_12G-2.txt
+./memory_benchmark.sh 12G ~/memtest_12G-3.txt
+./memory_benchmark.sh 12G ~/memtest_12G-4.txt
+./memory_benchmark.sh 12G ~/memtest_12G-5.txt
 ```

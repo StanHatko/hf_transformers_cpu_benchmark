@@ -178,22 +178,22 @@ get_repeat_threads_8() {
 
 echo >"$out_file"
 
-time make_files_threads_1 2>&1 | tee -a "$out_file"
-time make_files_threads_1 2>&1 | tee -a "$out_file"
-time make_files_threads_2 2>&1 | tee -a "$out_file"
-time make_files_threads_4 2>&1 | tee -a "$out_file"
-time make_files_threads_8 2>&1 | tee -a "$out_file"
+( time make_files_threads_1 ) 2>&1 | tee -a "$out_file"
+( time make_files_threads_1 ) 2>&1 | tee -a "$out_file"
+( time make_files_threads_2 ) 2>&1 | tee -a "$out_file"
+( time make_files_threads_4 ) 2>&1 | tee -a "$out_file"
+( time make_files_threads_8 ) 2>&1 | tee -a "$out_file"
 
-time get_files_threads_1 2>&1 | tee -a "$out_file"
-time get_files_threads_1 2>&1 | tee -a "$out_file"
-time get_files_threads_2 2>&1 | tee -a "$out_file"
-time get_files_threads_4 2>&1 | tee -a "$out_file"
-time get_files_threads_8 2>&1 | tee -a "$out_file"
+( time get_files_threads_1 ) 2>&1 | tee -a "$out_file"
+( time get_files_threads_1 ) 2>&1 | tee -a "$out_file"
+( time get_files_threads_2 ) 2>&1 | tee -a "$out_file"
+( time get_files_threads_4 ) 2>&1 | tee -a "$out_file"
+( time get_files_threads_8 ) 2>&1 | tee -a "$out_file"
 
-time get_repeat_threads_1 2>&1 | tee -a "$out_file"
-time get_repeat_threads_1 2>&1 | tee -a "$out_file"
-time get_repeat_threads_2 2>&1 | tee -a "$out_file"
-time get_repeat_threads_4 2>&1 | tee -a "$out_file"
-time get_repeat_threads_8 2>&1 | tee -a "$out_file"
+( time get_repeat_threads_1 ) 2>&1 | tee -a "$out_file"
+( time get_repeat_threads_1 ) 2>&1 | tee -a "$out_file"
+( time get_repeat_threads_2 ) 2>&1 | tee -a "$out_file"
+( time get_repeat_threads_4 ) 2>&1 | tee -a "$out_file"
+( time get_repeat_threads_8 ) 2>&1 | tee -a "$out_file"
 
 rm -rf /dev/shm/benchmark
