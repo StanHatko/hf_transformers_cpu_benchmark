@@ -141,3 +141,6 @@ pip install optimum optimum-intel optimum-quanto accelerate pandas pyarrow trans
 ## Check Memory Transfer Speed under Various Conditions
 
 Check speed of memory access in series and in parallel using large files in `/dev/shm`.
+
+Use program `./memory_benchmark.sh file_size log_file` to do this,
+with `file_size` being size (like `1G`) and `log_file` path of log file to save results to.
