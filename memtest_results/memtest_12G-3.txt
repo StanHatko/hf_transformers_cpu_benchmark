@@ -1,0 +1,76 @@
+
+Measure time write files, 1 thread
+
+real	1m0.200s
+user	0m3.505s
+sys	1m35.220s
+Measure time write files, 1 thread
+
+real	1m4.952s
+user	0m3.577s
+sys	1m40.053s
+Measure time write files, 2 threads
+
+real	0m34.758s
+user	0m3.701s
+sys	1m45.653s
+Measure time write files, 4 threads
+
+real	0m18.848s
+user	0m3.544s
+sys	1m52.560s
+Measure time write files, 8 threads
+
+real	0m10.235s
+user	0m3.742s
+sys	1m59.647s
+Measure time read files, 1 thread
+
+real	0m11.355s
+user	0m0.093s
+sys	0m11.259s
+Measure time read files, 1 thread
+
+real	0m11.318s
+user	0m0.098s
+sys	0m11.217s
+Measure time read files, 2 threads
+
+real	0m5.775s
+user	0m0.089s
+sys	0m11.375s
+Measure time read files, 4 threads
+
+real	0m3.014s
+user	0m0.076s
+sys	0m11.807s
+Measure time read files, 8 threads
+
+real	0m1.608s
+user	0m0.084s
+sys	0m12.587s
+Measure time read single repeat, 1 thread
+
+real	0m11.134s
+user	0m0.094s
+sys	0m11.039s
+Measure time read single repeat, 1 thread
+
+real	0m11.100s
+user	0m0.074s
+sys	0m11.023s
+Measure time read single repeat, 2 threads
+
+real	0m7.229s
+user	0m0.107s
+sys	0m13.508s
+Measure time read single repeat, 4 threads
+
+real	0m3.370s
+user	0m0.094s
+sys	0m12.418s
+Measure time read single repeat, 8 threads
+
+real	0m1.638s
+user	0m0.112s
+sys	0m12.068s
