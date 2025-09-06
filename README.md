@@ -127,3 +127,17 @@ just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run6/task.json 64 150 run6/o
 ```
 
 Need to benchmark in more depth with smaller things before coming back to full runs.
+
+## Setup New Intel-Optimized PyTorch Environment
+
+Use commands:
+
+```bash
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+python -m pip install intel-extension-for-pytorch
+pip install optimum optimum-intel optimum-quanto accelerate pandas pyarrow transformers
+```
+
+## Check Memory Transfer Speed under Various Conditions
+
+Check speed of memory access in series and in parallel using large files in `/dev/shm`.

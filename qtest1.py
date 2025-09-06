@@ -45,7 +45,9 @@ Time to predict: 9.399781465530396
 """
 
 
-# Test layers with torchao quantization.
+# Loop over linear layers and apply nccf quantization.
+breakpoint()
+nncf.compress_weights(model, dataset=nncf.Dataset(x))
 torchao.quantization.quantize_(
     model,
     torchao.quantization.Int8DynamicActivationInt8WeightConfig(),
