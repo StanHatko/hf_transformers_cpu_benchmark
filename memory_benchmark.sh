@@ -5,9 +5,9 @@
 file_size=$1
 out_file=$2
 
-echo "Benchmark memory access speed..."
-echo "File size: $file_size"
-echo "Output logs: $out_file"
+echo "Benchmark memory access speed..." | tee -a "$out_file"
+echo "File size: $file_size" | tee -a "$out_file"
+echo "Output logs: $out_file" | tee -a "$out_file"
 mkdir -p /dev/shm/benchmark
 
 make_files_threads_1() {

@@ -144,3 +144,13 @@ Check speed of memory access in series and in parallel using large files in `/de
 
 Use program `./memory_benchmark.sh file_size log_file` to do this,
 with `file_size` being size (like `1G`) and `log_file` path of log file to save results to.
+
+Check memory speed on AWS `r8i.8xlarge` instance:
+
+```bash
+./memory_benchmark.sh 1G ~/memtest_1G.txt
+./memory_benchmark.sh 2G ~/memtest_2G.txt
+./memory_benchmark.sh 4G ~/memtest_4G.txt
+./memory_benchmark.sh 8G ~/memtest_8G.txt
+./memory_benchmark.sh 12G ~/memtest_12G.txt
+```
