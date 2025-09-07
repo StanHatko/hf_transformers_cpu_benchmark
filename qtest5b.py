@@ -39,7 +39,7 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 torchao.quantization.quantize_(
     model,
-    torchao.quantization.Int8WeightOnlyQuantizedLinearWeight(),
+    torchao.quantization.Int8WeightOnlyConfig(),
 )
 print("Model dtype:", model.dtype)
 
