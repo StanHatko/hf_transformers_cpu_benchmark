@@ -56,7 +56,10 @@ y1b = do_prediction(model, x)
 # Compile model.
 torch._dynamo.config.recompile_limit = 256
 model = torch.compile(model, backend="ipex")
-model = torchao.autoquant(model)
+torchao.quantization.quantize_(
+    model,
+    torchao.quantization.Int8DynamicActivationInt8WeightConfig(),
+)
 model = ipex.optimize(model, inplace=True)
 
 # Test model prediction.
