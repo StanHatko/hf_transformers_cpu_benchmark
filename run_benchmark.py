@@ -141,7 +141,7 @@ class Benchmark:
 
         outputs = []
         t1 = time.time()
-        for i, x in enumerate(tqdm(self.inputs_encoded)):
+        for i, x in enumerate(self.inputs_encoded):
             print("Start iteration:", i)
             t2 = time.time()
 
