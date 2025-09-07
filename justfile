@@ -1,6 +1,6 @@
 # Justfile for running the LLM benchmarking on CPU.
 export PYTHONPATH := "./"
-export PYTHONUNBUFFERED := 1
+export PYTHONUNBUFFERED := "1"
 
 
 # Generate sorting integers task.
