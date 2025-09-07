@@ -57,7 +57,7 @@ y1b = do_prediction(model, x)
 torch._dynamo.config.recompile_limit = 256
 nncf.compress_weights(
     model,
-    mode=nncf.CompressWeightsMode.INT8_ASYM,
+    mode=nncf.CompressWeightsMode.INT8_SYM,
     dataset=nncf.Dataset([x], lambda x: dict(x)),
 )
 model = ipex.optimize(model, inplace=True)
