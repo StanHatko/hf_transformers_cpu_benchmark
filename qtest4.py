@@ -53,6 +53,7 @@ y1a = do_prediction(model, x)
 y1b = do_prediction(model, x)
 
 # Compile model.
+torch._dynamo.config.recompile_limit = 256
 model = ipex.optimize(model, inplace=True)
 model = torch.compile(model, backend="ipex")
 
