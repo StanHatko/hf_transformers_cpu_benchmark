@@ -53,15 +53,16 @@ x = tokenizer.apply_chat_template(
 y1a = do_prediction(model, x)
 y1b = do_prediction(model, x)
 
-# Compile model.
+# Quantize and optimize model.
 torch._dynamo.config.recompile_limit = 256
-model = nncf.compress_weights(
+nncf.compress_weights(
     model,
     mode=nncf.CompressWeightsMode.INT8_ASYM,
     dataset=nncf.Dataset([x], lambda x: dict(x)),
 )
 model = ipex.optimize(model, inplace=True)
-model = torch.compile(model, backend="ipex")
+# model = torch.compile(model, backend="ipex")
+
 
 # Test model prediction.
 y2a = do_prediction(model, x)
