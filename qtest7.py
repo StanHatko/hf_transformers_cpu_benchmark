@@ -22,6 +22,7 @@ input_messages = [
 
 
 def do_prediction(model, x):
+    print("Generate predictions...")
     t1 = time.time()
     with torch.no_grad():
         y = model(**x)
@@ -31,18 +32,21 @@ def do_prediction(model, x):
 
 
 class QuantizeDataset(torch.utils.data.Dataset):
-    def __init__(self, x):
+    def __init__(self, x, n):
         self.x = dict(x)
+        self.n = n
 
     def __len__(self):
-        return 1
+        return self.n
 
     def __getitem__(self, idx):
         return x
 
 
 # Load model.
+print("Load tokenizer...")
 tokenizer = AutoTokenizer.from_pretrained(model_name, padding_side="left")
+print("Load model...")
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
     torch_dtype="auto",
@@ -65,14 +69,18 @@ y1b = do_prediction(model, x)
 
 # Quantize and optimize model.
 torch._dynamo.config.recompile_limit = 256
+print("Quantization prepare...")
 model = ipex.quantization.prepare(
     model,
-    ipex.quantization.default_static_qconfig,
-    QuantizeDataset(x),
+    ipex.quantization.default_static_qconfig_mapping,
+    example_kwarg_inputs=dict(x),
     inplace=True,
 )
+print("Quantization convert...")
 model = ipex.quantization.convert(model, inplace=True)
+print("IPEX optimize...")
 model = ipex.optimize(model, inplace=True)
+print("PyTorch compile...")
 model = torch.compile(model, backend="ipex")
 
 
