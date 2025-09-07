@@ -53,9 +53,7 @@ x = tokenizer.apply_chat_template(
 y1a = do_prediction(model, x)
 y1b = do_prediction(model, x)
 
-# Compile model.
-torch._dynamo.config.recompile_limit = 256
-model = torch.compile(model, backend="ipex")
+# Quantize and optimize model.
 torchao.quantization.quantize_(
     model,
     torchao.quantization.Int8DynamicActivationInt8WeightConfig(),
