@@ -61,23 +61,23 @@ class Benchmark:
             case "float32":
                 return AutoModelForCausalLM.from_pretrained(
                     self.model_name,
-                    dtype=torch.float32,
+                    torch_dtype=torch.float32,
                 )
             case "none":
                 return AutoModelForCausalLM.from_pretrained(
                     self.model_name,
-                    dtype="auto",
+                    torch_dtype="auto",
                 )
             case "quanto_int8":
                 return AutoModelForCausalLM.from_pretrained(
                     self.model_name,
-                    dtype="auto",
+                    torch_dtype="auto",
                     quantization_config=QuantoConfig(weights="int8"),
                 )
             case "intel_optimize":
                 model = AutoModelForCausalLM.from_pretrained(
                     self.model_name,
-                    dtype="auto",
+                    torch_dtype="auto",
                 )
                 model = ipex.optimize(model, inplace=True)
                 model = torch.compile(model, backend="ipex")
