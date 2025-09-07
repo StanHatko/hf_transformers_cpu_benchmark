@@ -1,0 +1,43 @@
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run7/task.json 8 150 run7/out-1-8.json float32 | tee -a run7.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run7/task.json 16 150 run7/out-1-16.json float32 | tee -a run7.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run7/task.json 32 150 run7/out-1-32.json float32 | tee -a run7.log
+
+
+
+[W907 21:32:46.424872352 OperatorEntry.cpp:218] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_addmm_activation(Tensor self, Tensor mat1, Tensor mat2, *, Scalar beta=1, Scalar alpha=1, bool use_gelu=False) -> Tensor
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastCPU
+  previous kernel: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:327
+       new kernel: registered at /opt/workspace/ipex-cpu-dev/csrc/cpu/autocast/autocast_mode.cpp:112 (function operator())
+2025-09-07 21:32:47,843 - _logger.py - torchao.kernel.intmm - WARNING - Warning: Detected no triton, on systems without Triton certain kernels will not work
+Benchmark speed of model on CPU with 8 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run7/task.json
+Number of CPU cores to use: 8
+Maximum number of output tokens: 150
+Additional special settings: float32
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████| 16/16 [07:44<00:00, 29.05s/it]
+Model dtype: torch.float32
+Operation load_model took 467.1 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.03 seconds.
+  0%|                                                                                                  | 0/10 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+ 10%|████████▉                                                                                | 1/10 [01:53<16:59, 113.32s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+ 20%|█████████████████▊                                                                       | 2/10 [03:31<13:55, 104.39s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+ 30%|██████████████████████████▋                                                              | 3/10 [05:09<11:50, 101.46s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+ 40%|████████████████████████████████████                                                      | 4/10 [06:43<09:52, 98.74s/it]The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+
+
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run7/task.json 8 150 run7/out-2-8.json none | tee -a run7.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run7/task.json 16 150 run7/out-2-16.json none | tee -a run7.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run7/task.json 32 150 run7/out-2-32.json none | tee -a run7.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run7/task.json 64 150 run7/out-2-64.json none | tee -a run7.log
+
+
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run7/task.json 8 150 run7/out-3-8.json intel_optimize | tee -a run7.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run7/task.json 16 150 run7/out-3-16.json intel_optimize | tee -a run7.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run7/task.json 32 150 run7/out-3-32.json intel_optimize | tee -a run7.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run7/task.json 64 150 run7/out-3-64.json intel_optimize | tee -a run7.log
+

@@ -139,14 +139,24 @@ class Benchmark:
         Run the LLM on the input data.
         """
 
+        outputs = []
         t1 = time.time()
-        outputs = [
-            self.model.generate(**x, max_new_tokens=self.max_tokens, do_sample=False)
-            for x in tqdm(self.inputs_encoded)
-        ]
-        t2 = time.time()
+        for i, x in tqdm(self.inputs_encoded):
+            print("Start iteration:", i)
+            t2 = time.time()
 
-        self.time_benchmark("generate_llm", t1, t2)
+            tr = self.model.generate(
+                **x,
+                max_new_tokens=self.max_tokens,
+                do_sample=False,
+            )
+            outputs.append(tr)
+
+            t3 = time.time()
+            self.time_benchmark(f"generate_iter_{i}", t2, t3)
+
+        t4 = time.time()
+        self.time_benchmark("generate_llm", t1, t4)
         return outputs
 
     def decode_outputs(self):
