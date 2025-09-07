@@ -136,6 +136,7 @@ Use commands:
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 python -m pip install intel-extension-for-pytorch
 pip install optimum optimum-intel optimum-quanto accelerate pandas pyarrow transformers openvino
+pip install torchao nncf
 ```
 
 ## Check Memory Transfer Speed under Various Conditions

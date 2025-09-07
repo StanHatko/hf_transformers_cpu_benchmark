@@ -29,7 +29,7 @@ input_messages = [
 def do_prediction(model, x):
     t1 = time.time()
     with torch.no_grad():
-        y = model(x)
+        y = model(**x)
     t2 = time.time()
     print("Time to predict:", t2 - t1)
     return y
@@ -60,12 +60,7 @@ Time to predict: 9.399781465530396
 
 
 # Loop over linear layers and apply nccf quantization.
-breakpoint()
 nncf.compress_weights(model, dataset=nncf.Dataset(x))
-torchao.quantization.quantize_(
-    model,
-    torchao.quantization.Int8DynamicActivationInt8WeightConfig(),
-)
 
 # Test model prediction.
 y2a = do_prediction(model, x)
