@@ -8,6 +8,7 @@ import math
 import time
 
 import torch
+import intel_extension_for_pytorch as ipex
 from tqdm import tqdm
 from transformers import AutoTokenizer, AutoModelForCausalLM, QuantoConfig
 
@@ -24,7 +25,7 @@ class Benchmark:
         input_file: str,
         num_cpu: int,
         max_tokens: int,
-        quantize: str,
+        special: str,
     ):
         print("Benchmark speed of model:", model_name)
         print("Input file:", input_file)
@@ -32,7 +33,7 @@ class Benchmark:
         print("Maximum number of output tokens:", max_tokens)
 
         self.model_name = model_name
-        self.quantize = quantize
+        self.special = special
         self.num_cpu = num_cpu
         self.input_file = input_file
         self.max_tokens = max_tokens
@@ -55,7 +56,13 @@ class Benchmark:
         self.times[name] = t
 
     def _load_model_core(self):
-        match self.quantize:
+        print("Additional special settings:", self.special)
+        match self.special:
+            case "float32":
+                return AutoModelForCausalLM.from_pretrained(
+                    self.model_name,
+                    dtype=torch.float32,
+                )
             case "none":
                 return AutoModelForCausalLM.from_pretrained(
                     self.model_name,
@@ -67,6 +74,14 @@ class Benchmark:
                     dtype="auto",
                     quantization_config=QuantoConfig(weights="int8"),
                 )
+            case "intel_optimize":
+                model = AutoModelForCausalLM.from_pretrained(
+                    self.model_name,
+                    dtype="auto",
+                )
+                model = ipex.optimize(model, inplace=True)
+                model = torch.compile(model, backend="ipex")
+                return model
             case _:
                 raise NotImplementedError()
 
@@ -74,19 +89,12 @@ class Benchmark:
         """
         Load the model and tokenizer.
         """
-
         t1 = time.time()
         tokenizer = AutoTokenizer.from_pretrained(self.model_name, padding_side="left")
         model = self._load_model_core()
         print("Model dtype:", model.dtype)
         t2 = time.time()
         self.time_benchmark("load_model", t1, t2)
-
-        print("Compile the model...")
-        model = torch.compile(model, mode="max-autotune", fullgraph=True)
-        t3 = time.time()
-        self.time_benchmark("compile_model", t2, t3)
-
         return tokenizer, model
 
     def load_inputs(self):
@@ -165,14 +173,14 @@ def benchmark_llm(
     num_cpu: int,
     max_tokens: int,
     output_file: str,
-    quantize: str = "none",
+    special: str = "none",
 ):
     """
     Benchmark speed of running specified LLM on some queries.
     """
 
     print(f"Benchmark speed of model on CPU with {num_cpu} cores...")
-    b = Benchmark(model_name, input_file, num_cpu, max_tokens, quantize)
+    b = Benchmark(model_name, input_file, num_cpu, max_tokens, special)
 
     n_input_tokens = sum([math.prod(x["input_ids"].shape) for x in b.inputs_encoded])
     n_total_tokens = sum([math.prod(x.shape) for x in b.outputs_llm])

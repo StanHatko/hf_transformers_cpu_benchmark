@@ -49,7 +49,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_name, padding_side="left")
 print("Load model...")
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
-    torch_dtype="auto",
+    torch_dtype=torch.float32,
 )
 print("Model dtype:", model.dtype)
 
@@ -66,6 +66,7 @@ x = tokenizer.apply_chat_template(
 # Test model prediction.
 y1a = do_prediction(model, x)
 y1b = do_prediction(model, x)
+breakpoint()
 
 # Quantize and optimize model.
 torch._dynamo.config.recompile_limit = 256

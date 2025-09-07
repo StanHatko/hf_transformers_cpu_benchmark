@@ -135,8 +135,7 @@ Use commands:
 ```bash
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 python -m pip install intel-extension-for-pytorch
-pip install optimum optimum-intel optimum-quanto accelerate pandas pyarrow transformers openvino
-pip install torchao nncf
+pip install optimum optimum-intel optimum-quanto accelerate pandas pyarrow transformers openvino torchao nncf rust-just
 ```
 
 ## Check Memory Transfer Speed under Various Conditions
@@ -162,4 +161,26 @@ Check memory speed on AWS `r8i.8xlarge` instance:
 ./memory_benchmark.sh 12G ~/memtest_12G-3.txt
 ./memory_benchmark.sh 12G ~/memtest_12G-4.txt
 ./memory_benchmark.sh 12G ~/memtest_12G-5.txt
+```
+
+## Test `bfloat16` with Intel Extensions for PyTorch
+
+Run on `r8i.8xlarge` instance type:
+
+```bash
+just generate_task_sort 10 8 20 2025002 run7/task.json
+
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run7/task.json 8 150 run7/out-1-8.json float32
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run7/task.json 16 150 run7/out-1-16.json float32
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run7/task.json 32 150 run7/out-1-32.json float32
+
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run7/task.json 8 150 run7/out-2-8.json none
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run7/task.json 16 150 run7/out-2-16.json none
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run7/task.json 32 150 run7/out-2-32.json none
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run7/task.json 64 150 run7/out-2-64.json none
+
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run7/task.json 8 150 run7/out-3-8.json intel_optimize
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run7/task.json 16 150 run7/out-3-16.json intel_optimize
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run7/task.json 32 150 run7/out-3-32.json intel_optimize
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run7/task.json 64 150 run7/out-3-64.json intel_optimize
 ```
