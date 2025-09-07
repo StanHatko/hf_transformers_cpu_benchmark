@@ -24,7 +24,7 @@ input_messages = [
 def do_prediction(model, x):
     t1 = time.time()
     with torch.no_grad():
-        y = model(x)
+        y = model(**x)
     t2 = time.time()
     print("Time to predict:", t2 - t1)
     return y
