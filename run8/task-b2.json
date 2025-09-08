@@ -1,0 +1,72 @@
+[
+[
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3572, 3957, 552, 753, 6541, 4069, 9722, 3450, 4421, 9722, 857, 7876, 195, 8549, 2859, 4387, 1488, 761, 1460, 2777"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 109, 516, 3002, 9020, 9428, 7512, 1788, 4320, 3395, 5228, 4398, 5080, 3045, 4183, 3035, 4866, 5941, 2366, 6232, 4108"
+}
+]
+],
+[
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1732, 4491, 9430, 3899, 7946, 8111, 8611, 6570, 9716, 5175, 5278, 9225, 2371, 1063, 3449, 9666, 3087, 7152, 5172, 2013"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4311, 1805, 2145, 100, 9573, 8607, 7831, 6678, 7619, 8190, 2938, 1115, 6561, 7173, 2060, 537, 6592, 6940, 7278, 1355"
+}
+]
+],
+[
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5864, 995, 5130, 1589, 5614, 5297, 4012, 9281, 2694, 2622, 6911, 8963, 7618, 3489, 3619, 5601, 1646, 6683, 5916, 4030"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 198, 9431, 4203, 3850, 4095, 7830, 9234, 1526, 7569, 272, 3762, 6671, 3564, 6162, 9777, 3335, 3731, 8593, 6808, 4116"
+}
+]
+],
+[
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2902, 3058, 3148, 3410, 6349, 8719, 6107, 133, 7291, 6691, 4170, 5326, 3739, 1902, 6800, 3323, 3775, 4753, 5673, 2983"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3962, 8259, 6281, 9730, 8247, 9782, 1867, 2156, 3243, 5459, 6032, 6353, 3710, 9255, 7693, 4814, 1959, 9446, 8370, 1660"
+}
+]
+],
+[
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4217, 3578, 1951, 3871, 4238, 1965, 300, 13, 5869, 8937, 2963, 1450, 8156, 2315, 1507, 6923, 1306, 767, 1001, 3916"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6604, 7935, 3659, 1586, 3563, 6760, 1132, 1667, 2570, 6871, 9871, 6764, 4971, 4178, 1664, 8801, 1261, 9439, 841, 122"
+}
+]
+]
+]

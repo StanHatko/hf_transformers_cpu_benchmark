@@ -184,3 +184,36 @@ just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run7/task.json 16 150 run7/o
 just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run7/task.json 32 150 run7/out-3-32.json intel_optimize 2>&1 | tee -a run7.log
 just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run7/task.json 64 150 run7/out-3-64.json intel_optimize 2>&1 | tee -a run7.log
 ```
+
+## Test Various Batch Sizes
+
+Again test on `r8i.8xlarge` instance type:
+
+```bash
+just generate_task_sort 5 1 20 2025002 run8/task-b1.json
+just generate_task_sort 5 2 20 2025002 run8/task-b2.json
+just generate_task_sort 5 4 20 2025002 run8/task-b4.json
+just generate_task_sort 5 6 20 2025002 run8/task-b6.json
+just generate_task_sort 5 8 20 2025002 run8/task-b8.json
+just generate_task_sort 5 12 20 2025002 run8/task-b12.json
+just generate_task_sort 5 16 20 2025002 run8/task-b16.json
+just generate_task_sort 5 24 20 2025002 run8/task-b24.json
+just generate_task_sort 5 32 20 2025002 run8/task-b32.json
+just generate_task_sort 5 48 20 2025002 run8/task-b48.json
+just generate_task_sort 5 64 20 2025002 run8/task-b64.json
+just generate_task_sort 5 96 20 2025002 run8/task-b96.json
+just generate_task_sort 5 128 20 2025002 run8/task-b128.json
+
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run8/task-b1.json 8 150 run8/out-b1.json intel_optimize 2>&1 | tee -a run8.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run8/task-b2.json 8 150 run8/out-b2.json intel_optimize 2>&1 | tee -a run8.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run8/task-b4.json 8 150 run8/out-b4.json intel_optimize 2>&1 | tee -a run8.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run8/task-b6.json 8 150 run8/out-b6.json intel_optimize 2>&1 | tee -a run8.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run8/task-b8.json 8 150 run8/out-b8.json intel_optimize 2>&1 | tee -a run8.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run8/task-b16.json 8 150 run8/out-b16.json intel_optimize 2>&1 | tee -a run8.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run8/task-b24.json 8 150 run8/out-b24.json intel_optimize 2>&1 | tee -a run8.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run8/task-b32.json 8 150 run8/out-b32.json intel_optimize 2>&1 | tee -a run8.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run8/task-b48.json 8 150 run8/out-b48.json intel_optimize 2>&1 | tee -a run8.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run8/task-b64.json 8 150 run8/out-b64.json intel_optimize 2>&1 | tee -a run8.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run8/task-b96.json 8 150 run8/out-b96.json intel_optimize 2>&1 | tee -a run8.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run8/task-b128.json 8 150 run8/out-b128.json intel_optimize 2>&1 | tee -a run8.log
+```

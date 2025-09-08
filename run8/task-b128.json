@@ -1,0 +1,3852 @@
+[
+[
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3572, 3957, 552, 753, 6541, 4069, 9722, 3450, 4421, 9722, 857, 7876, 195, 8549, 2859, 4387, 1488, 761, 1460, 2777"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 109, 516, 3002, 9020, 9428, 7512, 1788, 4320, 3395, 5228, 4398, 5080, 3045, 4183, 3035, 4866, 5941, 2366, 6232, 4108"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1732, 4491, 9430, 3899, 7946, 8111, 8611, 6570, 9716, 5175, 5278, 9225, 2371, 1063, 3449, 9666, 3087, 7152, 5172, 2013"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4311, 1805, 2145, 100, 9573, 8607, 7831, 6678, 7619, 8190, 2938, 1115, 6561, 7173, 2060, 537, 6592, 6940, 7278, 1355"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5864, 995, 5130, 1589, 5614, 5297, 4012, 9281, 2694, 2622, 6911, 8963, 7618, 3489, 3619, 5601, 1646, 6683, 5916, 4030"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 198, 9431, 4203, 3850, 4095, 7830, 9234, 1526, 7569, 272, 3762, 6671, 3564, 6162, 9777, 3335, 3731, 8593, 6808, 4116"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2902, 3058, 3148, 3410, 6349, 8719, 6107, 133, 7291, 6691, 4170, 5326, 3739, 1902, 6800, 3323, 3775, 4753, 5673, 2983"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3962, 8259, 6281, 9730, 8247, 9782, 1867, 2156, 3243, 5459, 6032, 6353, 3710, 9255, 7693, 4814, 1959, 9446, 8370, 1660"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4217, 3578, 1951, 3871, 4238, 1965, 300, 13, 5869, 8937, 2963, 1450, 8156, 2315, 1507, 6923, 1306, 767, 1001, 3916"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6604, 7935, 3659, 1586, 3563, 6760, 1132, 1667, 2570, 6871, 9871, 6764, 4971, 4178, 1664, 8801, 1261, 9439, 841, 122"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1764, 604, 6144, 6950, 2168, 3627, 9159, 4587, 267, 5006, 9836, 8487, 2881, 6578, 7524, 3875, 8272, 4556, 8819, 3448"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3677, 3642, 4036, 5434, 2532, 4469, 2285, 3343, 6257, 6318, 8271, 2923, 7431, 2498, 4803, 6120, 9392, 8262, 8, 1986"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4964, 464, 9867, 7665, 3413, 3500, 8532, 7942, 1155, 790, 8773, 3317, 641, 5705, 4192, 9116, 1164, 7623, 7053, 5007"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8730, 6794, 9263, 7370, 7176, 8387, 5072, 6306, 8136, 4665, 152, 7209, 8265, 8316, 3838, 649, 6193, 5280, 935, 8971"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5683, 3035, 5210, 2666, 2639, 3263, 7949, 6889, 2635, 1061, 5696, 1554, 807, 8191, 6782, 7960, 3854, 6669, 6622, 8638"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5918, 8801, 4380, 6093, 1413, 3841, 3426, 2243, 6986, 8825, 1306, 5035, 1996, 2166, 3817, 7585, 2325, 9787, 3772, 2478"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2352, 9162, 2845, 5990, 1913, 6429, 7993, 3464, 3203, 4194, 6660, 6545, 8558, 5567, 8010, 1589, 9898, 859, 7370, 9303"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2208, 988, 351, 7337, 9036, 351, 9343, 1181, 1900, 7788, 9816, 304, 4094, 4476, 9631, 4894, 6496, 7586, 7766, 1108"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4122, 6805, 8914, 4154, 4786, 5912, 9030, 859, 1996, 6289, 2245, 4704, 4749, 7127, 4625, 4929, 2854, 1996, 4569, 2194"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2709, 8050, 5820, 3816, 1593, 6702, 9535, 3731, 703, 6782, 9642, 5172, 1123, 1228, 4729, 4467, 11, 77, 1172, 4697"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6809, 7303, 8181, 6320, 2316, 7053, 64, 5123, 8159, 8492, 3636, 9506, 2860, 7679, 5452, 2914, 8735, 3335, 1151, 9778"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6737, 902, 9607, 8205, 5135, 2200, 471, 1939, 4651, 5937, 2127, 7285, 6274, 2581, 9885, 9024, 9667, 9711, 3155, 136"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 372, 9414, 4145, 2207, 7667, 8610, 8752, 3564, 4361, 8067, 4593, 7551, 4370, 7140, 7512, 5534, 6962, 2792, 6484, 516"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8851, 3619, 1243, 622, 7748, 9042, 7203, 9247, 2802, 1754, 7655, 1271, 4632, 9451, 60, 6192, 9320, 3546, 9526, 2436"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6185, 7058, 4487, 1660, 2098, 8020, 4362, 8519, 1924, 4156, 1158, 5823, 7604, 8332, 7635, 248, 7920, 9566, 4976, 5160"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6614, 6821, 524, 168, 8051, 1626, 2799, 3434, 3833, 1106, 6442, 4678, 4535, 5020, 298, 3334, 3453, 2405, 3229, 7835"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8504, 5429, 6658, 3615, 3050, 2237, 1566, 2028, 538, 2441, 4472, 2564, 4475, 3626, 6738, 6985, 8640, 161, 9467, 6488"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1366, 5895, 7463, 3822, 3380, 9355, 1153, 6, 8628, 409, 4541, 5158, 1109, 5282, 7132, 9224, 357, 7433, 4717, 2655"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7685, 7311, 5327, 2362, 9189, 4688, 2104, 100, 1873, 4342, 3446, 9704, 9936, 8164, 549, 9176, 5370, 117, 9105, 6840"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8367, 8327, 8876, 9812, 1936, 3494, 2170, 1293, 8636, 8649, 2483, 8582, 8674, 2445, 2161, 3328, 8063, 381, 4636, 793"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9172, 2546, 2309, 8516, 7895, 4739, 5777, 807, 107, 5247, 2865, 7246, 333, 1909, 3555, 2866, 9479, 5671, 2562, 6084"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9712, 4558, 2936, 75, 9579, 877, 8200, 4477, 6269, 7197, 9735, 2127, 629, 2656, 1152, 5333, 1986, 2613, 1809, 5557"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8362, 808, 8210, 4100, 8913, 3026, 3459, 3364, 2442, 7453, 1680, 5938, 149, 3941, 5343, 2868, 9603, 6063, 9795, 1241"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3168, 2898, 5991, 3865, 2148, 9534, 6526, 1088, 7322, 5298, 4535, 6054, 6236, 7758, 3438, 8398, 7796, 8868, 4930, 4459"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7589, 2923, 5671, 959, 3274, 6363, 9880, 1713, 3445, 9151, 4917, 3212, 9694, 4584, 2302, 855, 3920, 3550, 6423, 6354"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7178, 1495, 1112, 7467, 7769, 2298, 2084, 1293, 5670, 6698, 8536, 9343, 7630, 1831, 8856, 7452, 9463, 9127, 9866, 4574"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 120, 7285, 8765, 2090, 7099, 6378, 1464, 520, 4189, 7438, 9366, 3387, 7247, 3940, 214, 2954, 4977, 1103, 7842, 3627"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6125, 6816, 7820, 1745, 338, 6167, 2064, 5679, 8856, 3537, 5406, 5956, 5966, 1100, 4651, 7231, 171, 9368, 8105, 5549"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1175, 9357, 3597, 3128, 469, 2447, 6826, 7540, 5204, 892, 4572, 6157, 2708, 1549, 3342, 2948, 9879, 7270, 8164, 7342"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6630, 9209, 9516, 1530, 3353, 8716, 8438, 9279, 8638, 5302, 2980, 2103, 1019, 4873, 1650, 706, 6712, 5044, 1890, 7587"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2881, 6927, 8055, 3907, 5816, 6217, 3993, 9618, 5870, 8943, 2536, 3270, 8359, 628, 2350, 9916, 6260, 8724, 5870, 6071"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7588, 4289, 1335, 4947, 5657, 5115, 3793, 7419, 1202, 7336, 4200, 6804, 7005, 9951, 2311, 4390, 4049, 1741, 8381, 1271"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1069, 8997, 6982, 1404, 9921, 869, 6746, 3920, 1817, 3750, 7828, 31, 4679, 677, 9031, 155, 2708, 1038, 4862, 5322"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9963, 5713, 3716, 1947, 2791, 8356, 7532, 8082, 815, 9669, 3089, 7011, 9823, 2277, 1898, 5159, 8057, 7532, 4316, 7003"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2166, 7939, 2070, 9436, 4351, 7893, 2978, 564, 7115, 8395, 8379, 9403, 5833, 9992, 8461, 6121, 7145, 6815, 4252, 2782"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2158, 8690, 2683, 904, 1437, 5379, 8516, 4217, 849, 8011, 7559, 3595, 8073, 8342, 8454, 5871, 3330, 788, 8528, 5592"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6687, 4901, 7504, 2868, 7846, 2566, 4872, 6283, 243, 8019, 959, 1669, 3581, 1391, 7034, 4137, 3545, 5209, 4217, 2038"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3930, 8747, 79, 3138, 9563, 2857, 3146, 6680, 6836, 5289, 4769, 1006, 2540, 9102, 7339, 3408, 53, 2684, 8439, 3564"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4882, 8509, 1887, 1637, 9893, 4002, 3360, 8496, 2220, 9393, 9013, 8576, 5561, 2580, 3048, 1685, 7612, 197, 5514, 6751"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7373, 223, 1479, 5298, 1517, 5418, 3525, 971, 748, 2600, 6117, 2240, 7017, 4117, 4054, 1638, 528, 2072, 9682, 6696"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 426, 1953, 4954, 1589, 7276, 3813, 2505, 9932, 7044, 4924, 9644, 7203, 6648, 8416, 135, 6718, 3578, 595, 4203, 167"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8025, 8480, 3773, 1698, 9713, 5577, 7059, 2639, 483, 9439, 7323, 9981, 6487, 4692, 5478, 2195, 3219, 5185, 9130, 1030"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9285, 2383, 9777, 8938, 3129, 7500, 7729, 479, 5220, 254, 5130, 3213, 3801, 6395, 4881, 909, 3327, 2037, 3999, 4167"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3729, 9655, 4673, 9798, 4615, 3064, 1031, 6859, 5669, 4578, 313, 5909, 2787, 5212, 7092, 6513, 4161, 6397, 5614, 6638"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9197, 7692, 1333, 1934, 7363, 5236, 4390, 4235, 2895, 727, 3792, 8954, 9633, 4139, 2956, 7243, 277, 3429, 710, 8035"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5336, 6390, 5060, 4308, 8659, 2858, 176, 6003, 5379, 3736, 5323, 6203, 3693, 2065, 5504, 5500, 439, 1077, 4380, 7619"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7183, 206, 179, 576, 1637, 8470, 3511, 6088, 3108, 8984, 8897, 2909, 4737, 1963, 5380, 4540, 1431, 8498, 3331, 6794"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1687, 9212, 4315, 961, 9777, 9057, 2186, 4154, 6574, 2986, 461, 9773, 5052, 6948, 9199, 4270, 3780, 5216, 6432, 1884"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8276, 9692, 9845, 8219, 1904, 6411, 369, 6434, 1969, 753, 6945, 8576, 6585, 2058, 2181, 8812, 3565, 1372, 1886, 5014"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 121, 5828, 9634, 1386, 4397, 2738, 8576, 4087, 8201, 653, 6472, 5996, 1500, 9342, 9144, 4250, 2316, 4240, 660, 3996"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7328, 6470, 3542, 5424, 9499, 7259, 5477, 4487, 7149, 1335, 3961, 2365, 2563, 4279, 6112, 5689, 4091, 4442, 6757, 2305"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7335, 5539, 2324, 4957, 2141, 5445, 2771, 5034, 8752, 3026, 4895, 7928, 9153, 4888, 1246, 2167, 775, 3451, 254, 912"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4583, 8411, 6053, 2560, 4232, 5796, 523, 643, 6924, 7465, 4197, 1565, 1201, 6414, 8078, 9630, 5051, 1904, 2059, 5453"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6066, 2612, 8150, 4856, 6160, 2625, 6024, 6663, 9939, 3507, 4131, 4111, 1240, 7546, 5738, 2608, 4289, 9514, 1236, 5563"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5584, 1760, 8066, 2979, 9665, 926, 5314, 109, 5661, 6222, 6307, 3898, 6659, 4149, 8449, 6549, 3804, 1450, 5191, 3519"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2294, 9380, 9058, 3748, 8559, 7700, 7701, 6906, 7883, 3506, 9593, 5720, 4895, 3808, 8283, 9241, 6155, 9030, 6285, 5788"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3543, 3779, 2237, 1828, 1046, 2791, 5657, 2829, 7538, 368, 400, 4139, 152, 3174, 1303, 8388, 5680, 7293, 9353, 8097"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9382, 6025, 1335, 9471, 3931, 6502, 6656, 4580, 4916, 4282, 3814, 1082, 5743, 820, 3127, 486, 396, 1552, 7326, 8548"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2206, 7940, 9748, 1750, 1786, 9758, 8858, 6200, 4283, 1189, 2979, 5338, 2462, 7970, 6764, 7612, 6506, 4273, 337, 6156"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2536, 9020, 4098, 6081, 1155, 7252, 1354, 2118, 1763, 5649, 5884, 5030, 4299, 8179, 5002, 5561, 9032, 9395, 9508, 640"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6541, 3603, 5454, 2784, 2599, 4124, 9996, 5440, 8316, 4957, 3159, 8750, 9434, 2074, 1798, 9906, 9821, 7534, 3988, 520"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5250, 3901, 4229, 9201, 3026, 4947, 6562, 2209, 8735, 7532, 7115, 4359, 2051, 8572, 103, 245, 6697, 613, 6618, 2697"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6757, 9004, 1198, 5880, 6125, 3796, 878, 6615, 2949, 918, 5988, 3634, 6442, 7438, 6413, 3043, 1932, 1403, 906, 2443"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6150, 3423, 74, 7013, 6203, 6835, 6985, 6282, 2115, 277, 9005, 585, 6230, 7112, 8084, 29, 1123, 9718, 9051, 2556"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 174, 5763, 5468, 6440, 7043, 1698, 3348, 6844, 1718, 3869, 7857, 5366, 8318, 2344, 7455, 4089, 5424, 3398, 1381, 3068"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2171, 6538, 2459, 7484, 4456, 3955, 5725, 7360, 8783, 7762, 8165, 5023, 1805, 7494, 4183, 8073, 2371, 3162, 7376, 5295"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5332, 1150, 1837, 1722, 7067, 9157, 6129, 5300, 5161, 8267, 2797, 2230, 3831, 2204, 8154, 5778, 196, 6444, 1257, 2514"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5895, 883, 3083, 9080, 8753, 7470, 9442, 8705, 2877, 7639, 5858, 5188, 2258, 555, 2570, 5956, 1733, 673, 6134, 6457"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 863, 2400, 7900, 5807, 6278, 4034, 9534, 520, 749, 1741, 5594, 9679, 4826, 6724, 822, 1458, 4261, 6948, 1565, 243"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 719, 2748, 8115, 9007, 3308, 7470, 9894, 4617, 6448, 6490, 5884, 6775, 559, 9685, 3405, 7070, 1589, 2335, 92, 6079"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9625, 4506, 8725, 5660, 9116, 6275, 5388, 6155, 3452, 5619, 1663, 7684, 2844, 884, 1795, 6737, 6543, 7095, 9160, 327"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6404, 3752, 1408, 8151, 9246, 5806, 5214, 1965, 6152, 6366, 9121, 9109, 6670, 2496, 2942, 3934, 571, 4356, 2044, 9056"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9139, 8616, 8905, 5655, 715, 2637, 8713, 2358, 255, 3481, 4559, 5418, 5767, 8580, 9039, 651, 4342, 2965, 1508, 710"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4721, 1634, 5434, 2123, 9754, 7683, 348, 8974, 5051, 9113, 3324, 2232, 1962, 3934, 1191, 21, 9376, 6070, 8367, 6309"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4291, 8034, 824, 5849, 7714, 8497, 3269, 7504, 4704, 6383, 3477, 5299, 5908, 4265, 1222, 6296, 1530, 5231, 4779, 118"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4092, 2855, 3501, 30, 7409, 2695, 8397, 7909, 4263, 6044, 852, 8007, 6178, 5231, 4595, 8149, 5632, 690, 7244, 7609"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8685, 3869, 4830, 704, 2588, 602, 8095, 8034, 9527, 4552, 4432, 119, 4255, 4584, 2834, 3309, 7372, 3826, 5023, 3557"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1142, 8024, 2306, 8688, 6597, 1321, 2820, 7023, 4837, 8298, 878, 6883, 176, 9276, 8298, 2857, 6921, 9087, 1008, 9271"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9764, 6406, 8724, 9465, 824, 7175, 5717, 2453, 8946, 3000, 4042, 3405, 4029, 354, 171, 4883, 1395, 7140, 3635, 3511"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1071, 671, 6518, 1083, 5900, 4228, 8864, 6539, 9289, 3649, 2933, 3762, 7401, 3386, 1541, 420, 8526, 8985, 9819, 6459"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 85, 1027, 5499, 6906, 5113, 1127, 978, 7363, 3870, 1826, 6572, 5961, 226, 8260, 7537, 929, 846, 8675, 6073, 4642"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5306, 4932, 3891, 3438, 6386, 9700, 2116, 5060, 9235, 6937, 870, 9708, 9772, 6467, 2299, 5475, 5618, 2287, 8653, 164"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9915, 3291, 758, 4226, 9096, 8505, 5010, 9204, 499, 7582, 6566, 2435, 333, 8346, 5826, 8629, 1378, 9875, 6259, 2987"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6343, 186, 4560, 8061, 1155, 2007, 557, 5905, 8230, 4517, 5627, 2863, 7541, 5121, 4962, 7866, 6363, 4819, 2969, 3505"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 447, 4885, 7895, 685, 2203, 2502, 1011, 2410, 1423, 1892, 5182, 5518, 7583, 2546, 7896, 5423, 5899, 6931, 5928, 7346"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7316, 6871, 6877, 645, 7612, 5396, 5432, 713, 3176, 1631, 8516, 5123, 3945, 7428, 9137, 1770, 1563, 6192, 9583, 4184"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6405, 5494, 6591, 3035, 4036, 601, 4916, 5760, 6885, 9909, 8780, 5171, 595, 8767, 405, 8574, 3260, 9913, 4904, 104"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7813, 1700, 7908, 5855, 9379, 7010, 2736, 6580, 6504, 202, 5205, 5515, 5320, 9984, 6885, 9992, 7962, 7106, 9449, 3330"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6083, 5835, 8026, 7374, 677, 5760, 3749, 9132, 9447, 8981, 1624, 5510, 8972, 8541, 9971, 5878, 8322, 2131, 6521, 8985"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7042, 5704, 1912, 4699, 9152, 8148, 7561, 8376, 91, 1518, 8734, 5290, 5153, 1825, 4738, 6597, 9693, 6468, 9407, 6120"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 257, 7702, 1697, 8119, 8037, 1816, 6116, 8165, 8076, 3991, 1327, 4940, 4148, 5759, 1029, 6004, 4299, 6618, 2313, 914"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6884, 5710, 794, 186, 1283, 1277, 9210, 2061, 2431, 6218, 2904, 4351, 4098, 7061, 9652, 8663, 1135, 3130, 180, 1512"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1542, 7538, 1881, 3767, 4931, 4358, 1118, 7646, 2468, 7293, 5566, 7549, 663, 8174, 1810, 3412, 2134, 507, 2160, 23"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 199, 6068, 7284, 8611, 4883, 2492, 7750, 1227, 4357, 3288, 8974, 9705, 7469, 5956, 6655, 5971, 8840, 6136, 6166, 510"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 594, 7173, 7790, 7124, 8621, 4356, 3341, 4339, 8649, 8022, 9643, 3352, 1629, 9366, 3256, 9763, 9287, 3498, 6865, 3232"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8314, 8373, 3206, 1807, 1553, 6928, 4541, 9168, 6306, 1744, 7628, 2581, 1632, 8453, 9726, 3572, 2364, 4464, 5199, 888"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2471, 5698, 3736, 1623, 9951, 1501, 9441, 3, 2945, 2471, 734, 6899, 5756, 5092, 425, 2628, 8086, 4449, 8936, 1934"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2336, 4443, 6213, 2114, 6363, 3852, 1629, 8631, 8552, 9566, 4265, 5566, 8070, 5649, 2350, 1411, 3602, 3711, 4497, 4293"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5841, 5017, 5005, 532, 627, 6573, 3472, 5418, 5205, 9868, 659, 547, 9043, 3420, 9987, 1585, 2757, 9570, 1846, 2593"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2524, 1038, 4949, 5390, 6933, 6153, 710, 1624, 9304, 7064, 8127, 4566, 1559, 3975, 943, 6948, 2921, 4389, 4375, 158"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 304, 4609, 5219, 462, 253, 7118, 292, 5823, 3617, 1784, 2509, 7353, 765, 233, 7735, 8571, 4991, 7284, 6835, 7719"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1275, 1623, 7039, 5424, 9755, 3556, 2984, 2958, 5560, 6236, 8500, 3899, 476, 2381, 7194, 3405, 5114, 4531, 266, 7100"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4405, 7045, 5881, 3831, 9789, 6844, 5304, 6667, 7052, 5268, 9757, 7817, 1248, 162, 9123, 7316, 4711, 757, 906, 4317"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1715, 7519, 948, 509, 5294, 2272, 5530, 6632, 5636, 8876, 5267, 1198, 7425, 8900, 1233, 435, 8017, 4501, 3627, 8067"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8351, 2711, 9180, 1344, 72, 2629, 1203, 9792, 6589, 2929, 294, 1445, 6224, 546, 8685, 5257, 7045, 9466, 2424, 8085"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1857, 5775, 6913, 5756, 5086, 4403, 6728, 820, 1800, 8908, 2287, 9664, 4342, 6604, 5059, 7780, 3809, 2657, 8767, 8107"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3133, 8326, 3528, 6150, 4192, 2038, 3852, 1336, 9432, 7796, 9473, 6687, 5924, 3703, 2092, 1333, 7645, 6663, 1434, 541"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3940, 3066, 2228, 3912, 4437, 3108, 6372, 3286, 9427, 1541, 7874, 250, 2947, 163, 3846, 5788, 8842, 5615, 4371, 1202"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7313, 9678, 1204, 2815, 6326, 8943, 6398, 4955, 476, 4017, 4512, 5712, 7099, 2241, 5045, 9226, 1662, 2993, 3517, 1553"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1097, 1184, 7899, 7491, 5548, 1118, 9450, 2547, 1377, 2399, 7074, 1126, 4918, 2854, 253, 7360, 459, 8791, 414, 4660"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1902, 7645, 2195, 7972, 3718, 2823, 9796, 2138, 7170, 2011, 5155, 5502, 2685, 7370, 3895, 3966, 6765, 4873, 6069, 3278"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9809, 3961, 6965, 5904, 9970, 64, 6342, 2677, 1681, 4334, 5133, 1510, 1555, 80, 5637, 2921, 4920, 4326, 5818, 3914"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1369, 2364, 1427, 4383, 1801, 6662, 4358, 4924, 181, 6675, 1195, 2513, 8741, 3819, 7901, 8582, 2814, 4648, 7979, 7073"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2539, 9093, 3748, 2695, 5582, 5773, 186, 9127, 8788, 4654, 6871, 4659, 6872, 7020, 1117, 3133, 1466, 4193, 8192, 952"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3705, 7964, 8056, 3405, 4125, 351, 2264, 3360, 2701, 8393, 3560, 548, 3528, 6466, 5710, 6398, 1317, 5060, 3254, 6299"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6856, 3143, 4312, 7418, 6408, 2408, 5485, 5331, 863, 2452, 9990, 4174, 781, 6066, 5544, 3716, 6556, 5157, 3019, 2081"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3173, 9245, 8606, 9828, 1417, 4134, 4170, 5237, 8172, 7827, 8229, 3022, 3086, 9229, 1553, 9371, 6731, 8351, 7905, 7081"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5493, 1344, 5323, 9932, 4084, 1085, 3488, 2386, 2253, 4607, 8446, 6440, 7059, 993, 7794, 1005, 5153, 8471, 5099, 7282"
+}
+]
+],
+[
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1339, 5601, 9019, 158, 4172, 8903, 2751, 4630, 5230, 6389, 499, 6898, 177, 9911, 934, 5359, 4572, 7220, 4922, 5037"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5188, 5203, 4130, 3081, 808, 4476, 9741, 3460, 4544, 9043, 3424, 5486, 3108, 1206, 7869, 5474, 9033, 4843, 7984, 3344"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5855, 8846, 1630, 432, 2121, 687, 3466, 6651, 8951, 9426, 5013, 5091, 4865, 3483, 9259, 9799, 4190, 5034, 9799, 3458"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7615, 7350, 5371, 7080, 7393, 5454, 4541, 3095, 1605, 4217, 6612, 5840, 8437, 5686, 6074, 5668, 4794, 4950, 701, 9710"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8092, 2078, 225, 7689, 4040, 4377, 7693, 8752, 795, 2857, 8925, 6344, 6921, 8620, 6889, 4837, 4794, 3552, 7245, 1415"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4761, 3028, 3357, 2595, 8247, 5865, 1583, 8307, 5163, 800, 1394, 2742, 8975, 6923, 1900, 3966, 5432, 7016, 9799, 9424"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8496, 1004, 8254, 9061, 7929, 1091, 677, 4409, 2470, 5197, 1268, 3032, 4241, 3100, 1280, 715, 9774, 3351, 7286, 5532"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2245, 4980, 8063, 8286, 2933, 1730, 3790, 5862, 3355, 138, 6357, 4442, 6316, 695, 4607, 5112, 2336, 907, 7361, 5190"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4515, 9326, 7383, 1253, 5167, 147, 972, 3597, 4569, 2886, 5018, 5604, 1603, 9584, 1197, 5834, 1720, 7670, 7208, 8888"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8880, 2340, 7431, 5761, 4327, 6911, 7330, 4858, 4516, 1767, 9429, 818, 4770, 1976, 9732, 8779, 5783, 6360, 9154, 700"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7018, 7921, 8752, 8605, 6595, 8666, 2669, 1652, 9475, 4499, 9389, 6848, 1013, 2388, 5846, 2904, 6447, 3619, 4643, 2963"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3216, 9130, 5481, 2148, 5699, 6351, 4057, 1778, 8202, 1485, 4317, 2717, 8292, 4763, 6276, 339, 6769, 1973, 2383, 8912"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9088, 3703, 8409, 4799, 6191, 9377, 6929, 973, 5025, 3397, 9141, 7179, 5701, 6890, 2189, 1696, 2090, 9657, 32, 1347"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 479, 9714, 8659, 5349, 2865, 2837, 2305, 6846, 3770, 8451, 2065, 9793, 1422, 579, 3459, 9646, 8054, 6766, 8519, 7851"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6877, 6767, 8970, 1891, 2209, 1691, 3726, 985, 9882, 4419, 8377, 7179, 6516, 8722, 7169, 2502, 8918, 6896, 6704, 8480"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7319, 5437, 4228, 8356, 6534, 8175, 7780, 6281, 1373, 7312, 1058, 7133, 9932, 8137, 1566, 5945, 1919, 447, 6018, 4185"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2609, 9587, 6417, 4780, 3094, 570, 1529, 9624, 2141, 9229, 6223, 1941, 8700, 2353, 2647, 3030, 7145, 146, 7449, 3046"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3283, 2962, 3108, 1125, 9431, 1102, 9843, 6105, 1547, 5168, 6753, 9441, 7383, 5952, 1171, 7996, 9798, 9347, 1508, 4792"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3260, 3199, 5769, 5151, 3053, 4122, 8742, 7554, 1170, 4276, 9503, 8371, 2433, 1911, 6716, 2326, 2970, 4922, 690, 1717"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8377, 3910, 3106, 8619, 3321, 5771, 5531, 2575, 2888, 8870, 9207, 2312, 754, 5398, 8372, 970, 1071, 502, 1038, 7355"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7338, 6617, 9717, 4106, 6955, 1066, 598, 2517, 6080, 6868, 8964, 7178, 2583, 6069, 5185, 5613, 4787, 3279, 2717, 9252"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 161, 2273, 803, 8682, 8935, 2551, 4357, 5152, 5073, 3395, 562, 1798, 8449, 853, 9653, 1023, 2436, 9897, 6167, 5180"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 834, 926, 2167, 4760, 5167, 8784, 822, 3574, 7339, 985, 1060, 8792, 4689, 3097, 6638, 3580, 9117, 7112, 7636, 1274"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6722, 8902, 8192, 8500, 2290, 2059, 7052, 3929, 2236, 5751, 4323, 8717, 6895, 9441, 1677, 3107, 4729, 2976, 9507, 2766"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6969, 9459, 4308, 9934, 9113, 5219, 8017, 1265, 3337, 2814, 5623, 6450, 432, 5925, 4852, 1792, 2799, 315, 2460, 2742"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4809, 7570, 4695, 6056, 3936, 5160, 7723, 9731, 7890, 6852, 7266, 9747, 1688, 7395, 8609, 2546, 7895, 9794, 5820, 6764"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9068, 8723, 8471, 3486, 5200, 7975, 6853, 5039, 9127, 5918, 3793, 5340, 4158, 8537, 8788, 4422, 2400, 5378, 9092, 7177"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4003, 7116, 5710, 9584, 3299, 6844, 7466, 631, 4295, 2845, 1899, 678, 9402, 4677, 7587, 8533, 8638, 2915, 2089, 1981"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3223, 2586, 5781, 4573, 2352, 6982, 784, 3360, 1637, 9739, 7372, 9604, 4658, 7722, 657, 5264, 1460, 9952, 6063, 3521"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5169, 5959, 4030, 6312, 5905, 8417, 8339, 7512, 6823, 8715, 9255, 1933, 1413, 9495, 1800, 6511, 9831, 8119, 7409, 1748"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1255, 9587, 4995, 1806, 4878, 3308, 222, 1441, 7017, 6570, 840, 7158, 269, 7489, 2076, 9594, 1786, 9197, 4677, 5279"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5571, 5928, 9759, 4697, 4116, 8332, 4415, 3966, 9495, 2689, 6992, 6383, 1517, 8393, 4872, 9361, 440, 3040, 8337, 8827"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7941, 3021, 4140, 1315, 3632, 9323, 2971, 263, 8954, 8833, 8059, 9041, 3003, 2776, 8513, 865, 6222, 1699, 6698, 4337"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6813, 5341, 6125, 5955, 1837, 3723, 9368, 9368, 7268, 6441, 2450, 711, 7618, 826, 7695, 8640, 5315, 2073, 2192, 7393"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3610, 2748, 4094, 2393, 9887, 2716, 3815, 5181, 7667, 1616, 8507, 3509, 2437, 375, 8587, 2111, 7455, 445, 6835, 7703"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 347, 6659, 555, 1502, 7533, 2609, 8246, 690, 3790, 4940, 79, 1947, 1151, 9291, 7040, 9869, 3586, 3337, 2589, 2613"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5701, 7644, 3789, 5822, 2603, 9119, 4677, 8082, 569, 4464, 158, 3792, 4312, 4776, 529, 7715, 1749, 7066, 4394, 2721"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7061, 4894, 5722, 4167, 3818, 4175, 2521, 8401, 1236, 721, 6018, 1140, 5655, 8958, 7671, 7650, 867, 8454, 9676, 9480"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8771, 5484, 6852, 278, 8476, 6010, 6689, 1110, 7115, 204, 4404, 7728, 3057, 99, 9255, 1934, 400, 5026, 2487, 1363"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8416, 3042, 4771, 4139, 4282, 4809, 1681, 3250, 7705, 3027, 1439, 9769, 523, 245, 3837, 6470, 306, 5079, 9078, 4740"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4965, 1578, 4141, 9824, 4400, 9068, 6927, 4289, 6074, 2317, 7121, 1276, 7342, 7950, 1211, 129, 8779, 3367, 4669, 6495"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8162, 5106, 7531, 1102, 3495, 6140, 694, 163, 891, 4896, 9999, 3800, 5313, 7491, 8458, 7273, 2994, 9668, 7646, 1694"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9197, 9593, 2192, 9641, 8170, 4687, 8248, 1958, 3948, 5230, 3438, 1190, 6928, 4690, 7209, 6153, 2673, 1409, 8795, 3387"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9963, 9347, 9856, 261, 4501, 447, 8962, 9235, 6352, 6993, 5118, 7784, 1991, 6635, 7518, 1804, 8868, 6950, 9041, 1243"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 90, 6042, 2677, 9869, 5140, 8432, 436, 961, 4485, 8840, 6894, 8356, 4323, 2776, 6924, 4930, 4423, 6349, 2565, 5534"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5184, 624, 670, 5721, 5293, 5681, 1538, 4951, 6748, 1737, 2689, 1679, 3319, 6129, 3944, 9700, 4025, 9468, 4798, 3747"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5688, 7962, 9174, 4892, 54, 5455, 4561, 5004, 8269, 6342, 6754, 8986, 9986, 2863, 7138, 6440, 6219, 3154, 6934, 9308"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5134, 7483, 5532, 1933, 9190, 9355, 2107, 4128, 5237, 1797, 5403, 3967, 1398, 3458, 9857, 5529, 7427, 1735, 2868, 2527"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8837, 3550, 4247, 9164, 8421, 2899, 5175, 5237, 3493, 823, 6130, 4336, 7838, 3229, 87, 9093, 7659, 1948, 5898, 6561"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5936, 8979, 5076, 9963, 3570, 9802, 4916, 5247, 8753, 5219, 1863, 9007, 6916, 7752, 2094, 5512, 3481, 8539, 6659, 2793"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3429, 76, 120, 4364, 9207, 2421, 4773, 6143, 8230, 1966, 3311, 686, 4855, 7169, 8569, 1746, 5995, 4549, 6536, 7665"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 261, 3560, 7708, 6647, 9794, 3579, 6934, 5826, 2087, 9968, 3744, 3290, 5258, 4813, 9487, 7789, 3816, 9019, 8580, 6976"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6230, 5069, 5241, 2602, 2881, 5863, 2725, 7846, 333, 6663, 8750, 2731, 6931, 6973, 8781, 1065, 1847, 5896, 5395, 1665"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4237, 5065, 7384, 1170, 3922, 5550, 9260, 7157, 2037, 5092, 2660, 8883, 3093, 5249, 8202, 6274, 2316, 8841, 2726, 7598"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3144, 8371, 7935, 6867, 6605, 7431, 5984, 6553, 8627, 3930, 4840, 2536, 3273, 2271, 3010, 7652, 7767, 6372, 6260, 9232"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7552, 7731, 1726, 1275, 5668, 3605, 502, 7091, 16, 9486, 2031, 5589, 9813, 3246, 8132, 8073, 6689, 1065, 3068, 3944"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5232, 5144, 1959, 5446, 1415, 5896, 2277, 4126, 5313, 6854, 5977, 7049, 7736, 3029, 5075, 8886, 7137, 6004, 4617, 9132"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3658, 8277, 1992, 8591, 3743, 3825, 2278, 1162, 7088, 4892, 8949, 3370, 4969, 6028, 4380, 2309, 5353, 4475, 5010, 6798"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7199, 4743, 9558, 1266, 7632, 413, 7033, 5565, 6287, 6424, 7921, 5678, 8095, 981, 8687, 9537, 7801, 8351, 6867, 5776"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5126, 6843, 349, 670, 232, 9245, 3982, 6919, 2721, 3282, 6094, 3734, 6937, 1751, 5487, 5919, 9103, 4228, 4297, 1249"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6889, 5757, 9201, 4428, 2601, 710, 9119, 8497, 4201, 6668, 8091, 3455, 720, 5343, 680, 6545, 4385, 8539, 9162, 871"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4897, 4220, 4630, 9265, 1241, 1396, 3773, 1279, 1141, 3757, 4593, 7720, 7312, 8092, 660, 8263, 2365, 6247, 1784, 1337"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5698, 8705, 1341, 3198, 2996, 1651, 7229, 3594, 6065, 7496, 6536, 3797, 5213, 5247, 4950, 1117, 1545, 8669, 4346, 7328"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 68, 9562, 1070, 4617, 1883, 2831, 9095, 1518, 8128, 9138, 1880, 312, 6770, 5956, 3432, 7322, 9407, 6002, 3704, 2310"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8159, 3386, 4768, 8066, 4535, 4262, 5349, 6373, 2757, 4536, 4534, 4429, 8946, 1926, 8865, 948, 3919, 2729, 9854, 5687"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7695, 7500, 123, 843, 4820, 588, 1565, 263, 8120, 7342, 1708, 9025, 4651, 1076, 303, 4621, 3340, 5538, 460, 4768"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7099, 5, 2559, 5690, 76, 4416, 9731, 5952, 8985, 4429, 4195, 716, 3963, 5278, 261, 9633, 1661, 3162, 182, 862"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3252, 7485, 2610, 2754, 3654, 3290, 7357, 7542, 1214, 5957, 2332, 5594, 7760, 148, 4931, 9455, 883, 8590, 6011, 8420"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1496, 8183, 9484, 3565, 8310, 5522, 6344, 5587, 5077, 7931, 7284, 9065, 6009, 8781, 338, 820, 6906, 9753, 6352, 9283"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4482, 7328, 789, 4666, 3198, 2911, 9407, 5246, 8285, 826, 4064, 9584, 3581, 4791, 9252, 1772, 5518, 2930, 5360, 2115"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6599, 284, 4675, 701, 9097, 6429, 8663, 4034, 5377, 2682, 72, 8798, 4354, 5573, 3779, 9117, 9450, 3974, 287, 9274"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8136, 5086, 3215, 7691, 7635, 5335, 6008, 7661, 3082, 7417, 9996, 7544, 3110, 8933, 6791, 4799, 2412, 4480, 2462, 8746"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3097, 3984, 1491, 7513, 2170, 5483, 3426, 3793, 3963, 5519, 9456, 3552, 2058, 2780, 7266, 4162, 8348, 5036, 8018, 502"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6368, 6697, 9919, 1651, 1802, 7789, 1967, 5768, 977, 5965, 9813, 5342, 7072, 2692, 8563, 4285, 5525, 9249, 6601, 8681"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6516, 7787, 4284, 2112, 3205, 1886, 5136, 6566, 9547, 6299, 5932, 9111, 8888, 5711, 8623, 999, 4686, 7053, 9632, 2616"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4224, 2547, 5221, 5192, 5039, 8561, 6638, 91, 99, 5928, 2907, 7412, 4772, 7648, 5958, 1065, 9351, 2315, 9669, 5726"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6969, 3984, 9491, 6820, 2638, 7931, 9696, 8436, 9427, 1867, 1794, 1913, 4630, 7700, 4705, 2412, 4122, 5431, 1754, 7823"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2631, 5619, 1956, 8354, 5459, 2905, 9172, 7732, 8265, 7031, 3826, 2477, 6957, 9742, 760, 960, 8147, 8735, 5955, 3957"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9087, 4397, 8537, 1858, 395, 9243, 9866, 3101, 2594, 6150, 6951, 8154, 1064, 6871, 5758, 5760, 560, 3093, 6876, 6739"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4734, 3018, 3289, 8149, 4350, 2714, 6818, 187, 4408, 3109, 8177, 2099, 8442, 503, 1559, 143, 7370, 5940, 8291, 9076"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7062, 8560, 5286, 2322, 1862, 9948, 3810, 9626, 1952, 4635, 3077, 5803, 5102, 9857, 1572, 115, 9995, 1786, 2869, 695"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8047, 6128, 4325, 6895, 6006, 2220, 322, 344, 6506, 4390, 7737, 6057, 3730, 1711, 1574, 6310, 5177, 306, 1144, 2159"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1626, 6511, 9954, 2549, 513, 9800, 222, 4090, 5403, 724, 9570, 1440, 8911, 938, 4614, 3199, 1953, 1022, 9852, 8096"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2173, 6322, 4507, 4425, 382, 1480, 116, 9815, 9565, 2116, 6533, 489, 3653, 3073, 8465, 1894, 72, 9365, 494, 573"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5886, 4221, 7823, 7438, 6830, 4947, 7376, 322, 2409, 6824, 655, 697, 2039, 7147, 5728, 2348, 6774, 2220, 8468, 2756"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9445, 4640, 1742, 2888, 2796, 9850, 5342, 6940, 5244, 588, 496, 700, 7651, 4724, 9587, 5544, 3650, 1853, 268, 483"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2487, 9706, 6107, 6363, 1271, 1345, 9113, 4829, 7414, 9462, 9838, 7522, 2725, 4176, 9127, 4760, 6446, 1989, 6051, 3946"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2140, 9807, 9377, 2665, 6659, 1128, 6783, 5193, 2612, 7523, 201, 2989, 7800, 5683, 1867, 2190, 387, 1891, 8140, 4312"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2705, 3590, 4355, 2862, 5688, 4974, 7546, 3580, 6633, 2167, 2827, 3068, 4045, 1155, 7820, 8785, 2090, 7562, 6773, 778"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5428, 9651, 6788, 7711, 2531, 7280, 4339, 2727, 3493, 214, 5544, 3372, 1176, 8300, 9325, 8668, 3235, 8415, 2400, 6586"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 126, 3152, 7272, 8247, 4806, 5124, 3278, 1254, 2897, 8500, 5981, 4028, 6703, 6402, 7259, 6640, 2883, 3914, 9753, 1050"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5647, 1555, 9465, 7579, 7412, 3964, 3541, 6952, 3462, 908, 4897, 9641, 6543, 8960, 921, 490, 3836, 189, 5358, 9888"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5113, 1400, 114, 4121, 3819, 9574, 1099, 6582, 8638, 8482, 8252, 984, 4493, 6016, 3851, 1963, 1422, 5565, 3147, 8226"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3510, 5802, 5335, 1917, 3921, 4399, 5130, 6371, 3580, 8700, 3969, 415, 534, 7546, 840, 3875, 809, 2567, 82, 6989"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 506, 1563, 8983, 5625, 1646, 9312, 1263, 9942, 7902, 706, 4262, 9151, 8015, 3918, 4943, 9891, 5058, 6442, 1036, 1758"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8791, 7439, 8131, 2907, 3901, 8390, 252, 8242, 9860, 8891, 9117, 1463, 2773, 4842, 2210, 9486, 4067, 977, 6780, 3145"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 12, 4395, 8348, 8777, 2948, 699, 2767, 9323, 6071, 6674, 8307, 6641, 493, 4326, 6939, 4425, 906, 8370, 1717, 9460"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2884, 3663, 5796, 7071, 8318, 6942, 5091, 8141, 6073, 2630, 1951, 6706, 2194, 5373, 3045, 9271, 4403, 6537, 7943, 1797"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5861, 4174, 8861, 3280, 1806, 2799, 3114, 9477, 8270, 6450, 6537, 2555, 7269, 1002, 3787, 69, 3651, 313, 4229, 3507"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8156, 8939, 4210, 8309, 2913, 471, 1302, 1019, 4928, 3546, 5660, 7469, 4873, 9649, 1028, 6246, 6204, 4045, 606, 4744"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 227, 6889, 3891, 8501, 4380, 6237, 4263, 9080, 5742, 5221, 303, 8281, 1597, 22, 2001, 2494, 4959, 1292, 7995, 5269"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8712, 4937, 9955, 3336, 310, 3406, 7166, 96, 2618, 3623, 5968, 4214, 2860, 3626, 977, 9814, 3603, 6036, 1059, 8717"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9354, 5751, 1384, 3346, 5729, 8407, 3209, 247, 2357, 538, 6026, 8404, 261, 3831, 7409, 1592, 2546, 297, 7554, 2628"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9433, 319, 1911, 6474, 1873, 1168, 8139, 8699, 1435, 317, 521, 3704, 8510, 4937, 67, 7038, 3196, 8199, 3237, 5445"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7913, 6839, 2191, 8019, 8143, 2184, 9877, 8474, 6044, 8124, 5523, 9029, 3159, 5851, 9278, 6319, 6916, 7335, 9929, 9825"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1032, 4971, 3073, 7206, 8522, 1942, 8541, 2656, 8129, 9721, 3446, 4898, 3044, 6508, 7545, 9956, 4107, 7514, 8157, 8616"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3630, 9873, 8605, 6054, 944, 8994, 7139, 4526, 2923, 4032, 1492, 937, 2617, 9948, 8567, 8122, 4616, 1622, 5020, 3861"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6868, 7792, 9915, 6622, 1175, 3168, 7976, 8018, 9755, 7088, 6853, 3613, 5777, 3318, 3260, 7267, 3797, 6809, 7783, 3687"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9556, 5372, 7616, 3753, 75, 9837, 2981, 527, 2088, 9620, 6803, 257, 8893, 6877, 3885, 5761, 5675, 7826, 3076, 1891"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8487, 1455, 9075, 2053, 849, 6480, 5407, 7719, 4756, 5750, 8901, 9832, 17, 9104, 3435, 1513, 1632, 2787, 704, 9535"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1362, 3591, 7973, 2105, 564, 6529, 8697, 3186, 9515, 7069, 9936, 328, 6195, 3699, 2954, 4703, 3528, 8368, 5330, 5303"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1621, 9406, 8686, 2491, 2199, 3913, 8134, 3977, 7384, 5765, 9135, 4058, 5666, 6232, 5800, 5319, 947, 3204, 1570, 45"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7652, 8268, 9482, 8454, 4900, 6925, 7198, 9596, 1023, 2452, 247, 9820, 3886, 8915, 1572, 4833, 9134, 1355, 9391, 4986"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6059, 3546, 5383, 957, 913, 2707, 1841, 60, 2637, 7898, 6792, 4573, 6772, 6692, 9527, 8795, 1833, 7938, 9912, 9054"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9855, 1512, 7407, 9410, 1865, 3983, 1841, 1775, 9279, 1450, 6327, 5993, 3187, 7463, 8434, 699, 5491, 2646, 9623, 7602"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6650, 1612, 119, 1552, 3170, 2006, 7442, 5435, 2992, 413, 5501, 7633, 7281, 2636, 872, 6588, 1810, 9479, 1189, 7867"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8792, 823, 2066, 5873, 4965, 1043, 8997, 9344, 9916, 3512, 980, 3850, 1306, 4840, 9438, 1443, 3593, 3807, 2341, 9766"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7353, 2910, 686, 8107, 2351, 4713, 9515, 3977, 1955, 5553, 3941, 9842, 7420, 4225, 3436, 2745, 4093, 4907, 4567, 5467"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1660, 9772, 733, 1289, 5467, 1542, 2826, 1204, 1650, 6005, 7698, 987, 2271, 2290, 4041, 6818, 8455, 3374, 2906, 8007"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6126, 3146, 4177, 9329, 5848, 9272, 5179, 5313, 1045, 691, 7752, 9733, 4713, 4842, 8757, 2492, 5708, 5758, 2170, 2455"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6526, 6495, 2372, 9440, 1764, 4754, 1482, 7993, 4357, 1561, 7374, 6536, 443, 6162, 1706, 4418, 2926, 7058, 3899, 6207"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8743, 1824, 1855, 7560, 1893, 5465, 6856, 5401, 3937, 5412, 5372, 5336, 8455, 4003, 3985, 17, 1445, 9652, 7315, 8798"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1571, 2742, 559, 2245, 2164, 4797, 2499, 5434, 7731, 2334, 8307, 5525, 284, 9879, 1274, 2636, 6555, 3015, 2121, 46"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5251, 9699, 6601, 4063, 8306, 5467, 4245, 2584, 417, 2966, 8578, 1300, 3840, 7584, 8657, 8945, 7151, 9881, 2466, 3927"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9509, 9522, 726, 3271, 9725, 2106, 3269, 6683, 7137, 4228, 424, 3144, 344, 3884, 5043, 4976, 2290, 4975, 4578, 7557"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2220, 8986, 8813, 743, 3212, 1677, 7247, 4403, 8283, 5803, 3653, 8871, 3635, 5140, 7930, 732, 3787, 6965, 7611, 3039"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5463, 4518, 2489, 3682, 6751, 8565, 6179, 3226, 9162, 1152, 2239, 9123, 8658, 3017, 1662, 3715, 4983, 2609, 8041, 5973"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7146, 3472, 1173, 9188, 7661, 119, 5805, 3459, 9076, 4124, 9504, 5176, 5695, 6548, 7254, 5438, 1788, 5863, 2010, 2664"
+}
+]
+],
+[
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1394, 7540, 9507, 340, 1644, 7318, 8394, 7225, 7347, 7499, 8300, 3947, 7045, 3818, 4302, 7245, 4255, 5200, 2869, 4443"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4182, 6782, 6158, 3362, 6262, 5328, 7428, 2709, 3544, 7700, 3864, 3699, 2121, 2350, 6491, 3965, 7319, 6149, 7464, 6228"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2609, 9018, 925, 5642, 4316, 4506, 5584, 3611, 702, 4814, 5, 4613, 3001, 4619, 3590, 8605, 9837, 6290, 7581, 575"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 689, 4889, 7988, 5951, 9262, 4691, 7286, 5231, 6942, 2034, 8658, 4792, 4983, 2888, 6542, 1505, 3333, 6932, 6097, 616"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8031, 3484, 869, 1942, 4783, 5122, 6217, 4704, 2861, 7813, 2611, 1235, 8802, 7152, 986, 7528, 5632, 672, 2917, 1907"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9615, 7682, 9859, 1785, 3882, 2856, 883, 4634, 1867, 7577, 2693, 3703, 9817, 1164, 9107, 8154, 2769, 1931, 1270, 1209"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9971, 3033, 2267, 9735, 1069, 6088, 4707, 180, 6036, 2604, 3419, 6565, 4991, 2651, 2797, 7854, 4469, 921, 914, 6008"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7883, 5843, 6731, 1411, 2888, 695, 4178, 7288, 8208, 511, 7734, 3891, 9136, 4624, 6522, 4457, 1904, 8959, 7496, 8321"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6391, 123, 2624, 2641, 5620, 7983, 530, 2344, 9156, 9569, 4895, 9695, 4304, 8998, 9833, 1000, 6188, 3361, 6120, 7069"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5813, 8707, 1584, 2550, 1855, 9466, 1544, 607, 8049, 4952, 679, 9845, 7688, 3449, 3038, 7286, 3132, 4851, 7601, 3170"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3620, 4318, 6507, 6651, 6924, 9123, 9829, 8527, 8703, 5632, 7523, 1975, 7752, 4071, 2026, 2201, 8332, 5361, 5174, 9602"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9822, 5452, 698, 177, 9557, 6364, 7893, 462, 4105, 4595, 9296, 267, 280, 6714, 6667, 494, 4214, 7173, 761, 238"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1514, 7373, 7590, 30, 5696, 4475, 2950, 9540, 3737, 6814, 8915, 854, 333, 6576, 4370, 4146, 5891, 2712, 6720, 739"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4563, 3826, 6642, 7938, 9331, 9019, 1124, 9920, 3888, 8273, 3235, 7057, 3757, 3849, 2175, 7411, 1057, 5234, 9328, 3924"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5471, 5782, 2944, 8197, 53, 6820, 7078, 3438, 2926, 213, 6397, 7706, 7127, 8704, 2659, 367, 3065, 1988, 8199, 8229"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7871, 5378, 9625, 2923, 4487, 3223, 2879, 9705, 9247, 1665, 2492, 8786, 1241, 5303, 4262, 1959, 7439, 5399, 7870, 2572"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8758, 7144, 8474, 7610, 9089, 4611, 8612, 3138, 3387, 271, 6495, 1091, 8552, 9287, 7214, 1688, 1949, 1929, 141, 527"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6112, 9776, 2817, 4643, 9085, 3243, 6294, 26, 3804, 7615, 9069, 5135, 4470, 6271, 3140, 8065, 8733, 8062, 2603, 2345"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7759, 5791, 3231, 6709, 2885, 3950, 5681, 9703, 5989, 6696, 4880, 608, 524, 3125, 4681, 3540, 7692, 1547, 3704, 3687"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2226, 5546, 3867, 1902, 6866, 8607, 8028, 1462, 7355, 362, 8120, 9266, 9273, 3786, 7030, 4030, 6031, 4300, 375, 7119"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2463, 5983, 210, 3668, 8762, 6817, 3788, 204, 1215, 9799, 8811, 2385, 4725, 7638, 3364, 6944, 3782, 4956, 3116, 5470"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1768, 9941, 5406, 2306, 4582, 3309, 1595, 2894, 8823, 1787, 9126, 3435, 287, 4365, 7125, 667, 3976, 1536, 745, 5500"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1831, 4763, 6610, 4727, 142, 5387, 9330, 2878, 6649, 9354, 1048, 3804, 605, 3740, 3411, 6803, 3780, 7262, 8, 9493"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9105, 5115, 9984, 6233, 950, 9622, 2322, 5592, 2468, 7318, 3273, 8828, 9705, 1842, 4559, 222, 1868, 2769, 1632, 6806"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3439, 1934, 317, 8276, 7365, 8880, 4931, 8165, 9927, 2525, 5259, 6403, 8612, 6939, 5831, 8137, 228, 4765, 9480, 4087"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7732, 3737, 3742, 3713, 2340, 8240, 4233, 8977, 658, 8287, 5108, 4656, 8784, 9925, 5189, 5471, 4104, 4811, 6665, 9997"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8891, 1125, 3719, 8847, 5709, 3310, 1595, 1675, 941, 515, 197, 2143, 264, 4233, 183, 8291, 2180, 3180, 2532, 8610"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5727, 1735, 3637, 1166, 2250, 5560, 8982, 2175, 4261, 8145, 9613, 9679, 9241, 6154, 3522, 8494, 1244, 6912, 9407, 5389"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6047, 665, 2792, 1457, 9107, 1702, 8361, 1840, 4553, 9721, 8061, 2343, 5648, 419, 6639, 9005, 5412, 93, 128, 5026"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4426, 3738, 6357, 6655, 8674, 8160, 5259, 8833, 9924, 2004, 8019, 6671, 456, 4818, 1075, 2833, 9390, 8277, 2869, 1572"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2158, 4612, 595, 617, 1528, 2926, 2579, 5392, 8246, 5576, 3012, 6855, 6051, 3289, 2720, 2127, 441, 2222, 8358, 4344"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4508, 7948, 7218, 9286, 3247, 3307, 5873, 608, 5921, 9094, 6912, 51, 591, 9288, 1186, 9028, 9458, 6000, 5943, 4780"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6172, 8194, 5987, 9928, 592, 5425, 9341, 4819, 793, 4118, 3479, 4426, 2960, 57, 2059, 4700, 6919, 3884, 7913, 2366"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6941, 1055, 2648, 6141, 2887, 9151, 9399, 9937, 4501, 4983, 7816, 3459, 9493, 7243, 5460, 6554, 5297, 1641, 4733, 3748"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4434, 8520, 633, 9263, 2123, 3695, 5396, 8556, 6068, 2854, 8026, 2155, 4601, 8769, 2143, 5520, 6833, 9008, 1431, 2573"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1825, 3983, 2606, 3719, 108, 1514, 5206, 5951, 3527, 9353, 16, 3254, 5383, 3749, 5813, 7472, 9724, 676, 7831, 7198"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8455, 9841, 1977, 8944, 3028, 3504, 4349, 2930, 172, 1327, 6149, 7790, 9810, 9738, 4033, 9348, 1557, 3436, 1341, 7026"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9835, 8097, 9865, 5262, 1651, 2467, 1235, 3074, 4815, 2859, 9051, 2903, 67, 3503, 9775, 2715, 2735, 3268, 4184, 2065"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5010, 6392, 4901, 1258, 4326, 1388, 6148, 3375, 6015, 2389, 3079, 7491, 5655, 6365, 2096, 6823, 8002, 6611, 4956, 2070"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 870, 9, 5509, 5818, 4460, 4542, 2004, 6876, 2977, 4220, 7259, 9336, 168, 9446, 4136, 4678, 8902, 6875, 7772, 4117"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3128, 3101, 356, 6787, 3122, 9867, 8826, 6567, 9941, 7597, 4887, 2007, 8640, 1856, 8667, 983, 1347, 7621, 1053, 6382"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9411, 5676, 1387, 7004, 8514, 2606, 6588, 4827, 448, 5911, 8620, 2721, 5498, 1689, 3679, 9124, 1502, 5222, 7504, 2626"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5718, 3405, 8305, 8577, 4632, 1640, 5655, 8054, 6256, 4569, 7020, 4818, 3096, 2577, 1925, 6499, 4644, 3987, 7312, 1379"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1124, 3059, 2625, 1393, 6568, 4610, 2634, 3478, 6765, 5048, 7282, 492, 5311, 2831, 8736, 8994, 1385, 1079, 1354, 2056"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9772, 9103, 3918, 8416, 6013, 9140, 864, 3149, 4734, 2613, 8426, 2905, 7937, 7085, 4110, 4947, 7376, 8078, 1853, 1733"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9494, 1496, 6317, 8754, 7384, 7819, 7223, 5817, 3050, 8578, 1561, 9323, 4384, 3462, 2273, 741, 5708, 4022, 1849, 3565"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2215, 2277, 9101, 2954, 2638, 7906, 1506, 7173, 194, 8344, 5185, 297, 254, 2194, 5886, 5964, 9503, 4288, 8538, 9649"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5309, 1850, 9855, 4305, 9462, 2640, 7763, 8809, 1343, 8472, 87, 2976, 9861, 5201, 739, 4145, 1876, 1409, 1316, 4888"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 384, 7620, 4775, 4875, 1556, 148, 6909, 1561, 5335, 1444, 4243, 6347, 7362, 3378, 6605, 193, 3666, 511, 9289, 7001"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2020, 4329, 730, 6744, 2526, 9464, 8640, 4231, 9628, 7355, 1470, 7156, 9137, 2313, 3850, 6989, 3048, 672, 2082, 600"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2277, 2824, 9835, 3441, 2499, 7528, 6745, 5733, 401, 2084, 1305, 7568, 8435, 930, 9061, 4666, 6819, 993, 3557, 9950"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7179, 4419, 5145, 5903, 6144, 7185, 5055, 1542, 2465, 5791, 2086, 3814, 8461, 2583, 8697, 9818, 1176, 8685, 1672, 9985"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5673, 3158, 3759, 782, 45, 8504, 9977, 8207, 264, 3062, 2287, 4278, 1457, 4352, 3833, 8015, 8152, 8658, 8558, 1906"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7653, 9573, 8909, 7307, 1495, 4315, 2379, 9960, 9935, 7435, 7807, 149, 9555, 6128, 8377, 647, 3459, 2698, 826, 5680"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8486, 1449, 1686, 4350, 2922, 261, 3060, 5749, 397, 7934, 7825, 5584, 6752, 3230, 424, 7957, 8592, 8557, 9735, 2086"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3558, 8366, 7578, 9926, 8960, 8598, 2413, 8428, 8497, 7816, 4429, 4452, 278, 4183, 167, 8952, 3481, 4363, 7003, 9440"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1161, 579, 3929, 8446, 3547, 4628, 6857, 119, 9138, 6364, 2890, 7233, 7070, 3671, 3358, 5075, 22, 655, 1336, 717"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2876, 4054, 794, 7011, 8255, 392, 2217, 8214, 1007, 1597, 8446, 8440, 794, 1086, 3232, 6221, 7066, 3235, 3391, 6118"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 803, 2551, 3755, 3366, 4955, 9224, 8688, 5754, 1792, 3784, 450, 2497, 998, 6961, 7645, 706, 7368, 2903, 7158, 2780"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 776, 1782, 9836, 5003, 4201, 4885, 3312, 9278, 8420, 1385, 6856, 7032, 8950, 2281, 880, 1236, 8628, 297, 7564, 1276"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6753, 3318, 9131, 8312, 1841, 2217, 6892, 8283, 6574, 9482, 9542, 1578, 6449, 3378, 7059, 6966, 6112, 7233, 2814, 889"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5473, 1610, 2138, 5802, 90, 1635, 1497, 8898, 3671, 4637, 1949, 7026, 1881, 5060, 8683, 4884, 2986, 5289, 4442, 7091"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8531, 2137, 7497, 5543, 2668, 7992, 2341, 4662, 6923, 7904, 3753, 9463, 4636, 3292, 4660, 24, 1344, 2945, 1850, 2719"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5892, 2009, 6607, 3210, 1186, 5229, 8558, 5624, 4449, 7856, 2870, 4760, 1065, 9245, 545, 2663, 3816, 6777, 2280, 5283"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7894, 1237, 7108, 1158, 3607, 3522, 4982, 7676, 3722, 3502, 4738, 5347, 1648, 3166, 1792, 356, 1683, 277, 7844, 2887"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2296, 4736, 1798, 26, 2270, 8382, 4512, 6157, 7511, 8111, 3736, 9717, 7078, 2523, 3964, 868, 5658, 4188, 6376, 4487"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7363, 9079, 4070, 4408, 3711, 4917, 1190, 6100, 4355, 513, 5420, 4374, 4949, 725, 2092, 5989, 4274, 5591, 3209, 8772"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9085, 1511, 2655, 3445, 1048, 9179, 5996, 6140, 2746, 2694, 8865, 6836, 9985, 9797, 3315, 7758, 8671, 180, 5520, 5004"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1976, 451, 2689, 3289, 7763, 9963, 4227, 80, 612, 6680, 2134, 3204, 7370, 3959, 1414, 9543, 7542, 4240, 679, 7181"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7376, 5294, 5295, 4804, 381, 7162, 1350, 2702, 5339, 1852, 6322, 9275, 9135, 5164, 2043, 797, 149, 2084, 2212, 4853"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4286, 6390, 3379, 1641, 5363, 6378, 9734, 9438, 7510, 8394, 8619, 7219, 6300, 4006, 3016, 6762, 834, 9616, 4060, 110"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7361, 5481, 8998, 4522, 1455, 7550, 6904, 3148, 4535, 8717, 6655, 4450, 7625, 1191, 4828, 5646, 4104, 6170, 6480, 9971"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7958, 4036, 4387, 1037, 6780, 2944, 624, 5939, 485, 7965, 7653, 25, 1900, 8370, 8962, 4918, 8040, 8614, 665, 2662"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6732, 886, 1590, 6983, 594, 4542, 4799, 6365, 6024, 7346, 3023, 5244, 9154, 335, 3651, 444, 3438, 1522, 2497, 1236"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7258, 2048, 4274, 4163, 1270, 6991, 5209, 6027, 7141, 5331, 9072, 8636, 6401, 2377, 4281, 9733, 4766, 4090, 4955, 4820"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1895, 8227, 6120, 3796, 9891, 3628, 3394, 3605, 6675, 4827, 7053, 1351, 2786, 4539, 923, 9968, 5726, 9465, 6118, 9262"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1446, 9337, 4374, 4431, 9592, 8346, 8539, 3175, 5545, 8102, 4431, 1703, 3365, 7112, 8113, 3192, 1226, 422, 9517, 7565"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8296, 273, 9079, 2072, 404, 7888, 9494, 5484, 2283, 1087, 2276, 1467, 1922, 9788, 7606, 9565, 9172, 6529, 7122, 4019"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6210, 9243, 5555, 3432, 470, 5342, 4863, 6314, 7727, 3533, 6164, 8871, 3425, 4185, 2636, 186, 1304, 3438, 6855, 2018"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4517, 8384, 3852, 695, 4136, 7046, 6041, 2612, 1626, 8055, 3903, 5636, 4445, 6985, 8253, 4898, 3689, 5853, 6222, 3694"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8487, 5418, 7153, 1739, 6557, 6678, 2959, 2190, 1987, 2325, 8010, 7860, 2656, 5845, 3473, 4361, 4047, 7863, 9956, 2632"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 289, 3620, 1665, 7437, 9113, 4866, 5848, 1520, 1734, 143, 3744, 9163, 7315, 4635, 2657, 5227, 9696, 4709, 453, 9291"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3098, 5556, 1154, 2794, 9290, 5749, 3363, 9270, 8487, 9166, 4243, 232, 321, 5005, 5420, 7047, 3904, 1027, 2865, 2679"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3286, 6318, 5584, 3711, 4733, 1617, 8429, 911, 6522, 207, 6597, 7377, 3224, 5288, 9017, 402, 6515, 5363, 7575, 8827"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 140, 2096, 7236, 9360, 5770, 6789, 5675, 9678, 5986, 4707, 1113, 1863, 2303, 7515, 4304, 7096, 4397, 3445, 982, 3807"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1082, 1877, 4050, 2330, 1110, 5632, 8339, 4020, 99, 826, 3727, 9188, 2335, 4355, 1455, 4484, 2345, 4387, 2038, 6223"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9435, 7878, 7361, 5160, 771, 5829, 8763, 2543, 1915, 6677, 7854, 9441, 4378, 812, 2218, 5053, 4144, 5546, 8988, 5430"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5599, 4886, 9560, 7190, 5706, 1183, 7955, 1546, 3080, 2411, 2320, 3256, 7010, 1338, 4056, 7178, 2169, 8115, 7571, 2085"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6516, 7011, 1900, 8887, 168, 6012, 2605, 7049, 6777, 862, 6332, 4833, 5200, 1416, 8739, 6923, 3030, 7980, 4739, 2689"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5853, 3397, 3681, 165, 5471, 9651, 6963, 9213, 8023, 1320, 8683, 8427, 183, 7925, 5675, 2056, 915, 9512, 7923, 1122"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8210, 768, 9841, 5308, 821, 6641, 3456, 7889, 4067, 6428, 2781, 6589, 3107, 9199, 9490, 7230, 6336, 3017, 6197, 2843"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2016, 7910, 2144, 1167, 2594, 8967, 3695, 3874, 509, 2292, 9389, 9386, 4, 6655, 5783, 1613, 1410, 8010, 5033, 4300"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1695, 8640, 8741, 3815, 7204, 900, 4228, 7221, 6338, 9638, 6046, 4780, 3386, 3219, 9694, 9783, 9396, 7880, 6804, 6986"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5228, 368, 5271, 3982, 1118, 7114, 987, 1621, 5611, 9276, 2293, 330, 7249, 5333, 687, 6700, 8523, 6124, 7329, 8109"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8651, 1236, 1426, 7090, 3869, 7380, 336, 1061, 2979, 5217, 1902, 2967, 1398, 4403, 6776, 1936, 4005, 263, 6202, 2815"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8279, 8297, 5133, 8432, 2233, 3312, 1826, 6273, 9371, 6749, 5958, 1376, 5230, 1695, 5331, 626, 2556, 6513, 2230, 5640"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2691, 293, 9883, 4663, 1700, 1905, 5882, 7423, 4590, 8529, 1157, 2421, 3675, 8945, 4732, 8502, 3065, 8516, 3274, 7784"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4534, 7059, 2259, 2056, 2929, 2167, 1416, 5712, 9743, 8907, 4289, 2736, 8534, 3031, 718, 8878, 7631, 7523, 6354, 7094"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9809, 5536, 352, 5283, 4922, 1255, 4768, 1920, 9909, 4219, 7701, 7446, 5321, 5863, 840, 7633, 7827, 5642, 4322, 7098"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4766, 5798, 3539, 6395, 2839, 3588, 5325, 4488, 1903, 9235, 6754, 6639, 6544, 1793, 970, 9795, 4659, 6289, 9549, 319"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7471, 8794, 6292, 4814, 9723, 7765, 3995, 8826, 5681, 9508, 204, 242, 6806, 7838, 5107, 2653, 1513, 3462, 5502, 8308"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3270, 7005, 2597, 3609, 2510, 3955, 3385, 9846, 925, 6779, 9626, 9132, 3499, 2090, 2020, 8317, 4949, 1115, 272, 3307"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1903, 8339, 9403, 1344, 4789, 8155, 1959, 9031, 4921, 1494, 7300, 2485, 7919, 286, 7638, 6964, 9090, 4088, 9308, 3543"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9029, 3766, 3309, 9296, 5744, 2231, 7030, 6721, 3728, 3062, 2049, 7122, 6790, 6552, 664, 9426, 7730, 5062, 4840, 1727"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1008, 4573, 5164, 5170, 45, 1403, 3427, 8786, 1101, 4443, 5257, 9440, 3067, 7641, 6987, 7880, 7055, 8997, 1908, 4609"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5332, 7886, 5898, 9565, 6607, 29, 4897, 5596, 7439, 2299, 9418, 8028, 7843, 5920, 386, 179, 2221, 7889, 1977, 9363"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8106, 3612, 4094, 6904, 7486, 9909, 4910, 5566, 7896, 9572, 7416, 3769, 1496, 5927, 9792, 3386, 8157, 1712, 6266, 7420"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3753, 2432, 302, 4645, 9572, 7460, 9524, 4146, 2912, 8492, 8071, 6267, 4866, 4546, 1452, 1335, 4126, 772, 9876, 1219"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 275, 8148, 8410, 3220, 7668, 4034, 8472, 5459, 5986, 1877, 1230, 9153, 4500, 736, 638, 5453, 1561, 9668, 954, 518"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 799, 5443, 2047, 6098, 3073, 8634, 256, 6757, 7099, 3892, 1928, 9073, 95, 3394, 3507, 3869, 9747, 4369, 8050, 4273"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3722, 6321, 7730, 6306, 5374, 1823, 7396, 7394, 5210, 6583, 7457, 5462, 2744, 7101, 9314, 9898, 6289, 5297, 7700, 3161"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7247, 8014, 617, 9905, 7435, 3814, 9112, 9062, 7396, 1934, 4184, 9017, 9692, 9570, 9763, 3077, 9084, 2970, 2527, 516"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6552, 8083, 2425, 9039, 4612, 5500, 9847, 9707, 9448, 5936, 5383, 406, 1834, 8255, 9028, 1614, 5289, 6937, 3966, 5657"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9735, 6015, 5796, 6431, 8585, 7864, 5669, 30, 8895, 3761, 1556, 5372, 9572, 6741, 8016, 1651, 2753, 8127, 8528, 5760"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2322, 9951, 9493, 622, 3743, 9398, 7319, 6229, 4895, 2560, 4212, 7811, 3681, 4719, 7086, 7952, 6277, 5492, 2295, 5993"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1013, 5741, 4705, 4330, 242, 4624, 8539, 6652, 966, 7889, 3919, 1432, 6010, 8485, 3882, 3100, 3086, 4834, 5193, 9919"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 143, 7611, 8813, 8883, 8443, 6351, 3876, 4598, 9235, 8211, 9468, 6450, 8235, 3483, 4419, 6816, 2878, 2110, 6450, 2256"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6666, 3762, 5746, 3437, 3384, 1059, 9130, 3745, 9421, 8610, 7222, 5485, 910, 9672, 8989, 7773, 2483, 197, 4535, 4198"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 17, 9757, 8968, 2792, 8711, 8295, 8525, 1454, 9463, 3500, 262, 7104, 570, 5495, 7820, 6460, 5794, 6029, 6139, 2139"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 490, 5408, 8239, 2115, 2756, 5348, 7085, 6740, 939, 2148, 3781, 1564, 690, 2554, 998, 2581, 3508, 7583, 6349, 5965"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6429, 5521, 2681, 6177, 9614, 4443, 2648, 494, 1968, 9750, 7951, 8402, 2163, 3367, 6011, 4969, 4789, 1182, 2906, 985"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5549, 8057, 9626, 1863, 515, 437, 4876, 6339, 7364, 9288, 8181, 8827, 381, 3937, 8190, 6151, 8603, 2210, 9980, 3548"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 864, 3934, 4155, 936, 113, 7322, 2328, 2957, 3156, 6890, 2709, 7267, 5037, 5071, 6024, 6377, 1627, 1763, 279, 577"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1622, 9130, 3095, 7442, 6374, 7389, 8441, 22, 4434, 6844, 4957, 7215, 3662, 7218, 8871, 5830, 2331, 79, 612, 8599"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8206, 5194, 4846, 4056, 288, 4647, 5881, 4291, 2782, 1454, 5250, 1044, 6180, 6731, 9641, 3737, 3557, 8403, 2104, 8950"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 127, 3119, 5210, 2546, 4191, 4466, 474, 4534, 5734, 4636, 3944, 2601, 780, 1230, 280, 528, 8734, 8943, 3897, 6801"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1618, 4807, 7950, 1553, 9071, 4023, 4522, 4904, 5585, 9961, 7155, 1926, 2346, 4745, 4893, 7386, 7125, 6601, 6639, 5146"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 546, 3012, 4277, 9543, 8384, 3563, 3941, 5448, 8693, 6717, 8398, 9662, 837, 3387, 4080, 1291, 762, 4292, 1878, 1332"
+}
+]
+],
+[
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2825, 1094, 3993, 6653, 2659, 5995, 7483, 3714, 538, 5946, 5880, 4717, 6453, 1216, 1762, 5782, 5565, 1764, 61, 3142"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9224, 530, 7195, 7799, 1829, 3220, 6557, 6068, 149, 1016, 1927, 8410, 366, 3927, 3017, 2439, 9173, 9386, 6575, 7669"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7287, 3533, 9129, 8430, 7237, 8170, 7001, 3705, 7122, 9301, 3360, 7283, 8959, 5823, 1264, 3437, 9768, 6484, 2895, 2504"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9049, 6979, 998, 935, 7833, 2626, 8007, 6955, 1161, 4576, 8691, 4082, 499, 1215, 1546, 512, 4402, 8396, 2478, 2771"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1933, 8975, 2360, 2140, 9708, 7393, 9511, 8053, 9821, 1250, 7514, 3385, 9872, 7942, 6957, 7962, 4717, 1341, 536, 8689"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1257, 221, 6047, 8952, 7446, 6861, 7521, 8425, 1756, 69, 4595, 7780, 1124, 2518, 8738, 6842, 1083, 4270, 8834, 6052"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7704, 8920, 8772, 5011, 733, 7274, 408, 5678, 3029, 7726, 3156, 943, 8159, 2066, 3886, 2677, 9253, 6498, 5606, 1765"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 158, 7379, 2305, 5774, 6414, 3407, 9241, 5700, 5462, 8875, 6961, 4093, 2973, 8653, 8203, 966, 1801, 8676, 6346, 7412"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6029, 4054, 7333, 9020, 5032, 9216, 5524, 8437, 4328, 8927, 301, 8568, 5340, 8096, 122, 6686, 933, 5006, 4243, 2745"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3637, 2646, 4230, 4665, 6143, 2032, 9900, 9044, 7770, 8297, 4339, 115, 3138, 9820, 6025, 4538, 6903, 3166, 8527, 2909"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8542, 3868, 3006, 7647, 467, 4191, 493, 7788, 2905, 3799, 5375, 6864, 135, 3537, 1854, 8356, 9081, 6648, 8919, 7054"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9928, 3114, 4018, 2430, 1587, 8064, 5329, 5065, 8019, 934, 4869, 9152, 7929, 711, 4704, 9398, 2771, 7852, 7755, 3764"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5932, 6461, 2763, 9514, 2612, 5787, 8174, 9154, 86, 5324, 3525, 8568, 2585, 2073, 4040, 3027, 2514, 9402, 8732, 7494"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8413, 6631, 1483, 8750, 7371, 5561, 8024, 2762, 8519, 656, 9883, 4363, 8607, 757, 9218, 6634, 1374, 6778, 9898, 6277"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6245, 6568, 9435, 3403, 5567, 1163, 4948, 9520, 9109, 3352, 2816, 5823, 805, 7879, 1580, 8114, 9070, 8316, 2014, 8966"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5293, 4793, 3937, 2235, 2858, 1040, 1955, 8392, 8687, 668, 3679, 5024, 4295, 4772, 4118, 1807, 3534, 5044, 1853, 9579"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3905, 3491, 5081, 8890, 4134, 8830, 2981, 7681, 4416, 4718, 1071, 57, 7709, 9334, 6308, 3324, 7864, 4176, 4012, 7267"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 40, 5848, 7313, 8572, 7869, 3313, 4394, 1768, 8559, 7548, 3545, 7782, 8738, 4004, 284, 41, 8961, 928, 2410, 3687"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1728, 5467, 7612, 1449, 4390, 8499, 8808, 9055, 3137, 5269, 3562, 8660, 1092, 2969, 2686, 1350, 9382, 2854, 2930, 8671"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1559, 4103, 2807, 6804, 694, 4948, 847, 2384, 116, 6611, 2787, 5588, 5845, 115, 317, 1695, 5166, 5227, 3509, 1573"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 139, 7442, 7285, 6508, 2219, 9457, 6357, 9730, 9057, 4874, 807, 8178, 4727, 9866, 4628, 5839, 7511, 7045, 4290, 5287"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 684, 8053, 3971, 7749, 7972, 1274, 1628, 7801, 9347, 8542, 7311, 6976, 3542, 7379, 3821, 6448, 9452, 4562, 4808, 2020"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1630, 5579, 7577, 3592, 9848, 8903, 2060, 4695, 7208, 4972, 4527, 2417, 6158, 1352, 7964, 2363, 2722, 2664, 2134, 8950"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 569, 4381, 7546, 2040, 4970, 1468, 1942, 7668, 5775, 2551, 4092, 6421, 100, 5140, 6606, 4428, 3270, 9455, 7841, 2173"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1142, 6853, 6888, 8850, 3628, 8198, 1851, 1766, 2278, 658, 5084, 7491, 2241, 7010, 9408, 5650, 7731, 2222, 2719, 811"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3659, 3721, 4627, 7022, 7911, 2197, 9189, 6495, 4415, 1113, 3591, 3704, 3272, 7160, 8809, 8379, 4593, 486, 8731, 9405"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 153, 5766, 3339, 8336, 3673, 8116, 1823, 909, 689, 5647, 2795, 3913, 8475, 3238, 1207, 5414, 8396, 4135, 8700, 5008"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8183, 9686, 4653, 9349, 4625, 8906, 5302, 7540, 5519, 8558, 1344, 497, 8411, 771, 2863, 4205, 3530, 2556, 170, 1661"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4057, 793, 9921, 5606, 8888, 4299, 920, 1400, 806, 5884, 7961, 9436, 3461, 8926, 2297, 7141, 282, 6516, 3071, 6349"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2988, 2199, 9688, 2863, 9964, 270, 352, 122, 2849, 4209, 5498, 8763, 2193, 9480, 3374, 4730, 7459, 9217, 8844, 7008"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1140, 5672, 6403, 797, 3749, 2355, 5893, 3692, 1629, 6596, 989, 23, 6553, 7877, 9194, 9855, 5043, 5752, 8750, 3291"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3371, 9156, 7832, 3838, 2176, 5185, 1240, 5795, 464, 3647, 5143, 9541, 8413, 346, 7989, 6668, 3872, 9234, 7754, 2737"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 974, 9880, 3084, 6552, 571, 9065, 3836, 3536, 9111, 5491, 8029, 3205, 7746, 9150, 141, 2614, 5786, 8698, 9007, 1680"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 639, 828, 333, 3729, 8980, 43, 5027, 5757, 1624, 8154, 5892, 29, 471, 1490, 3241, 3893, 1529, 2407, 629, 7871"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9881, 9523, 7738, 3796, 5202, 4487, 1447, 796, 4024, 5835, 9517, 4666, 8644, 2726, 3262, 7136, 5094, 3906, 7152, 401"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9910, 9749, 3402, 3905, 3997, 328, 4732, 1087, 2907, 3225, 5391, 7058, 3448, 4779, 9612, 6872, 8836, 7609, 3016, 4655"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2365, 5676, 2425, 3136, 22, 5722, 6236, 963, 8274, 6286, 6753, 152, 8337, 5040, 9781, 6095, 4183, 5215, 1876, 7333"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8020, 7625, 3480, 2944, 5771, 3376, 1039, 92, 9536, 1779, 2011, 8642, 9674, 4743, 1473, 7339, 7426, 8526, 7529, 2851"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6327, 2173, 9512, 8833, 9994, 5203, 5513, 8537, 1162, 2592, 1180, 5121, 9992, 5606, 8446, 4098, 2855, 2939, 5285, 8650"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2301, 2110, 1055, 283, 7857, 7360, 3498, 5655, 449, 8231, 6464, 5067, 5896, 9144, 4844, 1078, 751, 2717, 8199, 2728"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3139, 2175, 5944, 5655, 3349, 5800, 6008, 2035, 7612, 5072, 4117, 8897, 96, 159, 4295, 2989, 8891, 6380, 1292, 9677"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3744, 2497, 9702, 1740, 5964, 3135, 4858, 7236, 6547, 1473, 4291, 1871, 8244, 4822, 720, 5749, 3717, 7530, 7808, 5920"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9003, 4267, 131, 3583, 2169, 5600, 6938, 5720, 6186, 4918, 9232, 5909, 4607, 1097, 2894, 2640, 4267, 6400, 4195, 8914"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 253, 4780, 9140, 3183, 5628, 6330, 5241, 623, 8128, 4266, 3662, 4916, 7604, 5771, 879, 2501, 5193, 4717, 2514, 8192"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9671, 4612, 4215, 2569, 4923, 9531, 3682, 1231, 720, 9852, 4748, 4785, 1519, 2528, 4738, 5674, 9788, 6698, 1112, 810"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4539, 962, 7652, 4697, 8202, 6280, 2397, 3290, 5199, 487, 5558, 8694, 1949, 2774, 2747, 5007, 5637, 4085, 996, 7379"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9187, 1604, 6312, 6460, 5010, 6806, 4746, 1103, 3357, 6007, 367, 434, 7983, 6479, 7824, 2029, 7095, 1197, 9489, 5992"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6056, 5531, 4956, 7087, 5065, 7897, 6618, 7507, 2918, 8665, 3419, 6117, 8712, 96, 8216, 1355, 3618, 5794, 2214, 5291"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1980, 3769, 4926, 9551, 4622, 3258, 163, 8820, 9810, 8450, 2890, 7223, 1850, 4194, 7938, 5863, 1713, 1115, 8664, 1179"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 62, 3906, 5634, 1331, 5634, 6316, 8927, 2540, 8654, 424, 6101, 7685, 9565, 6483, 5698, 2097, 2610, 9175, 2972, 5372"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5025, 7614, 879, 4343, 1855, 5964, 3939, 430, 5057, 3837, 1162, 8149, 7082, 7216, 3792, 4101, 748, 889, 2992, 9051"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2530, 526, 2963, 1538, 3929, 6390, 6378, 8380, 5276, 3434, 1435, 8974, 372, 7389, 1116, 9426, 7613, 8380, 6103, 79"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9292, 2552, 1044, 9597, 3067, 8181, 9187, 5570, 3617, 9712, 3443, 2403, 9275, 2493, 2505, 2166, 2196, 8853, 9882, 9627"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 806, 8045, 6989, 4931, 7186, 3620, 261, 2525, 521, 4488, 6225, 7933, 2242, 383, 2615, 1956, 6689, 4198, 5466, 2499"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2942, 9460, 9108, 4655, 8387, 2158, 1489, 7322, 1069, 1360, 9059, 6267, 1319, 297, 8727, 7841, 2527, 5065, 3047, 19"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4210, 2874, 9912, 2353, 9007, 9731, 8914, 693, 8826, 7026, 1871, 6767, 4744, 768, 108, 7489, 8422, 6167, 4712, 1989"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7035, 7671, 6154, 3041, 7191, 1875, 7918, 3127, 9256, 354, 9081, 8692, 4474, 7212, 452, 8795, 4427, 8941, 7220, 4414"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8631, 1000, 4967, 9309, 9887, 1934, 4814, 7857, 2981, 9951, 7874, 1390, 4577, 4646, 6416, 8934, 7789, 7260, 6230, 1248"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 116, 7404, 9121, 3746, 375, 2662, 3924, 2469, 7006, 7891, 3648, 2930, 8257, 4616, 652, 324, 2276, 4014, 4266, 8414"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9098, 3580, 4117, 8468, 5685, 9916, 5055, 6544, 6691, 7211, 4020, 8061, 9852, 418, 1589, 7955, 2786, 8766, 8862, 1431"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8200, 6863, 8940, 1082, 624, 5384, 5153, 9608, 1415, 753, 4715, 2866, 7859, 5773, 9165, 6351, 9807, 7181, 4062, 1252"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7413, 5793, 7525, 2542, 3818, 2426, 3242, 9628, 6211, 9764, 9408, 3045, 707, 4036, 8198, 6733, 4646, 6594, 5877, 1883"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3619, 3715, 3609, 467, 8833, 1267, 9046, 3427, 4644, 5482, 626, 4029, 8992, 4486, 696, 1569, 4677, 8349, 5654, 1371"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1001, 5302, 5852, 3967, 169, 1714, 1037, 4482, 5337, 3399, 8296, 3847, 2283, 744, 4364, 8725, 3520, 3343, 1384, 2584"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7411, 3199, 5498, 6190, 3935, 6163, 3306, 3395, 7617, 2928, 5632, 819, 4284, 144, 5262, 8218, 9765, 6546, 3016, 8497"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1401, 4673, 8789, 3061, 6823, 6360, 1563, 5501, 4725, 5566, 9355, 1618, 5789, 4055, 5728, 660, 3594, 9118, 341, 3870"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5066, 2856, 7608, 8985, 7480, 6373, 3493, 3792, 1361, 4069, 4811, 4602, 8625, 4088, 3867, 7622, 2546, 8179, 422, 5388"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8344, 8571, 4175, 7014, 8064, 5493, 3369, 1603, 9758, 9416, 8490, 854, 6667, 2792, 9833, 9466, 403, 119, 7884, 2819"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8820, 1082, 9359, 9429, 9572, 4329, 6442, 4235, 2525, 4008, 2350, 2251, 6528, 6097, 910, 1625, 4608, 1773, 5901, 117"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7853, 2611, 7543, 5753, 1312, 7057, 3302, 6389, 1188, 685, 7171, 774, 5769, 1581, 9076, 8301, 8405, 6048, 9402, 7114"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2434, 4650, 9468, 9754, 539, 4052, 4932, 7571, 997, 4869, 9955, 920, 6200, 6237, 2664, 8325, 676, 443, 2962, 3069"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3326, 6963, 778, 2642, 6207, 1129, 6907, 1370, 4959, 3487, 1777, 3142, 4417, 3776, 1931, 8765, 5832, 1577, 6395, 4132"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5432, 2971, 9245, 968, 9229, 1256, 8286, 4376, 7125, 4363, 5089, 313, 1062, 3981, 6615, 3996, 3127, 6610, 3342, 925"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6300, 6192, 8463, 3667, 3149, 8185, 279, 2110, 4156, 8198, 259, 4829, 5979, 7686, 1320, 6352, 7870, 9260, 2594, 3330"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9943, 584, 4116, 1277, 8115, 5586, 813, 2028, 4538, 5214, 4877, 9300, 9906, 2153, 4499, 2421, 832, 1334, 7198, 8670"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8893, 9592, 2673, 1758, 6711, 5324, 2261, 7841, 6312, 1877, 6573, 5001, 3581, 9105, 7673, 3565, 9363, 1795, 8294, 2698"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9496, 9106, 9730, 3365, 8514, 4940, 2317, 2126, 1528, 9633, 7270, 416, 1088, 11, 4471, 9617, 9295, 9444, 9809, 1347"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5463, 2207, 7634, 7865, 6731, 2754, 9103, 9999, 3101, 6718, 4028, 2943, 7046, 6615, 3350, 5562, 513, 1955, 6493, 3586"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8849, 4874, 5721, 6048, 1473, 5171, 930, 4064, 4571, 3894, 4478, 7048, 1262, 8203, 2240, 4511, 2439, 6065, 9536, 7783"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6380, 2369, 5398, 9310, 8543, 5728, 3500, 3156, 9662, 7890, 6447, 3500, 9094, 2140, 2631, 9269, 6700, 2479, 6996, 896"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8705, 2352, 3897, 2189, 5641, 6420, 8961, 4541, 2099, 8449, 2422, 7479, 8587, 8169, 5148, 6352, 8241, 9470, 3566, 838"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8013, 769, 8773, 4843, 2773, 8130, 4691, 5965, 8315, 6085, 8413, 3657, 3325, 3814, 7264, 5912, 2271, 1721, 3701, 3329"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6952, 3967, 1490, 721, 5768, 6778, 4506, 8780, 8806, 6389, 9714, 1640, 5171, 7167, 9354, 7602, 7828, 8172, 2651, 7643"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3437, 5405, 4007, 2456, 9685, 1368, 1625, 9565, 2388, 655, 1462, 2166, 6849, 9784, 4268, 2142, 339, 816, 9573, 8139"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3985, 5874, 1610, 7227, 4944, 5915, 7811, 3320, 1782, 4593, 3402, 1061, 3692, 1384, 8976, 8789, 2508, 9563, 5578, 3196"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6823, 4662, 8804, 6793, 4011, 2732, 7486, 5092, 898, 1689, 5368, 319, 1813, 4389, 3955, 8638, 1264, 6535, 2339, 4626"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 98, 6789, 716, 7666, 8231, 8724, 4704, 6287, 2042, 9339, 123, 6566, 6446, 8168, 9125, 9234, 5278, 661, 1695, 7440"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6927, 6730, 3671, 7620, 6046, 5905, 5781, 4166, 9985, 5286, 8325, 4256, 785, 3634, 5585, 4884, 9967, 3068, 4717, 4639"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5907, 7959, 1470, 6104, 4915, 8870, 3279, 3627, 7799, 5810, 776, 8132, 6813, 8369, 9588, 7661, 9620, 4820, 8085, 9634"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4980, 5213, 7923, 4422, 2141, 6238, 1757, 2349, 7049, 4258, 5457, 6576, 5999, 9276, 7423, 3350, 7667, 7111, 6326, 5577"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7317, 649, 7809, 1544, 259, 8642, 3468, 4753, 6452, 348, 1062, 6746, 7105, 9491, 9586, 3467, 9260, 2103, 3931, 1048"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6620, 9543, 3184, 4038, 9915, 3180, 5350, 5630, 8763, 6200, 4582, 7950, 4851, 6106, 5234, 986, 9426, 9907, 5640, 5573"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8951, 9366, 3185, 2806, 1141, 1116, 8675, 3869, 9167, 5896, 2367, 7486, 6415, 6617, 5137, 8221, 7067, 6099, 527, 3036"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4701, 9941, 7487, 2986, 6759, 3758, 8931, 6747, 4772, 4573, 2757, 1623, 9297, 5278, 2711, 3783, 3812, 8876, 3357, 2685"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3709, 8626, 1876, 9903, 9755, 3275, 3723, 5454, 4091, 8180, 5087, 1460, 1254, 3488, 9406, 8423, 5108, 370, 1255, 4256"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3092, 5837, 7160, 708, 5950, 5238, 6162, 2809, 9094, 3320, 457, 5823, 4665, 4616, 6510, 787, 657, 2890, 5542, 8424"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2890, 9724, 3943, 5974, 8166, 5166, 7579, 3203, 3240, 9923, 4755, 7197, 5216, 4219, 6454, 2999, 7957, 708, 1065, 8005"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2350, 2378, 2394, 1233, 7995, 9430, 4411, 2508, 6844, 9971, 7088, 199, 8193, 5509, 1168, 7428, 5493, 351, 80, 7670"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5573, 9516, 5920, 8364, 314, 9419, 2488, 5669, 5026, 2551, 6444, 8081, 9802, 3359, 8987, 718, 4624, 6756, 1765, 9212"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5533, 2030, 5468, 1134, 5940, 2391, 240, 2397, 8509, 291, 2431, 6919, 1055, 6643, 9238, 4115, 590, 4244, 6302, 899"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8840, 2117, 4058, 2208, 6584, 6542, 3041, 2723, 122, 1000, 2603, 4180, 1572, 9293, 6621, 8739, 8861, 3960, 2040, 6267"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3762, 5295, 5646, 3495, 385, 1367, 958, 6389, 5641, 3377, 3605, 5176, 462, 784, 4210, 8269, 2613, 5045, 8305, 8121"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5934, 5732, 4289, 4104, 3277, 7289, 1103, 7394, 4768, 5173, 2527, 3428, 4862, 3818, 1969, 5905, 8628, 2886, 6406, 2571"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5398, 4323, 2961, 5511, 8544, 8292, 4407, 6487, 8183, 7386, 6801, 7230, 6279, 9049, 2242, 154, 9426, 1094, 1123, 3623"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4541, 4018, 8114, 7327, 228, 1328, 2425, 1278, 1817, 8548, 8432, 6387, 8228, 4721, 1608, 4627, 5770, 2400, 2561, 3305"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8025, 5013, 7754, 4745, 9263, 1673, 5175, 3510, 5872, 3157, 5898, 4823, 1077, 9927, 1966, 9833, 7599, 3119, 456, 4139"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1032, 3426, 4389, 1163, 6118, 1790, 4592, 729, 5067, 3319, 5850, 9367, 764, 7155, 5261, 7383, 4096, 6556, 319, 1717"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2767, 2719, 1229, 3752, 380, 9667, 6272, 1489, 5478, 9619, 8951, 9093, 4043, 8030, 9983, 4633, 8359, 8555, 3582, 8932"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 997, 153, 7349, 6576, 5948, 4799, 9371, 9260, 679, 1258, 6260, 2966, 1924, 4874, 1788, 8625, 694, 1121, 5484, 4640"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9009, 8659, 3586, 6671, 5804, 9779, 8307, 3065, 6517, 3729, 7365, 9362, 3899, 6212, 3310, 297, 1757, 8361, 1230, 5945"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5286, 977, 1671, 3027, 4898, 1747, 3328, 9101, 7335, 782, 7762, 3460, 1732, 6581, 894, 3293, 1037, 7963, 7313, 5574"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5595, 2657, 3018, 7342, 2721, 9234, 8131, 2902, 4999, 156, 5, 2482, 3854, 5682, 8529, 1653, 4476, 9051, 2445, 8024"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5997, 3938, 3537, 7153, 4184, 8847, 2302, 2569, 46, 9406, 7936, 826, 5821, 9974, 3563, 3585, 5718, 8636, 6216, 7824"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8574, 4449, 9083, 5991, 651, 9475, 2543, 7877, 3306, 1762, 2889, 1975, 704, 1539, 542, 4694, 89, 7848, 6920, 687"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1210, 362, 7204, 2930, 8309, 5735, 9203, 6722, 1479, 1845, 6214, 6800, 9038, 1952, 1076, 2152, 4994, 9174, 6439, 8119"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8653, 2120, 8375, 4287, 4342, 9297, 208, 9917, 636, 4888, 8589, 7572, 3606, 1544, 4499, 6881, 5855, 6767, 2559, 8848"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1592, 218, 9704, 8394, 9243, 6021, 9423, 9596, 6223, 2385, 6289, 1776, 6581, 2878, 3976, 2767, 2938, 2062, 3750, 1676"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3968, 3837, 281, 592, 6747, 3917, 2389, 2962, 2569, 4232, 5192, 4983, 8687, 3481, 1646, 7421, 470, 7704, 5735, 5579"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1425, 363, 9355, 2025, 8825, 4575, 9329, 4933, 8849, 7093, 2775, 1002, 6851, 9452, 1715, 5173, 2859, 4581, 6447, 9103"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3770, 4588, 2193, 6390, 6321, 3952, 5365, 3332, 7069, 8868, 6650, 6660, 5014, 6378, 6306, 6844, 2637, 6105, 8038, 2732"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 540, 1803, 6900, 8457, 8057, 4247, 4005, 456, 5507, 3651, 4191, 3709, 5041, 7923, 7820, 1383, 6935, 9603, 2129, 5153"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6349, 6934, 8403, 7830, 1721, 9391, 9730, 670, 4845, 1088, 527, 5569, 6749, 4987, 5516, 5627, 9114, 2156, 8670, 1974"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1769, 4224, 2426, 4214, 5042, 2395, 8120, 9753, 5804, 284, 5546, 8636, 5264, 9742, 5931, 5531, 8981, 5185, 5730, 7972"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3393, 6329, 909, 9451, 5908, 1866, 9492, 1837, 2130, 1384, 8112, 1519, 499, 1697, 3934, 6062, 5371, 9264, 5076, 5633"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3414, 5472, 2565, 5586, 7656, 8275, 8467, 6357, 5114, 3234, 6317, 1752, 6368, 1994, 5259, 4105, 3914, 8715, 2363, 3480"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6362, 835, 4520, 7725, 358, 8581, 112, 307, 5533, 8526, 2203, 1185, 1160, 8745, 6938, 2183, 8200, 1844, 3906, 3450"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9454, 887, 1863, 1025, 1417, 4516, 7872, 1859, 1937, 7421, 7805, 4477, 4187, 931, 4498, 6047, 9552, 8522, 2458, 5454"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8040, 4533, 2059, 851, 8793, 6324, 1559, 6036, 9081, 9405, 8878, 131, 7128, 3654, 2305, 9200, 8279, 9224, 7200, 7554"
+}
+]
+],
+[
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3477, 3312, 8125, 4280, 8345, 6604, 7134, 3312, 5529, 8200, 6367, 2527, 9882, 7380, 497, 7019, 6751, 6716, 6214, 116"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5182, 2770, 7308, 9236, 3254, 5713, 4464, 3846, 5091, 8088, 7324, 7289, 6550, 3080, 8997, 4231, 5061, 8995, 1178, 9231"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6348, 5512, 1265, 2864, 1329, 5671, 3213, 1179, 9629, 4376, 6202, 5720, 7567, 3451, 7573, 6845, 4873, 5219, 1307, 2579"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4132, 5163, 6843, 5991, 493, 8476, 8626, 8263, 68, 7064, 3005, 9863, 7618, 2943, 4813, 468, 617, 3143, 4849, 2032"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7108, 3775, 281, 6052, 3912, 9195, 6595, 7059, 8204, 2178, 2476, 4214, 7689, 7198, 291, 3933, 4552, 6064, 3110, 3037"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 435, 8288, 1407, 2655, 6123, 925, 8317, 9049, 5201, 1790, 6707, 6512, 5008, 5853, 9618, 492, 1544, 7950, 3885, 1240"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9525, 1392, 812, 9648, 7009, 7787, 4457, 8160, 1688, 9764, 2722, 4908, 318, 3275, 2103, 5329, 9776, 6569, 5810, 8156"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1338, 7078, 3386, 2139, 2841, 8263, 8668, 4071, 2569, 1798, 7920, 4945, 4667, 4315, 7527, 7767, 5212, 6395, 5457, 4658"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5319, 3009, 8921, 2065, 43, 1691, 3201, 5337, 7759, 3449, 2511, 3414, 8432, 9363, 3467, 4363, 1879, 1428, 5253, 9943"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5918, 2243, 4297, 8677, 7822, 322, 1536, 6882, 2239, 5092, 1244, 2283, 5457, 6393, 5296, 9898, 365, 6794, 4601, 6240"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5426, 6288, 8147, 2079, 3205, 5501, 2558, 2057, 404, 412, 1671, 5017, 309, 2797, 8170, 7208, 2100, 1477, 9881, 9905"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 999, 2333, 2388, 7941, 4772, 364, 2873, 2029, 9066, 6945, 5761, 2700, 5702, 7511, 580, 978, 9512, 9619, 7472, 5415"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2112, 8440, 9245, 2454, 3289, 6674, 222, 3418, 7916, 7091, 8631, 4108, 2146, 2482, 1032, 8439, 8004, 7009, 2286, 6275"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4381, 6393, 3083, 992, 1575, 7368, 8153, 8894, 4159, 1147, 9280, 7281, 8217, 4514, 2132, 4614, 6560, 3515, 818, 2227"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 735, 9046, 4058, 5090, 2235, 437, 7261, 8782, 8691, 4815, 829, 6101, 481, 3277, 6583, 9169, 7266, 6233, 1118, 2744"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3692, 7787, 3993, 5472, 4328, 1190, 591, 5863, 7488, 22, 822, 8536, 7984, 9319, 3476, 4470, 4209, 1260, 5645, 7095"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3166, 2054, 8725, 6323, 7442, 9211, 6283, 1640, 2770, 3117, 2781, 4250, 856, 8873, 1539, 809, 5495, 5089, 4396, 931"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9268, 816, 4743, 2574, 9591, 9283, 3863, 7182, 2931, 9023, 4042, 9962, 2350, 4687, 9227, 8627, 5992, 9463, 9154, 2198"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 36, 5626, 1627, 6300, 5456, 7273, 4548, 8960, 2166, 5736, 2128, 9297, 7583, 4237, 113, 8736, 5594, 5580, 7177, 3946"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1084, 7165, 4908, 521, 3172, 4754, 7951, 9498, 4348, 6092, 478, 7975, 1119, 5871, 9823, 2495, 8580, 9211, 3400, 3323"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3950, 2324, 2274, 6278, 8988, 9501, 5714, 914, 3629, 5161, 3395, 7259, 2921, 8248, 2569, 3623, 9769, 4885, 4577, 8942"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2946, 9763, 8452, 7669, 8700, 5664, 3596, 9583, 8539, 8559, 6007, 3551, 6322, 616, 3032, 5929, 9451, 8465, 2851, 6811"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6389, 5144, 465, 7970, 6271, 8758, 9240, 787, 2642, 4042, 6647, 7376, 5656, 5985, 5021, 8654, 887, 8124, 6842, 9612"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5587, 1908, 5742, 910, 7146, 3466, 83, 4629, 1369, 4299, 6228, 4266, 3705, 2962, 9895, 3904, 2273, 376, 8470, 3730"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1018, 2762, 1984, 3539, 3908, 3050, 5208, 9184, 4410, 9561, 2919, 2886, 938, 3992, 2076, 9195, 3119, 2356, 2545, 8958"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1994, 3093, 9014, 6698, 8501, 7329, 1203, 4164, 4131, 4404, 1587, 1163, 8731, 1419, 9717, 2025, 7859, 967, 8197, 316"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7057, 3812, 5011, 2848, 6725, 2166, 5613, 4121, 7413, 3154, 341, 2858, 2747, 4587, 3883, 6088, 6825, 3568, 6700, 2187"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2265, 1622, 1150, 7141, 4082, 5580, 7518, 5106, 4287, 5659, 3700, 4099, 5939, 6939, 5846, 2779, 400, 8947, 1639, 6142"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1867, 6194, 1894, 7638, 3852, 2648, 9837, 506, 6230, 3939, 5899, 5676, 6537, 5742, 4535, 7083, 9859, 1690, 3029, 1887"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 0, 1051, 8615, 7620, 7452, 7411, 4442, 5130, 4912, 983, 900, 3755, 2919, 6954, 2491, 378, 5628, 1127, 7635, 2309"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1759, 9138, 7574, 7694, 7521, 4432, 6414, 6747, 7931, 4968, 5167, 8880, 9916, 6585, 9433, 9127, 441, 479, 2250, 4984"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2434, 1148, 217, 8345, 1808, 3662, 5824, 5514, 9149, 1130, 9565, 9154, 7740, 7874, 8942, 5701, 7236, 4483, 6775, 8256"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2221, 6661, 7335, 6993, 9195, 597, 3935, 4023, 7570, 6514, 724, 8825, 4612, 4627, 1747, 4700, 2081, 8067, 443, 6671"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2911, 2065, 8099, 9872, 8444, 5263, 3956, 6432, 4252, 4224, 5656, 2490, 2748, 5340, 3283, 2575, 7415, 4013, 6282, 8083"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2482, 1146, 3614, 5720, 5764, 4217, 524, 4355, 455, 1789, 7322, 671, 7789, 5752, 1364, 8510, 5511, 3709, 2555, 54"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1030, 910, 6375, 2287, 9667, 4858, 5577, 4546, 6886, 5698, 3750, 6934, 4744, 3130, 756, 6333, 7712, 3369, 8303, 6598"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 581, 2092, 3208, 431, 4609, 4866, 2450, 297, 8439, 8762, 1360, 3343, 4609, 1587, 8925, 18, 2557, 9569, 2338, 1307"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2758, 1036, 5056, 1837, 8888, 1768, 315, 9226, 8130, 4094, 8358, 3972, 9125, 2221, 4915, 5733, 4048, 3159, 7341, 8808"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4512, 8910, 3622, 4750, 2062, 5150, 997, 7902, 3259, 9312, 3335, 5879, 5275, 3666, 8721, 718, 7205, 2832, 993, 2412"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4270, 6009, 2774, 9882, 1470, 5057, 1618, 9431, 6707, 8839, 1846, 7784, 7099, 9700, 9637, 8392, 5409, 9305, 4357, 4677"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2218, 1175, 6104, 4332, 9415, 6036, 209, 6624, 3918, 689, 3486, 5125, 1327, 2159, 5939, 4192, 306, 9284, 905, 6218"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6042, 944, 4077, 7947, 2547, 4579, 9104, 4210, 3516, 1109, 4849, 623, 1209, 2203, 7252, 7689, 2662, 5689, 667, 8547"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 475, 4679, 3858, 8561, 9033, 3369, 1430, 50, 7688, 8087, 1481, 9857, 401, 3644, 5632, 9667, 1755, 3664, 5038, 8681"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4582, 4122, 3296, 3811, 5413, 7028, 8035, 9069, 8545, 1770, 44, 9913, 6157, 701, 6703, 2138, 6604, 4764, 8783, 2008"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 349, 1374, 2460, 3213, 7337, 1434, 571, 7643, 2039, 785, 1689, 3354, 5789, 3862, 8176, 5104, 5833, 7817, 7256, 1313"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1855, 9005, 1064, 2554, 4351, 1710, 4949, 31, 3764, 713, 9790, 8667, 6318, 7484, 3752, 7821, 4792, 9300, 1505, 844"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5901, 9012, 1226, 2007, 1156, 8217, 6469, 6021, 5291, 1597, 3746, 7511, 6402, 2288, 7409, 3533, 3731, 4396, 2590, 1005"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6829, 8156, 3140, 8571, 9089, 7492, 8225, 4743, 1372, 1149, 6530, 7154, 8361, 2502, 4644, 3259, 4801, 9231, 1696, 820"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1877, 2608, 2582, 1359, 6145, 3206, 6384, 3801, 3976, 5941, 2147, 728, 9570, 9468, 9859, 7442, 3185, 9222, 5884, 7774"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 72, 5687, 2615, 4711, 2632, 5868, 3408, 5103, 8975, 2550, 3628, 428, 3037, 5055, 5535, 5045, 1768, 8572, 9205, 1961"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3334, 7921, 6534, 6875, 441, 7162, 9733, 9767, 4832, 814, 6315, 2914, 9719, 4556, 784, 7702, 8559, 1122, 1235, 7825"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2916, 4998, 7608, 9779, 4928, 3760, 7651, 879, 5357, 9026, 9003, 9784, 3150, 2647, 1104, 1956, 2148, 4561, 9686, 2813"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5296, 2005, 3358, 9646, 5132, 3432, 4492, 4898, 3031, 536, 9471, 5463, 7301, 9237, 857, 6446, 2197, 7687, 9466, 2301"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 978, 4710, 319, 3279, 477, 707, 8040, 5102, 4369, 3043, 8180, 7877, 7025, 5459, 46, 4261, 897, 7264, 104, 1525"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 896, 2655, 8466, 9719, 717, 6684, 4759, 582, 364, 1110, 7192, 6742, 636, 9801, 5073, 6034, 2371, 3855, 224, 7957"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3127, 6852, 9856, 3508, 5297, 1322, 3273, 5360, 7048, 3581, 9628, 8769, 8544, 1602, 1622, 8194, 3461, 5382, 1438, 9455"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9219, 4487, 1986, 7917, 3371, 1138, 9034, 4557, 2147, 9762, 6239, 162, 3478, 3108, 7562, 7044, 2076, 608, 9912, 1445"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 885, 3558, 9549, 4676, 3229, 3493, 1767, 8446, 5092, 6075, 7938, 6432, 7609, 914, 3295, 8106, 9259, 8916, 1765, 2082"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9689, 5117, 6828, 6800, 3183, 3401, 6335, 854, 9326, 475, 3203, 8141, 4717, 4064, 4487, 8531, 4170, 681, 6893, 7250"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6426, 6077, 1949, 1455, 9497, 5658, 5325, 4959, 8093, 1505, 7133, 6922, 742, 9777, 4521, 9620, 7521, 7000, 9116, 3650"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9056, 7710, 5076, 4075, 2288, 3762, 4288, 1320, 5360, 7104, 6588, 8945, 4079, 9728, 5485, 8844, 2019, 1288, 6417, 9412"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9120, 6729, 6164, 9929, 9193, 112, 2096, 6972, 8523, 6117, 9657, 2219, 4660, 4937, 6162, 9041, 1490, 9344, 7009, 2547"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2492, 6423, 1706, 3159, 1848, 8208, 1652, 4468, 8195, 8505, 2518, 5573, 5489, 1480, 4764, 9467, 8870, 3818, 2642, 2249"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3495, 6148, 8563, 960, 2291, 6098, 9300, 4269, 4108, 5318, 4552, 1521, 9061, 1730, 9410, 7060, 4274, 7621, 1658, 3626"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5109, 179, 3318, 3818, 1398, 8, 5916, 1980, 2282, 751, 8000, 7526, 8393, 8970, 2959, 9412, 8367, 2758, 5324, 1553"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8177, 219, 9418, 4379, 9411, 9856, 4965, 7147, 9045, 20, 659, 318, 6485, 8544, 8550, 950, 780, 3748, 2654, 7290"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2020, 4480, 4649, 6774, 1886, 2020, 4713, 8800, 2807, 290, 3406, 4196, 8848, 8200, 547, 1051, 5097, 8837, 7820, 5773"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4144, 9184, 2256, 4753, 2056, 1993, 9146, 6554, 1445, 1907, 5256, 2569, 6053, 575, 9432, 7274, 9115, 291, 2727, 2654"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2539, 2464, 7989, 1207, 6418, 9175, 5226, 4644, 9862, 1999, 4110, 8178, 318, 5324, 1962, 9162, 1481, 6526, 7682, 606"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9194, 3783, 6102, 6757, 9666, 4185, 963, 1966, 9988, 9311, 640, 3277, 6092, 4050, 1841, 9164, 151, 2221, 6098, 2204"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9935, 7235, 8641, 6410, 3308, 3079, 6747, 2142, 2747, 354, 6553, 2840, 8430, 5797, 379, 365, 4217, 7735, 575, 7476"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7019, 4210, 2005, 1052, 8779, 8231, 5954, 611, 4596, 6897, 5386, 3502, 1540, 2164, 3167, 5303, 476, 8318, 9744, 7795"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9129, 462, 6783, 123, 580, 3159, 1982, 8724, 700, 6537, 9279, 9320, 1695, 956, 6708, 5764, 6339, 8697, 6636, 4567"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6137, 6224, 4939, 1939, 3412, 7666, 4666, 3739, 4302, 9509, 2328, 4423, 909, 7580, 8874, 5440, 4917, 4499, 4424, 5457"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8293, 7540, 2989, 2154, 488, 5414, 3326, 2645, 4343, 4888, 1392, 9705, 2474, 8184, 108, 7295, 7607, 3703, 5239, 3630"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 61, 4694, 7695, 7508, 2862, 5560, 7634, 1652, 9433, 7666, 3710, 3868, 7210, 164, 8690, 8441, 7833, 7144, 6498, 3135"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1352, 5616, 7431, 5165, 9438, 2016, 4225, 6023, 3704, 7439, 2532, 4842, 7979, 6344, 4731, 6796, 3959, 5715, 5522, 3716"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7394, 660, 5956, 6343, 798, 5161, 9137, 7529, 552, 2587, 1297, 7578, 6108, 8606, 1713, 3706, 1625, 4096, 2082, 7240"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7219, 3460, 481, 2784, 2828, 9745, 9564, 3078, 196, 5202, 3991, 1291, 2727, 5454, 1535, 2844, 3981, 9152, 9802, 6365"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8792, 2302, 2761, 204, 9626, 4534, 1296, 1082, 1479, 357, 1900, 4105, 1003, 2240, 6154, 1425, 4582, 1650, 5222, 428"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6959, 658, 2192, 3593, 9463, 541, 7708, 3487, 7160, 8130, 8558, 2035, 7905, 3768, 8472, 362, 5918, 2337, 2559, 1986"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6420, 6363, 6398, 8380, 2976, 6977, 7638, 3151, 3991, 530, 3202, 148, 5806, 1021, 5126, 5350, 857, 5463, 3557, 5227"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3589, 8046, 1546, 6982, 4983, 5703, 262, 4180, 3726, 9682, 2037, 5935, 8018, 808, 9164, 5685, 516, 8598, 3363, 9530"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1007, 9541, 7612, 7003, 1826, 6027, 4908, 4304, 6057, 920, 9144, 7656, 9331, 9424, 2520, 5811, 7266, 7798, 5725, 7031"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4683, 7850, 5272, 7493, 6612, 2732, 4794, 2343, 9019, 2557, 7199, 4841, 4709, 9409, 112, 7310, 5520, 2371, 8940, 876"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6475, 2941, 6427, 3300, 8553, 4808, 4944, 3472, 2470, 3431, 8786, 2400, 3065, 6565, 2910, 1834, 8868, 5044, 6968, 6336"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4382, 6510, 6524, 3019, 5434, 8131, 9704, 4846, 8769, 6416, 4446, 6695, 3243, 8049, 1407, 8379, 9192, 7501, 888, 3526"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1792, 1573, 9862, 4921, 7242, 8769, 1062, 7499, 1537, 831, 226, 1432, 8433, 6517, 7509, 6227, 4218, 1913, 333, 6364"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8588, 8052, 4614, 9175, 7087, 8143, 811, 8899, 1818, 86, 1688, 4517, 33, 5177, 4684, 7282, 3179, 6557, 4661, 5562"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4857, 5222, 6352, 9587, 4076, 6882, 5835, 3738, 8692, 7058, 5381, 4278, 8073, 3136, 8799, 9964, 3962, 6623, 9966, 9430"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9575, 7443, 3260, 4636, 1498, 8338, 1297, 9794, 9515, 4860, 3785, 8673, 5401, 1109, 5828, 5630, 1614, 8304, 9536, 8480"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1595, 9394, 5900, 8845, 7568, 6480, 6141, 3159, 1535, 50, 1350, 3952, 2961, 6557, 3903, 2541, 6033, 6947, 2630, 8751"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7426, 4497, 4331, 3174, 1308, 1307, 7849, 3049, 2430, 1588, 1206, 3384, 3462, 7877, 4359, 4148, 736, 2638, 9726, 6033"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5765, 5198, 234, 8229, 7945, 5331, 3067, 7251, 8341, 4665, 5763, 294, 2696, 1950, 355, 2778, 7940, 9893, 9998, 9903"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2881, 2915, 1700, 8700, 7014, 1912, 905, 4833, 4217, 6067, 5299, 7450, 8100, 1759, 9647, 5340, 6873, 3637, 9969, 1701"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1137, 3908, 7976, 924, 1666, 5788, 2406, 3553, 4018, 3273, 4753, 3467, 5734, 837, 7898, 216, 2899, 9463, 7020, 4162"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7802, 4195, 5167, 3700, 2946, 3253, 7634, 6932, 8364, 1238, 4420, 1594, 8060, 1460, 3090, 1615, 9179, 7982, 3452, 9007"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9232, 9836, 1394, 7769, 7224, 8924, 9945, 6996, 2507, 8088, 7274, 1889, 4919, 6018, 7105, 1854, 8081, 987, 8994, 3713"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7729, 3221, 1223, 411, 1591, 2712, 1919, 7319, 6326, 227, 239, 898, 4112, 1362, 7593, 8054, 3448, 3474, 8860, 7415"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8061, 5528, 3928, 744, 3444, 9197, 6112, 5807, 4997, 6656, 8529, 6913, 9545, 539, 4057, 2445, 7219, 1853, 5732, 9432"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5806, 2380, 6761, 9309, 6470, 1458, 5892, 436, 7151, 8962, 5398, 8426, 1780, 8436, 4755, 6264, 2494, 2583, 9379, 5847"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 782, 9745, 6977, 8080, 8074, 5818, 5322, 66, 9951, 998, 8004, 7970, 622, 585, 5720, 8761, 2630, 5714, 3745, 3540"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8907, 4587, 38, 7953, 3607, 6872, 4003, 6953, 625, 9716, 1979, 2695, 1386, 3298, 8526, 1424, 2278, 8049, 2000, 8487"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3294, 5417, 1004, 7188, 9954, 5423, 9820, 88, 9739, 74, 5692, 2261, 60, 5657, 3197, 1633, 2152, 7883, 5615, 6033"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 9675, 8235, 7476, 1438, 7930, 9765, 3602, 8768, 8520, 8574, 5958, 7323, 3690, 4625, 6412, 5520, 9677, 3801, 7696, 9429"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 247, 1048, 4587, 1236, 2873, 7544, 6038, 4257, 9302, 1202, 9934, 3939, 1246, 1700, 8142, 965, 1249, 2312, 2803, 9620"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8381, 9137, 4913, 3411, 7529, 5403, 3219, 7590, 1163, 3523, 7759, 6688, 8859, 1147, 2012, 3703, 3920, 1995, 533, 8782"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 2500, 9204, 1345, 1827, 1643, 33, 4005, 9851, 4327, 7719, 1727, 991, 1509, 3133, 7514, 252, 6498, 9416, 145, 5010"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5333, 5807, 4519, 4658, 8696, 6567, 5619, 7198, 8166, 2884, 1317, 4306, 8667, 3023, 923, 3704, 785, 3940, 3814, 7988"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7545, 390, 6513, 3211, 7412, 8000, 9147, 2573, 3633, 6465, 3253, 2443, 6393, 8437, 7844, 1083, 9029, 6165, 2269, 4644"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 524, 6161, 409, 4373, 4479, 486, 6759, 114, 3917, 2183, 5928, 3410, 5477, 2943, 6095, 3547, 9391, 337, 9868, 7531"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4992, 9631, 7454, 1370, 1194, 5382, 844, 4990, 238, 926, 7950, 3996, 819, 1580, 9965, 2820, 6815, 7070, 6692, 9610"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7477, 5624, 5409, 6072, 2449, 2751, 3497, 3139, 6449, 9259, 1458, 2895, 1245, 4495, 9535, 3468, 4426, 3440, 2888, 694"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3477, 3891, 5377, 1112, 3059, 8794, 9352, 8596, 9684, 3822, 162, 836, 2184, 7870, 61, 5403, 5539, 7204, 5884, 498"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1004, 7909, 4400, 6592, 5672, 9924, 1834, 6800, 4322, 8422, 6074, 890, 6586, 110, 7211, 7474, 5625, 5731, 7902, 8746"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8218, 9912, 7707, 6139, 2558, 5079, 1052, 4000, 3489, 6969, 9928, 83, 9225, 1187, 3712, 5184, 2386, 5068, 1335, 876"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 1432, 5011, 6660, 2851, 9118, 939, 8330, 947, 1659, 187, 9892, 4123, 3508, 7192, 5522, 6676, 7392, 4066, 3252, 5121"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 7667, 9053, 7251, 1614, 5229, 7423, 4900, 5752, 7456, 330, 733, 5088, 1206, 5237, 3509, 6923, 3269, 8117, 3376, 9076"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3801, 6912, 7117, 7543, 8831, 1779, 334, 478, 985, 5642, 6482, 2083, 3436, 5759, 5259, 5677, 7378, 6628, 2724, 2321"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4823, 537, 684, 9992, 1874, 4663, 3097, 2934, 1179, 2939, 6810, 8405, 856, 6687, 8370, 7044, 2886, 3913, 5796, 5531"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4068, 5595, 6935, 6281, 6348, 1906, 8390, 2650, 8499, 6421, 2266, 7303, 6931, 2928, 7089, 9640, 7735, 3415, 1518, 168"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8908, 3475, 971, 2797, 8509, 7035, 61, 2417, 5320, 1048, 6049, 7030, 6937, 6536, 1242, 8899, 7689, 7734, 3350, 2415"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5467, 5243, 8704, 691, 5884, 5498, 4327, 6462, 705, 5080, 258, 7917, 6959, 2316, 9955, 6292, 1096, 1350, 1351, 4333"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 8549, 4717, 3519, 8023, 7683, 7435, 4687, 8998, 2248, 6969, 9618, 5798, 4587, 902, 8049, 6950, 4607, 3288, 6641, 4506"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 6184, 7802, 8419, 6101, 1229, 6854, 7593, 9282, 2500, 9039, 69, 6756, 8984, 1968, 279, 1171, 5052, 9666, 1015, 9413"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 5336, 2163, 8462, 6411, 5877, 9755, 79, 9081, 7765, 5960, 6388, 7196, 663, 7319, 9346, 7135, 6683, 8630, 5688, 7996"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 4901, 8787, 7203, 1028, 4663, 7065, 7481, 870, 7850, 3059, 8757, 1498, 8984, 6923, 7151, 520, 2579, 1006, 4087, 1502"
+}
+],
+[
+{
+"role": "user",
+"content": "Sort the following numbers from smallest to largest: 3773, 5655, 8521, 3257, 5951, 5175, 2653, 7819, 6280, 8572, 909, 1755, 5894, 3658, 998, 7692, 4232, 5618, 8315, 654"
+}
+]
+]
+]
