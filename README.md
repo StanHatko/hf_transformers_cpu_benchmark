@@ -233,3 +233,45 @@ just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run8/task-b1024.json 16 150 
 just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run8/task-b1536.json 16 150 run8/out-b1536.json intel_optimize 2>&1 | tee -a run8.log
 just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run8/task-b2048.json 16 150 run8/out-b2048.json intel_optimize 2>&1 | tee -a run8.log
 ```
+
+## Test Various Generation Lengths
+
+Again test on `r8i.8xlarge` instance type:
+
+```bash
+just generate_task_sort 3 64 50 2025002 run9/task-t50.json
+just generate_task_sort 3 64 100 2025002 run9/task-t100.json
+just generate_task_sort 3 64 150 2025002 run9/task-t150.json
+just generate_task_sort 3 64 200 2025002 run9/task-t200.json
+just generate_task_sort 3 64 250 2025002 run9/task-t250.json
+just generate_task_sort 3 64 300 2025002 run9/task-t300.json
+just generate_task_sort 3 64 350 2025002 run9/task-t350.json
+just generate_task_sort 3 64 400 2025002 run9/task-t400.json
+just generate_task_sort 3 64 450 2025002 run9/task-t450.json
+just generate_task_sort 3 64 500 2025002 run9/task-t500.json
+just generate_task_sort 3 64 550 2025002 run9/task-t550.json
+just generate_task_sort 3 64 600 2025002 run9/task-t600.json
+just generate_task_sort 3 64 650 2025002 run9/task-t650.json
+just generate_task_sort 3 64 700 2025002 run9/task-t700.json
+just generate_task_sort 3 64 750 2025002 run9/task-t750.json
+just generate_task_sort 3 64 800 2025002 run9/task-t800.json
+
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run9/task-t50.json 16 150 run9/out-t50.json intel_optimize 2>&1 | tee -a run9.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run9/task-t100.json 16 150 run9/out-t100.json intel_optimize 2>&1 | tee -a run9.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run9/task-t150.json 16 150 run9/out-t150.json intel_optimize 2>&1 | tee -a run9.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run9/task-t200.json 16 150 run9/out-t200.json intel_optimize 2>&1 | tee -a run9.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run9/task-t250.json 16 150 run9/out-t250.json intel_optimize 2>&1 | tee -a run9.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run9/task-t300.json 16 150 run9/out-t300.json intel_optimize 2>&1 | tee -a run9.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run9/task-t350.json 16 150 run9/out-t350.json intel_optimize 2>&1 | tee -a run9.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run9/task-t400.json 16 150 run9/out-t400.json intel_optimize 2>&1 | tee -a run9.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run9/task-t450.json 16 150 run9/out-t450.json intel_optimize 2>&1 | tee -a run9.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run9/task-t500.json 16 150 run9/out-t500.json intel_optimize 2>&1 | tee -a run9.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run9/task-t550.json 16 150 run9/out-t550.json intel_optimize 2>&1 | tee -a run9.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run9/task-t600.json 16 150 run9/out-t600.json intel_optimize 2>&1 | tee -a run9.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run9/task-t650.json 16 150 run9/out-t650.json intel_optimize 2>&1 | tee -a run9.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run9/task-t700.json 16 150 run9/out-t700.json intel_optimize 2>&1 | tee -a run9.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run9/task-t750.json 16 150 run9/out-t750.json intel_optimize 2>&1 | tee -a run9.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run9/task-t800.json 16 150 run9/out-t800.json intel_optimize 2>&1 | tee -a run9.log
+```
+
+
