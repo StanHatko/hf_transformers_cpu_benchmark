@@ -267,6 +267,7 @@ Again test on `r8i.8xlarge` instance type:
 just generate_task_sort 3 64 5 2025004 run10/task-5.json
 just generate_task_sort 3 64 10 2025004 run10/task-10.json
 just generate_task_sort 3 64 15 2025004 run10/task-15.json
+just generate_task_sort 3 64 20 2025004 run10/task-20.json
 just generate_task_sort 3 64 25 2025004 run10/task-25.json
 just generate_task_sort 3 64 30 2025004 run10/task-30.json
 just generate_task_sort 3 64 35 2025004 run10/task-35.json
