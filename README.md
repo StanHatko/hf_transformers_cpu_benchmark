@@ -259,4 +259,29 @@ just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run9/task.json 16 750 run9/o
 just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run9/task.json 16 800 run9/out-800.json intel_optimize 2>&1 | tee -a run9.log
 ```
 
+## Test Various Encoding Lengths
 
+Again test on `r8i.8xlarge` instance type:
+
+```bash
+just generate_task_sort 3 64 5 2025004 run10/task-5.json
+just generate_task_sort 3 64 10 2025004 run10/task-10.json
+just generate_task_sort 3 64 15 2025004 run10/task-15.json
+just generate_task_sort 3 64 25 2025004 run10/task-25.json
+just generate_task_sort 3 64 30 2025004 run10/task-30.json
+just generate_task_sort 3 64 35 2025004 run10/task-35.json
+just generate_task_sort 3 64 40 2025004 run10/task-40.json
+just generate_task_sort 3 64 45 2025004 run10/task-45.json
+just generate_task_sort 3 64 50 2025004 run10/task-50.json
+
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run10/task-5.json 16 20 run10/out-5.json intel_optimize 2>&1 | tee -a run10.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run10/task-10.json 16 20 run10/out-10.json intel_optimize 2>&1 | tee -a run10.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run10/task-15.json 16 20 run10/out-15.json intel_optimize 2>&1 | tee -a run10.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run10/task-20.json 16 20 run10/out-20.json intel_optimize 2>&1 | tee -a run10.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run10/task-25.json 16 20 run10/out-25.json intel_optimize 2>&1 | tee -a run10.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run10/task-30.json 16 20 run10/out-30.json intel_optimize 2>&1 | tee -a run10.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run10/task-35.json 16 20 run10/out-35.json intel_optimize 2>&1 | tee -a run10.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run10/task-40.json 16 20 run10/out-40.json intel_optimize 2>&1 | tee -a run10.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run10/task-45.json 16 20 run10/out-45.json intel_optimize 2>&1 | tee -a run10.log
+just run_benchmark Qwen/Qwen3-30B-A3B-Instruct-2507 run10/task-50.json 16 20 run10/out-50.json intel_optimize 2>&1 | tee -a run10.log
+```
