@@ -1,0 +1,1029 @@
+[W909 00:50:21.295194138 OperatorEntry.cpp:218] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_addmm_activation(Tensor self, Tensor mat1, Tensor mat2, *, Scalar beta=1, Scalar alpha=1, bool use_gelu=False) -> Tensor
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastCPU
+  previous kernel: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:327
+       new kernel: registered at /opt/workspace/ipex-cpu-dev/csrc/cpu/autocast/autocast_mode.cpp:112 (function operator())
+2025-09-09 00:50:23,734 - _logger.py - torchao.kernel.intmm - WARNING - Warning: Detected no triton, on systems without Triton certain kernels will not work
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run10/task-5.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 20
+Additional special settings: intel_optimize
+
+Loading checkpoint shards:   0%|          | 0/16 [00:00<?, ?it/s]
+Loading checkpoint shards:   6%|▋         | 1/16 [00:00<00:04,  3.15it/s]
+Loading checkpoint shards:  12%|█▎        | 2/16 [00:00<00:05,  2.52it/s]
+Loading checkpoint shards:  19%|█▉        | 3/16 [00:01<00:05,  2.31it/s]
+Loading checkpoint shards:  25%|██▌       | 4/16 [00:01<00:05,  2.17it/s]
+Loading checkpoint shards:  31%|███▏      | 5/16 [00:02<00:05,  2.05it/s]
+Loading checkpoint shards:  38%|███▊      | 6/16 [00:02<00:05,  1.94it/s]
+Loading checkpoint shards:  44%|████▍     | 7/16 [00:03<00:04,  1.85it/s]
+Loading checkpoint shards:  50%|█████     | 8/16 [00:04<00:04,  1.80it/s]
+Loading checkpoint shards:  56%|█████▋    | 9/16 [00:04<00:04,  1.73it/s]
+Loading checkpoint shards:  62%|██████▎   | 10/16 [00:05<00:03,  1.68it/s]
+Loading checkpoint shards:  69%|██████▉   | 11/16 [00:05<00:03,  1.62it/s]
+Loading checkpoint shards:  75%|███████▌  | 12/16 [00:06<00:02,  1.58it/s]
+Loading checkpoint shards:  81%|████████▏ | 13/16 [00:07<00:01,  1.54it/s]
+Loading checkpoint shards:  88%|████████▊ | 14/16 [00:07<00:01,  1.52it/s]
+Loading checkpoint shards:  94%|█████████▍| 15/16 [00:08<00:00,  1.49it/s]
+Loading checkpoint shards: 100%|██████████| 16/16 [00:08<00:00,  1.83it/s]
+Model dtype: torch.bfloat16
+Operation load_model took 19.39 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.02 seconds.
+Start iteration: 0
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_0 took 20.6 seconds.
+Start iteration: 1
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_1 took 16.29 seconds.
+Start iteration: 2
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_2 took 16.7 seconds.
+Operation generate_llm took 53.59 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run10/out-5.json
+Done saving to output file.
+[W909 00:51:42.866240501 OperatorEntry.cpp:218] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_addmm_activation(Tensor self, Tensor mat1, Tensor mat2, *, Scalar beta=1, Scalar alpha=1, bool use_gelu=False) -> Tensor
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastCPU
+  previous kernel: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:327
+       new kernel: registered at /opt/workspace/ipex-cpu-dev/csrc/cpu/autocast/autocast_mode.cpp:112 (function operator())
+2025-09-09 00:51:44,275 - _logger.py - torchao.kernel.intmm - WARNING - Warning: Detected no triton, on systems without Triton certain kernels will not work
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run10/task-10.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 20
+Additional special settings: intel_optimize
+
+Loading checkpoint shards:   0%|          | 0/16 [00:00<?, ?it/s]
+Loading checkpoint shards:   6%|▋         | 1/16 [00:00<00:05,  2.88it/s]
+Loading checkpoint shards:  12%|█▎        | 2/16 [00:00<00:06,  2.28it/s]
+Loading checkpoint shards:  19%|█▉        | 3/16 [00:01<00:06,  2.10it/s]
+Loading checkpoint shards:  25%|██▌       | 4/16 [00:01<00:06,  1.99it/s]
+Loading checkpoint shards:  31%|███▏      | 5/16 [00:02<00:05,  1.91it/s]
+Loading checkpoint shards:  38%|███▊      | 6/16 [00:03<00:05,  1.85it/s]
+Loading checkpoint shards:  44%|████▍     | 7/16 [00:03<00:05,  1.80it/s]
+Loading checkpoint shards:  50%|█████     | 8/16 [00:04<00:04,  1.76it/s]
+Loading checkpoint shards:  56%|█████▋    | 9/16 [00:04<00:04,  1.72it/s]
+Loading checkpoint shards:  62%|██████▎   | 10/16 [00:05<00:03,  1.69it/s]
+Loading checkpoint shards:  69%|██████▉   | 11/16 [00:06<00:03,  1.66it/s]
+Loading checkpoint shards:  75%|███████▌  | 12/16 [00:06<00:02,  1.62it/s]
+Loading checkpoint shards:  81%|████████▏ | 13/16 [00:07<00:01,  1.60it/s]
+Loading checkpoint shards:  88%|████████▊ | 14/16 [00:08<00:01,  1.57it/s]
+Loading checkpoint shards:  94%|█████████▍| 15/16 [00:08<00:00,  1.54it/s]
+Loading checkpoint shards: 100%|██████████| 16/16 [00:08<00:00,  1.83it/s]
+Model dtype: torch.bfloat16
+Operation load_model took 19.19 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.03 seconds.
+Start iteration: 0
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_0 took 27.85 seconds.
+Start iteration: 1
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_1 took 25.34 seconds.
+Start iteration: 2
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_2 took 19.69 seconds.
+Operation generate_llm took 72.88 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run10/out-10.json
+Done saving to output file.
+[W909 00:53:22.565220308 OperatorEntry.cpp:218] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_addmm_activation(Tensor self, Tensor mat1, Tensor mat2, *, Scalar beta=1, Scalar alpha=1, bool use_gelu=False) -> Tensor
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastCPU
+  previous kernel: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:327
+       new kernel: registered at /opt/workspace/ipex-cpu-dev/csrc/cpu/autocast/autocast_mode.cpp:112 (function operator())
+2025-09-09 00:53:23,979 - _logger.py - torchao.kernel.intmm - WARNING - Warning: Detected no triton, on systems without Triton certain kernels will not work
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run10/task-15.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 20
+Additional special settings: intel_optimize
+
+Loading checkpoint shards:   0%|          | 0/16 [00:00<?, ?it/s]
+Loading checkpoint shards:   6%|▋         | 1/16 [00:00<00:04,  3.18it/s]
+Loading checkpoint shards:  12%|█▎        | 2/16 [00:00<00:05,  2.54it/s]
+Loading checkpoint shards:  19%|█▉        | 3/16 [00:01<00:05,  2.33it/s]
+Loading checkpoint shards:  25%|██▌       | 4/16 [00:01<00:05,  2.19it/s]
+Loading checkpoint shards:  31%|███▏      | 5/16 [00:02<00:05,  2.08it/s]
+Loading checkpoint shards:  38%|███▊      | 6/16 [00:02<00:05,  1.98it/s]
+Loading checkpoint shards:  44%|████▍     | 7/16 [00:03<00:04,  1.90it/s]
+Loading checkpoint shards:  50%|█████     | 8/16 [00:03<00:04,  1.82it/s]
+Loading checkpoint shards:  56%|█████▋    | 9/16 [00:04<00:03,  1.76it/s]
+Loading checkpoint shards:  62%|██████▎   | 10/16 [00:05<00:03,  1.70it/s]
+Loading checkpoint shards:  69%|██████▉   | 11/16 [00:05<00:03,  1.65it/s]
+Loading checkpoint shards:  75%|███████▌  | 12/16 [00:06<00:02,  1.62it/s]
+Loading checkpoint shards:  81%|████████▏ | 13/16 [00:07<00:01,  1.59it/s]
+Loading checkpoint shards:  88%|████████▊ | 14/16 [00:07<00:01,  1.55it/s]
+Loading checkpoint shards:  94%|█████████▍| 15/16 [00:08<00:00,  1.49it/s]
+Loading checkpoint shards: 100%|██████████| 16/16 [00:08<00:00,  1.86it/s]
+Model dtype: torch.bfloat16
+Operation load_model took 19.31 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.03 seconds.
+Start iteration: 0
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_0 took 31.53 seconds.
+Start iteration: 1
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_1 took 21.57 seconds.
+Start iteration: 2
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_2 took 21.21 seconds.
+Operation generate_llm took 74.31 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run10/out-15.json
+Done saving to output file.
+
+[W909 01:17:04.813304135 OperatorEntry.cpp:218] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_addmm_activation(Tensor self, Tensor mat1, Tensor mat2, *, Scalar beta=1, Scalar alpha=1, bool use_gelu=False) -> Tensor
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastCPU
+  previous kernel: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:327
+       new kernel: registered at /opt/workspace/ipex-cpu-dev/csrc/cpu/autocast/autocast_mode.cpp:112 (function operator())
+2025-09-09 01:17:06,206 - _logger.py - torchao.kernel.intmm - WARNING - Warning: Detected no triton, on systems without Triton certain kernels will not work
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run10/task-20.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 20
+Additional special settings: intel_optimize
+
+Loading checkpoint shards:   0%|          | 0/16 [00:00<?, ?it/s]
+Loading checkpoint shards:   6%|▋         | 1/16 [00:00<00:04,  3.27it/s]
+Loading checkpoint shards:  12%|█▎        | 2/16 [00:00<00:05,  2.60it/s]
+Loading checkpoint shards:  19%|█▉        | 3/16 [00:01<00:05,  2.41it/s]
+Loading checkpoint shards:  25%|██▌       | 4/16 [00:01<00:05,  2.28it/s]
+Loading checkpoint shards:  31%|███▏      | 5/16 [00:02<00:05,  2.17it/s]
+Loading checkpoint shards:  38%|███▊      | 6/16 [00:02<00:04,  2.07it/s]
+Loading checkpoint shards:  44%|████▍     | 7/16 [00:03<00:04,  1.98it/s]
+Loading checkpoint shards:  50%|█████     | 8/16 [00:03<00:04,  1.90it/s]
+Loading checkpoint shards:  56%|█████▋    | 9/16 [00:04<00:03,  1.82it/s]
+Loading checkpoint shards:  62%|██████▎   | 10/16 [00:05<00:03,  1.76it/s]
+Loading checkpoint shards:  69%|██████▉   | 11/16 [00:05<00:02,  1.70it/s]
+Loading checkpoint shards:  75%|███████▌  | 12/16 [00:06<00:02,  1.65it/s]
+Loading checkpoint shards:  81%|████████▏ | 13/16 [00:06<00:01,  1.60it/s]
+Loading checkpoint shards:  88%|████████▊ | 14/16 [00:07<00:01,  1.56it/s]
+Loading checkpoint shards:  94%|█████████▍| 15/16 [00:08<00:00,  1.52it/s]
+Loading checkpoint shards: 100%|██████████| 16/16 [00:08<00:00,  1.91it/s]
+Model dtype: torch.bfloat16
+Operation load_model took 18.87 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.03 seconds.
+Start iteration: 0
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_0 took 39.3 seconds.
+Start iteration: 1
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_1 took 34.07 seconds.
+Start iteration: 2
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_2 took 33.76 seconds.
+Operation generate_llm took 107.13 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run10/out-20.json
+Done saving to output file.
+
+[W909 00:55:29.572766548 OperatorEntry.cpp:218] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_addmm_activation(Tensor self, Tensor mat1, Tensor mat2, *, Scalar beta=1, Scalar alpha=1, bool use_gelu=False) -> Tensor
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastCPU
+  previous kernel: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:327
+       new kernel: registered at /opt/workspace/ipex-cpu-dev/csrc/cpu/autocast/autocast_mode.cpp:112 (function operator())
+2025-09-09 00:55:30,955 - _logger.py - torchao.kernel.intmm - WARNING - Warning: Detected no triton, on systems without Triton certain kernels will not work
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run10/task-25.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 20
+Additional special settings: intel_optimize
+
+Loading checkpoint shards:   0%|          | 0/16 [00:00<?, ?it/s]
+Loading checkpoint shards:   6%|▋         | 1/16 [00:00<00:04,  3.34it/s]
+Loading checkpoint shards:  12%|█▎        | 2/16 [00:00<00:05,  2.66it/s]
+Loading checkpoint shards:  19%|█▉        | 3/16 [00:01<00:05,  2.47it/s]
+Loading checkpoint shards:  25%|██▌       | 4/16 [00:01<00:05,  2.34it/s]
+Loading checkpoint shards:  31%|███▏      | 5/16 [00:02<00:04,  2.23it/s]
+Loading checkpoint shards:  38%|███▊      | 6/16 [00:02<00:04,  2.12it/s]
+Loading checkpoint shards:  44%|████▍     | 7/16 [00:03<00:04,  2.04it/s]
+Loading checkpoint shards:  50%|█████     | 8/16 [00:03<00:04,  1.96it/s]
+Loading checkpoint shards:  56%|█████▋    | 9/16 [00:04<00:03,  1.88it/s]
+Loading checkpoint shards:  62%|██████▎   | 10/16 [00:04<00:03,  1.82it/s]
+Loading checkpoint shards:  69%|██████▉   | 11/16 [00:05<00:02,  1.76it/s]
+Loading checkpoint shards:  75%|███████▌  | 12/16 [00:06<00:02,  1.71it/s]
+Loading checkpoint shards:  81%|████████▏ | 13/16 [00:06<00:01,  1.66it/s]
+Loading checkpoint shards:  88%|████████▊ | 14/16 [00:07<00:01,  1.62it/s]
+Loading checkpoint shards:  94%|█████████▍| 15/16 [00:08<00:00,  1.58it/s]
+Loading checkpoint shards: 100%|██████████| 16/16 [00:08<00:00,  1.97it/s]
+Model dtype: torch.bfloat16
+Operation load_model took 18.51 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.03 seconds.
+Start iteration: 0
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_0 took 46.37 seconds.
+Start iteration: 1
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_1 took 36.9 seconds.
+Start iteration: 2
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_2 took 29.7 seconds.
+Operation generate_llm took 112.97 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run10/out-25.json
+Done saving to output file.
+[W909 00:57:48.522784023 OperatorEntry.cpp:218] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_addmm_activation(Tensor self, Tensor mat1, Tensor mat2, *, Scalar beta=1, Scalar alpha=1, bool use_gelu=False) -> Tensor
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastCPU
+  previous kernel: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:327
+       new kernel: registered at /opt/workspace/ipex-cpu-dev/csrc/cpu/autocast/autocast_mode.cpp:112 (function operator())
+2025-09-09 00:57:49,885 - _logger.py - torchao.kernel.intmm - WARNING - Warning: Detected no triton, on systems without Triton certain kernels will not work
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run10/task-30.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 20
+Additional special settings: intel_optimize
+
+Loading checkpoint shards:   0%|          | 0/16 [00:00<?, ?it/s]
+Loading checkpoint shards:   6%|▋         | 1/16 [00:00<00:04,  3.21it/s]
+Loading checkpoint shards:  12%|█▎        | 2/16 [00:00<00:05,  2.56it/s]
+Loading checkpoint shards:  19%|█▉        | 3/16 [00:01<00:05,  2.36it/s]
+Loading checkpoint shards:  25%|██▌       | 4/16 [00:01<00:05,  2.21it/s]
+Loading checkpoint shards:  31%|███▏      | 5/16 [00:02<00:05,  2.09it/s]
+Loading checkpoint shards:  38%|███▊      | 6/16 [00:02<00:05,  1.98it/s]
+Loading checkpoint shards:  44%|████▍     | 7/16 [00:03<00:04,  1.91it/s]
+Loading checkpoint shards:  50%|█████     | 8/16 [00:03<00:04,  1.83it/s]
+Loading checkpoint shards:  56%|█████▋    | 9/16 [00:04<00:03,  1.76it/s]
+Loading checkpoint shards:  62%|██████▎   | 10/16 [00:05<00:03,  1.69it/s]
+Loading checkpoint shards:  69%|██████▉   | 11/16 [00:05<00:03,  1.65it/s]
+Loading checkpoint shards:  75%|███████▌  | 12/16 [00:06<00:02,  1.60it/s]
+Loading checkpoint shards:  81%|████████▏ | 13/16 [00:07<00:01,  1.57it/s]
+Loading checkpoint shards:  88%|████████▊ | 14/16 [00:07<00:01,  1.55it/s]
+Loading checkpoint shards:  94%|█████████▍| 15/16 [00:08<00:00,  1.50it/s]
+Loading checkpoint shards: 100%|██████████| 16/16 [00:08<00:00,  1.86it/s]
+Model dtype: torch.bfloat16
+Operation load_model took 18.99 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.04 seconds.
+Start iteration: 0
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_0 took 50.18 seconds.
+Start iteration: 1
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_1 took 39.18 seconds.
+Start iteration: 2
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_2 took 30.3 seconds.
+Operation generate_llm took 119.66 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run10/out-30.json
+Done saving to output file.
+[W909 01:00:14.693392948 OperatorEntry.cpp:218] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_addmm_activation(Tensor self, Tensor mat1, Tensor mat2, *, Scalar beta=1, Scalar alpha=1, bool use_gelu=False) -> Tensor
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastCPU
+  previous kernel: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:327
+       new kernel: registered at /opt/workspace/ipex-cpu-dev/csrc/cpu/autocast/autocast_mode.cpp:112 (function operator())
+2025-09-09 01:00:16,043 - _logger.py - torchao.kernel.intmm - WARNING - Warning: Detected no triton, on systems without Triton certain kernels will not work
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run10/task-35.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 20
+Additional special settings: intel_optimize
+
+Loading checkpoint shards:   0%|          | 0/16 [00:00<?, ?it/s]
+Loading checkpoint shards:   6%|▋         | 1/16 [00:00<00:04,  3.24it/s]
+Loading checkpoint shards:  12%|█▎        | 2/16 [00:00<00:05,  2.58it/s]
+Loading checkpoint shards:  19%|█▉        | 3/16 [00:01<00:05,  2.37it/s]
+Loading checkpoint shards:  25%|██▌       | 4/16 [00:01<00:05,  2.24it/s]
+Loading checkpoint shards:  31%|███▏      | 5/16 [00:02<00:05,  2.13it/s]
+Loading checkpoint shards:  38%|███▊      | 6/16 [00:02<00:04,  2.04it/s]
+Loading checkpoint shards:  44%|████▍     | 7/16 [00:03<00:04,  1.95it/s]
+Loading checkpoint shards:  50%|█████     | 8/16 [00:03<00:04,  1.88it/s]
+Loading checkpoint shards:  56%|█████▋    | 9/16 [00:04<00:03,  1.80it/s]
+Loading checkpoint shards:  62%|██████▎   | 10/16 [00:05<00:03,  1.72it/s]
+Loading checkpoint shards:  69%|██████▉   | 11/16 [00:05<00:03,  1.65it/s]
+Loading checkpoint shards:  75%|███████▌  | 12/16 [00:06<00:02,  1.61it/s]
+Loading checkpoint shards:  81%|████████▏ | 13/16 [00:07<00:01,  1.56it/s]
+Loading checkpoint shards:  88%|████████▊ | 14/16 [00:07<00:01,  1.54it/s]
+Loading checkpoint shards:  94%|█████████▍| 15/16 [00:08<00:00,  1.48it/s]
+Loading checkpoint shards: 100%|██████████| 16/16 [00:08<00:00,  1.87it/s]
+Model dtype: torch.bfloat16
+Operation load_model took 19.01 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.04 seconds.
+Start iteration: 0
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_0 took 56.05 seconds.
+Start iteration: 1
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_1 took 43.05 seconds.
+Start iteration: 2
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_2 took 40.63 seconds.
+Operation generate_llm took 139.72 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run10/out-35.json
+Done saving to output file.
+[W909 01:03:00.910721602 OperatorEntry.cpp:218] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_addmm_activation(Tensor self, Tensor mat1, Tensor mat2, *, Scalar beta=1, Scalar alpha=1, bool use_gelu=False) -> Tensor
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastCPU
+  previous kernel: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:327
+       new kernel: registered at /opt/workspace/ipex-cpu-dev/csrc/cpu/autocast/autocast_mode.cpp:112 (function operator())
+2025-09-09 01:03:02,291 - _logger.py - torchao.kernel.intmm - WARNING - Warning: Detected no triton, on systems without Triton certain kernels will not work
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run10/task-40.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 20
+Additional special settings: intel_optimize
+
+Loading checkpoint shards:   0%|          | 0/16 [00:00<?, ?it/s]
+Loading checkpoint shards:   6%|▋         | 1/16 [00:00<00:04,  3.24it/s]
+Loading checkpoint shards:  12%|█▎        | 2/16 [00:00<00:05,  2.61it/s]
+Loading checkpoint shards:  19%|█▉        | 3/16 [00:01<00:05,  2.42it/s]
+Loading checkpoint shards:  25%|██▌       | 4/16 [00:01<00:05,  2.28it/s]
+Loading checkpoint shards:  31%|███▏      | 5/16 [00:02<00:05,  2.17it/s]
+Loading checkpoint shards:  38%|███▊      | 6/16 [00:02<00:04,  2.08it/s]
+Loading checkpoint shards:  44%|████▍     | 7/16 [00:03<00:04,  1.99it/s]
+Loading checkpoint shards:  50%|█████     | 8/16 [00:03<00:04,  1.91it/s]
+Loading checkpoint shards:  56%|█████▋    | 9/16 [00:04<00:03,  1.84it/s]
+Loading checkpoint shards:  62%|██████▎   | 10/16 [00:04<00:03,  1.79it/s]
+Loading checkpoint shards:  69%|██████▉   | 11/16 [00:05<00:02,  1.73it/s]
+Loading checkpoint shards:  75%|███████▌  | 12/16 [00:06<00:02,  1.67it/s]
+Loading checkpoint shards:  81%|████████▏ | 13/16 [00:06<00:01,  1.61it/s]
+Loading checkpoint shards:  88%|████████▊ | 14/16 [00:07<00:01,  1.58it/s]
+Loading checkpoint shards:  94%|█████████▍| 15/16 [00:08<00:00,  1.55it/s]
+Loading checkpoint shards: 100%|██████████| 16/16 [00:08<00:00,  1.93it/s]
+Model dtype: torch.bfloat16
+Operation load_model took 18.78 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.04 seconds.
+Start iteration: 0
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_0 took 62.81 seconds.
+Start iteration: 1
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_1 took 48.25 seconds.
+Start iteration: 2
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_2 took 48.04 seconds.
+Operation generate_llm took 159.1 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run10/out-40.json
+Done saving to output file.
+[W909 01:06:05.365471141 OperatorEntry.cpp:218] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_addmm_activation(Tensor self, Tensor mat1, Tensor mat2, *, Scalar beta=1, Scalar alpha=1, bool use_gelu=False) -> Tensor
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastCPU
+  previous kernel: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:327
+       new kernel: registered at /opt/workspace/ipex-cpu-dev/csrc/cpu/autocast/autocast_mode.cpp:112 (function operator())
+2025-09-09 01:06:07,706 - _logger.py - torchao.kernel.intmm - WARNING - Warning: Detected no triton, on systems without Triton certain kernels will not work
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run10/task-45.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 20
+Additional special settings: intel_optimize
+
+Loading checkpoint shards:   0%|          | 0/16 [00:00<?, ?it/s]
+Loading checkpoint shards:   6%|▋         | 1/16 [00:00<00:04,  3.23it/s]
+Loading checkpoint shards:  12%|█▎        | 2/16 [00:00<00:05,  2.58it/s]
+Loading checkpoint shards:  19%|█▉        | 3/16 [00:01<00:05,  2.40it/s]
+Loading checkpoint shards:  25%|██▌       | 4/16 [00:01<00:05,  2.25it/s]
+Loading checkpoint shards:  31%|███▏      | 5/16 [00:02<00:05,  2.15it/s]
+Loading checkpoint shards:  38%|███▊      | 6/16 [00:02<00:04,  2.06it/s]
+Loading checkpoint shards:  44%|████▍     | 7/16 [00:03<00:04,  1.96it/s]
+Loading checkpoint shards:  50%|█████     | 8/16 [00:03<00:04,  1.90it/s]
+Loading checkpoint shards:  56%|█████▋    | 9/16 [00:04<00:03,  1.82it/s]
+Loading checkpoint shards:  62%|██████▎   | 10/16 [00:05<00:03,  1.75it/s]
+Loading checkpoint shards:  69%|██████▉   | 11/16 [00:05<00:02,  1.70it/s]
+Loading checkpoint shards:  75%|███████▌  | 12/16 [00:06<00:02,  1.65it/s]
+Loading checkpoint shards:  81%|████████▏ | 13/16 [00:07<00:01,  1.60it/s]
+Loading checkpoint shards:  88%|████████▊ | 14/16 [00:07<00:01,  1.56it/s]
+Loading checkpoint shards:  94%|█████████▍| 15/16 [00:08<00:00,  1.52it/s]
+Loading checkpoint shards: 100%|██████████| 16/16 [00:08<00:00,  1.90it/s]
+Model dtype: torch.bfloat16
+Operation load_model took 18.84 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.05 seconds.
+Start iteration: 0
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_0 took 68.9 seconds.
+Start iteration: 1
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_1 took 52.31 seconds.
+Start iteration: 2
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_2 took 52.12 seconds.
+Operation generate_llm took 173.33 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run10/out-45.json
+Done saving to output file.
+[W909 01:09:25.105445993 OperatorEntry.cpp:218] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_addmm_activation(Tensor self, Tensor mat1, Tensor mat2, *, Scalar beta=1, Scalar alpha=1, bool use_gelu=False) -> Tensor
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastCPU
+  previous kernel: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:327
+       new kernel: registered at /opt/workspace/ipex-cpu-dev/csrc/cpu/autocast/autocast_mode.cpp:112 (function operator())
+2025-09-09 01:09:27,464 - _logger.py - torchao.kernel.intmm - WARNING - Warning: Detected no triton, on systems without Triton certain kernels will not work
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run10/task-50.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 20
+Additional special settings: intel_optimize
+
+Loading checkpoint shards:   0%|          | 0/16 [00:00<?, ?it/s]
+Loading checkpoint shards:   6%|▋         | 1/16 [00:00<00:04,  3.19it/s]
+Loading checkpoint shards:  12%|█▎        | 2/16 [00:00<00:05,  2.57it/s]
+Loading checkpoint shards:  19%|█▉        | 3/16 [00:01<00:05,  2.36it/s]
+Loading checkpoint shards:  25%|██▌       | 4/16 [00:01<00:05,  2.23it/s]
+Loading checkpoint shards:  31%|███▏      | 5/16 [00:02<00:05,  2.12it/s]
+Loading checkpoint shards:  38%|███▊      | 6/16 [00:02<00:04,  2.02it/s]
+Loading checkpoint shards:  44%|████▍     | 7/16 [00:03<00:04,  1.94it/s]
+Loading checkpoint shards:  50%|█████     | 8/16 [00:03<00:04,  1.86it/s]
+Loading checkpoint shards:  56%|█████▋    | 9/16 [00:04<00:03,  1.80it/s]
+Loading checkpoint shards:  62%|██████▎   | 10/16 [00:05<00:03,  1.75it/s]
+Loading checkpoint shards:  69%|██████▉   | 11/16 [00:05<00:02,  1.70it/s]
+Loading checkpoint shards:  75%|███████▌  | 12/16 [00:06<00:02,  1.65it/s]
+Loading checkpoint shards:  81%|████████▏ | 13/16 [00:07<00:01,  1.62it/s]
+Loading checkpoint shards:  88%|████████▊ | 14/16 [00:07<00:01,  1.58it/s]
+Loading checkpoint shards:  94%|█████████▍| 15/16 [00:08<00:00,  1.54it/s]
+Loading checkpoint shards: 100%|██████████| 16/16 [00:08<00:00,  1.90it/s]
+Model dtype: torch.bfloat16
+Operation load_model took 18.88 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.05 seconds.
+Start iteration: 0
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_0 took 74.51 seconds.
+Start iteration: 1
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_1 took 43.04 seconds.
+Start iteration: 2
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_2 took 42.47 seconds.
+Operation generate_llm took 160.03 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run10/out-50.json
+Done saving to output file.
+
+[W909 01:19:17.279438786 OperatorEntry.cpp:218] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_addmm_activation(Tensor self, Tensor mat1, Tensor mat2, *, Scalar beta=1, Scalar alpha=1, bool use_gelu=False) -> Tensor
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastCPU
+  previous kernel: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:327
+       new kernel: registered at /opt/workspace/ipex-cpu-dev/csrc/cpu/autocast/autocast_mode.cpp:112 (function operator())
+2025-09-09 01:19:19,633 - _logger.py - torchao.kernel.intmm - WARNING - Warning: Detected no triton, on systems without Triton certain kernels will not work
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run10/task-60.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 20
+Additional special settings: intel_optimize
+
+Loading checkpoint shards:   0%|          | 0/16 [00:00<?, ?it/s]
+Loading checkpoint shards:   6%|▋         | 1/16 [00:00<00:04,  3.24it/s]
+Loading checkpoint shards:  12%|█▎        | 2/16 [00:00<00:05,  2.59it/s]
+Loading checkpoint shards:  19%|█▉        | 3/16 [00:01<00:05,  2.39it/s]
+Loading checkpoint shards:  25%|██▌       | 4/16 [00:01<00:05,  2.26it/s]
+Loading checkpoint shards:  31%|███▏      | 5/16 [00:02<00:05,  2.15it/s]
+Loading checkpoint shards:  38%|███▊      | 6/16 [00:02<00:04,  2.06it/s]
+Loading checkpoint shards:  44%|████▍     | 7/16 [00:03<00:04,  1.96it/s]
+Loading checkpoint shards:  50%|█████     | 8/16 [00:03<00:04,  1.89it/s]
+Loading checkpoint shards:  56%|█████▋    | 9/16 [00:04<00:03,  1.81it/s]
+Loading checkpoint shards:  62%|██████▎   | 10/16 [00:05<00:03,  1.75it/s]
+Loading checkpoint shards:  69%|██████▉   | 11/16 [00:05<00:02,  1.70it/s]
+Loading checkpoint shards:  75%|███████▌  | 12/16 [00:06<00:02,  1.65it/s]
+Loading checkpoint shards:  81%|████████▏ | 13/16 [00:06<00:01,  1.61it/s]
+Loading checkpoint shards:  88%|████████▊ | 14/16 [00:07<00:01,  1.57it/s]
+Loading checkpoint shards:  94%|█████████▍| 15/16 [00:08<00:00,  1.50it/s]
+Loading checkpoint shards: 100%|██████████| 16/16 [00:08<00:00,  1.90it/s]
+Model dtype: torch.bfloat16
+Operation load_model took 18.81 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.05 seconds.
+Start iteration: 0
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_0 took 85.51 seconds.
+Start iteration: 1
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_1 took 66.1 seconds.
+Start iteration: 2
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_2 took 65.47 seconds.
+Operation generate_llm took 217.08 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run10/out-60.json
+Done saving to output file.
+[W909 01:23:21.832732024 OperatorEntry.cpp:218] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_addmm_activation(Tensor self, Tensor mat1, Tensor mat2, *, Scalar beta=1, Scalar alpha=1, bool use_gelu=False) -> Tensor
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastCPU
+  previous kernel: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:327
+       new kernel: registered at /opt/workspace/ipex-cpu-dev/csrc/cpu/autocast/autocast_mode.cpp:112 (function operator())
+2025-09-09 01:23:23,233 - _logger.py - torchao.kernel.intmm - WARNING - Warning: Detected no triton, on systems without Triton certain kernels will not work
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run10/task-70.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 20
+Additional special settings: intel_optimize
+
+Loading checkpoint shards:   0%|          | 0/16 [00:00<?, ?it/s]
+Loading checkpoint shards:   6%|▋         | 1/16 [00:00<00:04,  3.20it/s]
+Loading checkpoint shards:  12%|█▎        | 2/16 [00:00<00:05,  2.58it/s]
+Loading checkpoint shards:  19%|█▉        | 3/16 [00:01<00:05,  2.38it/s]
+Loading checkpoint shards:  25%|██▌       | 4/16 [00:01<00:05,  2.26it/s]
+Loading checkpoint shards:  31%|███▏      | 5/16 [00:02<00:05,  2.16it/s]
+Loading checkpoint shards:  38%|███▊      | 6/16 [00:02<00:04,  2.07it/s]
+Loading checkpoint shards:  44%|████▍     | 7/16 [00:03<00:04,  1.98it/s]
+Loading checkpoint shards:  50%|█████     | 8/16 [00:03<00:04,  1.90it/s]
+Loading checkpoint shards:  56%|█████▋    | 9/16 [00:04<00:03,  1.83it/s]
+Loading checkpoint shards:  62%|██████▎   | 10/16 [00:05<00:03,  1.76it/s]
+Loading checkpoint shards:  69%|██████▉   | 11/16 [00:05<00:02,  1.69it/s]
+Loading checkpoint shards:  75%|███████▌  | 12/16 [00:06<00:02,  1.64it/s]
+Loading checkpoint shards:  81%|████████▏ | 13/16 [00:07<00:01,  1.59it/s]
+Loading checkpoint shards:  88%|████████▊ | 14/16 [00:07<00:01,  1.55it/s]
+Loading checkpoint shards:  94%|█████████▍| 15/16 [00:08<00:00,  1.51it/s]
+Loading checkpoint shards: 100%|██████████| 16/16 [00:08<00:00,  1.90it/s]
+Model dtype: torch.bfloat16
+Operation load_model took 18.92 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.06 seconds.
+Start iteration: 0
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_0 took 96.67 seconds.
+Start iteration: 1
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_1 took 72.78 seconds.
+Start iteration: 2
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_2 took 56.56 seconds.
+Operation generate_llm took 226.01 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run10/out-70.json
+Done saving to output file.
+[W909 01:27:33.415114732 OperatorEntry.cpp:218] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_addmm_activation(Tensor self, Tensor mat1, Tensor mat2, *, Scalar beta=1, Scalar alpha=1, bool use_gelu=False) -> Tensor
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastCPU
+  previous kernel: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:327
+       new kernel: registered at /opt/workspace/ipex-cpu-dev/csrc/cpu/autocast/autocast_mode.cpp:112 (function operator())
+2025-09-09 01:27:35,837 - _logger.py - torchao.kernel.intmm - WARNING - Warning: Detected no triton, on systems without Triton certain kernels will not work
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run10/task-80.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 20
+Additional special settings: intel_optimize
+
+Loading checkpoint shards:   0%|          | 0/16 [00:00<?, ?it/s]
+Loading checkpoint shards:   6%|▋         | 1/16 [00:00<00:04,  3.15it/s]
+Loading checkpoint shards:  12%|█▎        | 2/16 [00:00<00:05,  2.47it/s]
+Loading checkpoint shards:  19%|█▉        | 3/16 [00:01<00:05,  2.27it/s]
+Loading checkpoint shards:  25%|██▌       | 4/16 [00:01<00:05,  2.14it/s]
+Loading checkpoint shards:  31%|███▏      | 5/16 [00:02<00:05,  2.06it/s]
+Loading checkpoint shards:  38%|███▊      | 6/16 [00:02<00:05,  1.97it/s]
+Loading checkpoint shards:  44%|████▍     | 7/16 [00:03<00:04,  1.91it/s]
+Loading checkpoint shards:  50%|█████     | 8/16 [00:03<00:04,  1.84it/s]
+Loading checkpoint shards:  56%|█████▋    | 9/16 [00:04<00:03,  1.78it/s]
+Loading checkpoint shards:  62%|██████▎   | 10/16 [00:05<00:03,  1.71it/s]
+Loading checkpoint shards:  69%|██████▉   | 11/16 [00:05<00:03,  1.64it/s]
+Loading checkpoint shards:  75%|███████▌  | 12/16 [00:06<00:02,  1.58it/s]
+Loading checkpoint shards:  81%|████████▏ | 13/16 [00:07<00:01,  1.54it/s]
+Loading checkpoint shards:  88%|████████▊ | 14/16 [00:07<00:01,  1.51it/s]
+Loading checkpoint shards:  94%|█████████▍| 15/16 [00:08<00:00,  1.46it/s]
+Loading checkpoint shards: 100%|██████████| 16/16 [00:08<00:00,  1.83it/s]
+Model dtype: torch.bfloat16
+Operation load_model took 19.33 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.06 seconds.
+Start iteration: 0
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_0 took 107.76 seconds.
+Start iteration: 1
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_1 took 75.41 seconds.
+Start iteration: 2
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_2 took 80.61 seconds.
+Operation generate_llm took 263.79 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run10/out-80.json
+Done saving to output file.
+[W909 01:32:24.342504500 OperatorEntry.cpp:218] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_addmm_activation(Tensor self, Tensor mat1, Tensor mat2, *, Scalar beta=1, Scalar alpha=1, bool use_gelu=False) -> Tensor
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastCPU
+  previous kernel: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:327
+       new kernel: registered at /opt/workspace/ipex-cpu-dev/csrc/cpu/autocast/autocast_mode.cpp:112 (function operator())
+2025-09-09 01:32:26,697 - _logger.py - torchao.kernel.intmm - WARNING - Warning: Detected no triton, on systems without Triton certain kernels will not work
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run10/task-90.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 20
+Additional special settings: intel_optimize
+
+Loading checkpoint shards:   0%|          | 0/16 [00:00<?, ?it/s]
+Loading checkpoint shards:   6%|▋         | 1/16 [00:00<00:04,  3.15it/s]
+Loading checkpoint shards:  12%|█▎        | 2/16 [00:00<00:05,  2.48it/s]
+Loading checkpoint shards:  19%|█▉        | 3/16 [00:01<00:05,  2.28it/s]
+Loading checkpoint shards:  25%|██▌       | 4/16 [00:01<00:05,  2.14it/s]
+Loading checkpoint shards:  31%|███▏      | 5/16 [00:02<00:05,  2.04it/s]
+Loading checkpoint shards:  38%|███▊      | 6/16 [00:02<00:05,  1.96it/s]
+Loading checkpoint shards:  44%|████▍     | 7/16 [00:03<00:04,  1.89it/s]
+Loading checkpoint shards:  50%|█████     | 8/16 [00:03<00:04,  1.84it/s]
+Loading checkpoint shards:  56%|█████▋    | 9/16 [00:04<00:03,  1.79it/s]
+Loading checkpoint shards:  62%|██████▎   | 10/16 [00:05<00:03,  1.74it/s]
+Loading checkpoint shards:  69%|██████▉   | 11/16 [00:05<00:02,  1.70it/s]
+Loading checkpoint shards:  75%|███████▌  | 12/16 [00:06<00:02,  1.66it/s]
+Loading checkpoint shards:  81%|████████▏ | 13/16 [00:07<00:01,  1.63it/s]
+Loading checkpoint shards:  88%|████████▊ | 14/16 [00:07<00:01,  1.60it/s]
+Loading checkpoint shards:  94%|█████████▍| 15/16 [00:08<00:00,  1.53it/s]
+Loading checkpoint shards: 100%|██████████| 16/16 [00:08<00:00,  1.88it/s]
+Model dtype: torch.bfloat16
+Operation load_model took 18.85 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.06 seconds.
+Start iteration: 0
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_0 took 133.58 seconds.
+Start iteration: 1
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_1 took 132.46 seconds.
+Start iteration: 2
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_2 took 129.51 seconds.
+Operation generate_llm took 395.56 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run10/out-90.json
+Done saving to output file.
+[W909 01:39:26.034961110 OperatorEntry.cpp:218] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_addmm_activation(Tensor self, Tensor mat1, Tensor mat2, *, Scalar beta=1, Scalar alpha=1, bool use_gelu=False) -> Tensor
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastCPU
+  previous kernel: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:327
+       new kernel: registered at /opt/workspace/ipex-cpu-dev/csrc/cpu/autocast/autocast_mode.cpp:112 (function operator())
+2025-09-09 01:39:28,397 - _logger.py - torchao.kernel.intmm - WARNING - Warning: Detected no triton, on systems without Triton certain kernels will not work
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run10/task-100.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 20
+Additional special settings: intel_optimize
+
+Loading checkpoint shards:   0%|          | 0/16 [00:00<?, ?it/s]
+Loading checkpoint shards:   6%|▋         | 1/16 [00:00<00:04,  3.24it/s]
+Loading checkpoint shards:  12%|█▎        | 2/16 [00:00<00:05,  2.60it/s]
+Loading checkpoint shards:  19%|█▉        | 3/16 [00:01<00:05,  2.41it/s]
+Loading checkpoint shards:  25%|██▌       | 4/16 [00:01<00:05,  2.29it/s]
+Loading checkpoint shards:  31%|███▏      | 5/16 [00:02<00:05,  2.19it/s]
+Loading checkpoint shards:  38%|███▊      | 6/16 [00:02<00:04,  2.10it/s]
+Loading checkpoint shards:  44%|████▍     | 7/16 [00:03<00:04,  2.01it/s]
+Loading checkpoint shards:  50%|█████     | 8/16 [00:03<00:04,  1.93it/s]
+Loading checkpoint shards:  56%|█████▋    | 9/16 [00:04<00:03,  1.85it/s]
+Loading checkpoint shards:  62%|██████▎   | 10/16 [00:04<00:03,  1.78it/s]
+Loading checkpoint shards:  69%|██████▉   | 11/16 [00:05<00:02,  1.72it/s]
+Loading checkpoint shards:  75%|███████▌  | 12/16 [00:06<00:02,  1.67it/s]
+Loading checkpoint shards:  81%|████████▏ | 13/16 [00:06<00:01,  1.62it/s]
+Loading checkpoint shards:  88%|████████▊ | 14/16 [00:07<00:01,  1.58it/s]
+Loading checkpoint shards:  94%|█████████▍| 15/16 [00:08<00:00,  1.54it/s]
+Loading checkpoint shards: 100%|██████████| 16/16 [00:08<00:00,  1.93it/s]
+Model dtype: torch.bfloat16
+Operation load_model took 18.74 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.07 seconds.
+Start iteration: 0
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_0 took 147.13 seconds.
+Start iteration: 1
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_1 took 145.26 seconds.
+Start iteration: 2
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_2 took 144.65 seconds.
+Operation generate_llm took 437.04 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run10/out-100.json
+Done saving to output file.
+[W909 02:09:23.426155881 OperatorEntry.cpp:218] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_addmm_activation(Tensor self, Tensor mat1, Tensor mat2, *, Scalar beta=1, Scalar alpha=1, bool use_gelu=False) -> Tensor
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastCPU
+  previous kernel: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:327
+       new kernel: registered at /opt/workspace/ipex-cpu-dev/csrc/cpu/autocast/autocast_mode.cpp:112 (function operator())
+2025-09-09 02:09:25,832 - _logger.py - torchao.kernel.intmm - WARNING - Warning: Detected no triton, on systems without Triton certain kernels will not work
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run10/task-150.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 20
+Additional special settings: intel_optimize
+
+Loading checkpoint shards:   0%|          | 0/16 [00:00<?, ?it/s]
+Loading checkpoint shards:   6%|▋         | 1/16 [00:00<00:04,  3.15it/s]
+Loading checkpoint shards:  12%|█▎        | 2/16 [00:00<00:05,  2.53it/s]
+Loading checkpoint shards:  19%|█▉        | 3/16 [00:01<00:05,  2.35it/s]
+Loading checkpoint shards:  25%|██▌       | 4/16 [00:01<00:05,  2.23it/s]
+Loading checkpoint shards:  31%|███▏      | 5/16 [00:02<00:05,  2.13it/s]
+Loading checkpoint shards:  38%|███▊      | 6/16 [00:02<00:04,  2.05it/s]
+Loading checkpoint shards:  44%|████▍     | 7/16 [00:03<00:04,  1.97it/s]
+Loading checkpoint shards:  50%|█████     | 8/16 [00:03<00:04,  1.89it/s]
+Loading checkpoint shards:  56%|█████▋    | 9/16 [00:04<00:03,  1.84it/s]
+Loading checkpoint shards:  62%|██████▎   | 10/16 [00:05<00:03,  1.80it/s]
+Loading checkpoint shards:  69%|██████▉   | 11/16 [00:05<00:02,  1.75it/s]
+Loading checkpoint shards:  75%|███████▌  | 12/16 [00:06<00:02,  1.70it/s]
+Loading checkpoint shards:  81%|████████▏ | 13/16 [00:06<00:01,  1.66it/s]
+Loading checkpoint shards:  88%|████████▊ | 14/16 [00:07<00:01,  1.61it/s]
+Loading checkpoint shards:  94%|█████████▍| 15/16 [00:08<00:00,  1.57it/s]
+Loading checkpoint shards: 100%|██████████| 16/16 [00:08<00:00,  1.93it/s]
+Model dtype: torch.bfloat16
+Operation load_model took 18.74 seconds.
+Traceback (most recent call last):
+  File "/run/user/1000/just/just-CaDGir/run_benchmark", line 25, in <module>
+    benchmark_llm(
+  File "/home/ubuntu/hf_transformers_cpu_benchmark/run_benchmark.py", line 193, in benchmark_llm
+    b = Benchmark(model_name, input_file, num_cpu, max_tokens, special)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/hf_transformers_cpu_benchmark/run_benchmark.py", line 44, in __init__
+    self.inputs_raw = self.load_inputs()
+                      ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/hf_transformers_cpu_benchmark/run_benchmark.py", line 106, in load_inputs
+    with open(self.input_file, "r", encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'run10/task-150.json'
+error: Recipe `run_benchmark` failed with exit code 1
+[W909 02:09:49.393410476 OperatorEntry.cpp:218] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_addmm_activation(Tensor self, Tensor mat1, Tensor mat2, *, Scalar beta=1, Scalar alpha=1, bool use_gelu=False) -> Tensor
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastCPU
+  previous kernel: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:327
+       new kernel: registered at /opt/workspace/ipex-cpu-dev/csrc/cpu/autocast/autocast_mode.cpp:112 (function operator())
+2025-09-09 02:09:51,756 - _logger.py - torchao.kernel.intmm - WARNING - Warning: Detected no triton, on systems without Triton certain kernels will not work
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run10/task-200.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 20
+Additional special settings: intel_optimize
+
+Loading checkpoint shards:   0%|          | 0/16 [00:00<?, ?it/s]
+Loading checkpoint shards:   6%|▋         | 1/16 [00:00<00:04,  3.28it/s]
+Loading checkpoint shards:  12%|█▎        | 2/16 [00:00<00:05,  2.59it/s]
+Loading checkpoint shards:  19%|█▉        | 3/16 [00:01<00:05,  2.38it/s]
+Loading checkpoint shards:  25%|██▌       | 4/16 [00:01<00:05,  2.25it/s]
+Loading checkpoint shards:  31%|███▏      | 5/16 [00:02<00:05,  2.15it/s]
+Loading checkpoint shards:  38%|███▊      | 6/16 [00:02<00:04,  2.06it/s]
+Loading checkpoint shards:  44%|████▍     | 7/16 [00:03<00:04,  1.98it/s]
+Loading checkpoint shards:  50%|█████     | 8/16 [00:03<00:04,  1.91it/s]
+Loading checkpoint shards:  56%|█████▋    | 9/16 [00:04<00:03,  1.85it/s]
+Loading checkpoint shards:  62%|██████▎   | 10/16 [00:05<00:03,  1.79it/s]
+Loading checkpoint shards:  69%|██████▉   | 11/16 [00:05<00:02,  1.75it/s]
+Loading checkpoint shards:  75%|███████▌  | 12/16 [00:06<00:02,  1.70it/s]
+Loading checkpoint shards:  81%|████████▏ | 13/16 [00:06<00:01,  1.64it/s]
+Loading checkpoint shards:  88%|████████▊ | 14/16 [00:07<00:01,  1.61it/s]
+Loading checkpoint shards:  94%|█████████▍| 15/16 [00:08<00:00,  1.56it/s]
+Loading checkpoint shards: 100%|██████████| 16/16 [00:08<00:00,  1.94it/s]
+Model dtype: torch.bfloat16
+Operation load_model took 18.67 seconds.
+Traceback (most recent call last):
+  File "/run/user/1000/just/just-XQkxS4/run_benchmark", line 25, in <module>
+    benchmark_llm(
+  File "/home/ubuntu/hf_transformers_cpu_benchmark/run_benchmark.py", line 193, in benchmark_llm
+    b = Benchmark(model_name, input_file, num_cpu, max_tokens, special)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/hf_transformers_cpu_benchmark/run_benchmark.py", line 44, in __init__
+    self.inputs_raw = self.load_inputs()
+                      ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/hf_transformers_cpu_benchmark/run_benchmark.py", line 106, in load_inputs
+    with open(self.input_file, "r", encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'run10/task-200.json'
+error: Recipe `run_benchmark` failed with exit code 1
+[W909 02:10:15.413246858 OperatorEntry.cpp:218] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_addmm_activation(Tensor self, Tensor mat1, Tensor mat2, *, Scalar beta=1, Scalar alpha=1, bool use_gelu=False) -> Tensor
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastCPU
+  previous kernel: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:327
+       new kernel: registered at /opt/workspace/ipex-cpu-dev/csrc/cpu/autocast/autocast_mode.cpp:112 (function operator())
+2025-09-09 02:10:17,795 - _logger.py - torchao.kernel.intmm - WARNING - Warning: Detected no triton, on systems without Triton certain kernels will not work
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run10/task-250.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 20
+Additional special settings: intel_optimize
+
+Loading checkpoint shards:   0%|          | 0/16 [00:00<?, ?it/s]
+Loading checkpoint shards:   6%|▋         | 1/16 [00:00<00:04,  3.34it/s]
+Loading checkpoint shards:  12%|█▎        | 2/16 [00:00<00:05,  2.69it/s]
+Loading checkpoint shards:  19%|█▉        | 3/16 [00:01<00:05,  2.50it/s]
+Loading checkpoint shards:  25%|██▌       | 4/16 [00:01<00:05,  2.37it/s]
+Loading checkpoint shards:  31%|███▏      | 5/16 [00:02<00:04,  2.26it/s]
+Loading checkpoint shards:  38%|███▊      | 6/16 [00:02<00:04,  2.17it/s]
+Loading checkpoint shards:  44%|████▍     | 7/16 [00:03<00:04,  2.08it/s]
+Loading checkpoint shards:  50%|█████     | 8/16 [00:03<00:03,  2.00it/s]
+Loading checkpoint shards:  56%|█████▋    | 9/16 [00:04<00:03,  1.93it/s]
+Loading checkpoint shards:  62%|██████▎   | 10/16 [00:04<00:03,  1.85it/s]
+Loading checkpoint shards:  69%|██████▉   | 11/16 [00:05<00:02,  1.79it/s]
+Loading checkpoint shards:  75%|███████▌  | 12/16 [00:06<00:02,  1.72it/s]
+Loading checkpoint shards:  81%|████████▏ | 13/16 [00:06<00:01,  1.68it/s]
+Loading checkpoint shards:  88%|████████▊ | 14/16 [00:07<00:01,  1.64it/s]
+Loading checkpoint shards:  94%|█████████▍| 15/16 [00:07<00:00,  1.57it/s]
+Loading checkpoint shards: 100%|██████████| 16/16 [00:08<00:00,  1.99it/s]
+Model dtype: torch.bfloat16
+Operation load_model took 18.41 seconds.
+Traceback (most recent call last):
+  File "/run/user/1000/just/just-rXCGlX/run_benchmark", line 25, in <module>
+    benchmark_llm(
+  File "/home/ubuntu/hf_transformers_cpu_benchmark/run_benchmark.py", line 193, in benchmark_llm
+    b = Benchmark(model_name, input_file, num_cpu, max_tokens, special)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/hf_transformers_cpu_benchmark/run_benchmark.py", line 44, in __init__
+    self.inputs_raw = self.load_inputs()
+                      ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/hf_transformers_cpu_benchmark/run_benchmark.py", line 106, in load_inputs
+    with open(self.input_file, "r", encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'run10/task-250.json'
+error: Recipe `run_benchmark` failed with exit code 1
+[W909 02:11:40.013118951 OperatorEntry.cpp:218] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_addmm_activation(Tensor self, Tensor mat1, Tensor mat2, *, Scalar beta=1, Scalar alpha=1, bool use_gelu=False) -> Tensor
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastCPU
+  previous kernel: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:327
+       new kernel: registered at /opt/workspace/ipex-cpu-dev/csrc/cpu/autocast/autocast_mode.cpp:112 (function operator())
+2025-09-09 02:11:42,402 - _logger.py - torchao.kernel.intmm - WARNING - Warning: Detected no triton, on systems without Triton certain kernels will not work
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run10/task-150.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 20
+Additional special settings: intel_optimize
+
+Loading checkpoint shards:   0%|          | 0/16 [00:00<?, ?it/s]
+Loading checkpoint shards:   6%|▋         | 1/16 [00:00<00:04,  3.21it/s]
+Loading checkpoint shards:  12%|█▎        | 2/16 [00:00<00:05,  2.56it/s]
+Loading checkpoint shards:  19%|█▉        | 3/16 [00:01<00:05,  2.36it/s]
+Loading checkpoint shards:  25%|██▌       | 4/16 [00:01<00:05,  2.23it/s]
+Loading checkpoint shards:  31%|███▏      | 5/16 [00:02<00:05,  2.13it/s]
+Loading checkpoint shards:  38%|███▊      | 6/16 [00:02<00:04,  2.03it/s]
+Loading checkpoint shards:  44%|████▍     | 7/16 [00:03<00:04,  1.94it/s]
+Loading checkpoint shards:  50%|█████     | 8/16 [00:03<00:04,  1.85it/s]
+Loading checkpoint shards:  56%|█████▋    | 9/16 [00:04<00:03,  1.78it/s]
+Loading checkpoint shards:  62%|██████▎   | 10/16 [00:05<00:03,  1.73it/s]
+Loading checkpoint shards:  69%|██████▉   | 11/16 [00:05<00:03,  1.65it/s]
+Loading checkpoint shards:  75%|███████▌  | 12/16 [00:06<00:02,  1.60it/s]
+Loading checkpoint shards:  81%|████████▏ | 13/16 [00:07<00:01,  1.57it/s]
+Loading checkpoint shards:  88%|████████▊ | 14/16 [00:07<00:01,  1.54it/s]
+Loading checkpoint shards:  94%|█████████▍| 15/16 [00:08<00:00,  1.47it/s]
+Loading checkpoint shards: 100%|██████████| 16/16 [00:08<00:00,  1.86it/s]
+Model dtype: torch.bfloat16
+Operation load_model took 19.07 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.1 seconds.
+Start iteration: 0
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_0 took 212.88 seconds.
+Start iteration: 1
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_1 took 208.1 seconds.
+Start iteration: 2
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_2 took 238.22 seconds.
+Operation generate_llm took 659.2 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run10/out-150.json
+Done saving to output file.
+[W909 02:23:07.772951822 OperatorEntry.cpp:218] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_addmm_activation(Tensor self, Tensor mat1, Tensor mat2, *, Scalar beta=1, Scalar alpha=1, bool use_gelu=False) -> Tensor
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastCPU
+  previous kernel: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:327
+       new kernel: registered at /opt/workspace/ipex-cpu-dev/csrc/cpu/autocast/autocast_mode.cpp:112 (function operator())
+2025-09-09 02:23:09,501 - _logger.py - torchao.kernel.intmm - WARNING - Warning: Detected no triton, on systems without Triton certain kernels will not work
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run10/task-200.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 20
+Additional special settings: intel_optimize
+
+Loading checkpoint shards:   0%|          | 0/16 [00:00<?, ?it/s]
+Loading checkpoint shards:   6%|▋         | 1/16 [00:00<00:04,  3.15it/s]
+Loading checkpoint shards:  12%|█▎        | 2/16 [00:00<00:05,  2.54it/s]
+Loading checkpoint shards:  19%|█▉        | 3/16 [00:01<00:05,  2.36it/s]
+Loading checkpoint shards:  25%|██▌       | 4/16 [00:01<00:05,  2.23it/s]
+Loading checkpoint shards:  31%|███▏      | 5/16 [00:02<00:05,  2.13it/s]
+Loading checkpoint shards:  38%|███▊      | 6/16 [00:02<00:04,  2.04it/s]
+Loading checkpoint shards:  44%|████▍     | 7/16 [00:03<00:04,  1.97it/s]
+Loading checkpoint shards:  50%|█████     | 8/16 [00:03<00:04,  1.90it/s]
+Loading checkpoint shards:  56%|█████▋    | 9/16 [00:04<00:03,  1.83it/s]
+Loading checkpoint shards:  62%|██████▎   | 10/16 [00:05<00:03,  1.77it/s]
+Loading checkpoint shards:  69%|██████▉   | 11/16 [00:05<00:02,  1.72it/s]
+Loading checkpoint shards:  75%|███████▌  | 12/16 [00:06<00:02,  1.67it/s]
+Loading checkpoint shards:  81%|████████▏ | 13/16 [00:06<00:01,  1.63it/s]
+Loading checkpoint shards:  88%|████████▊ | 14/16 [00:07<00:01,  1.58it/s]
+Loading checkpoint shards:  94%|█████████▍| 15/16 [00:08<00:00,  1.54it/s]
+Loading checkpoint shards: 100%|██████████| 16/16 [00:08<00:00,  1.92it/s]
+Model dtype: torch.bfloat16
+Operation load_model took 19.62 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.13 seconds.
+Start iteration: 0
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_0 took 283.19 seconds.
+Start iteration: 1
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_1 took 265.85 seconds.
+Start iteration: 2
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_2 took 269.42 seconds.
+Operation generate_llm took 818.46 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run10/out-200.json
+Done saving to output file.
+[W909 02:37:13.716037380 OperatorEntry.cpp:218] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_addmm_activation(Tensor self, Tensor mat1, Tensor mat2, *, Scalar beta=1, Scalar alpha=1, bool use_gelu=False) -> Tensor
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: AutocastCPU
+  previous kernel: registered at /pytorch/aten/src/ATen/autocast_mode.cpp:327
+       new kernel: registered at /opt/workspace/ipex-cpu-dev/csrc/cpu/autocast/autocast_mode.cpp:112 (function operator())
+2025-09-09 02:37:15,061 - _logger.py - torchao.kernel.intmm - WARNING - Warning: Detected no triton, on systems without Triton certain kernels will not work
+Benchmark speed of model on CPU with 16 cores...
+Benchmark speed of model: Qwen/Qwen3-30B-A3B-Instruct-2507
+Input file: run10/task-250.json
+Number of CPU cores to use: 16
+Maximum number of output tokens: 20
+Additional special settings: intel_optimize
+
+Loading checkpoint shards:   0%|          | 0/16 [00:00<?, ?it/s]
+Loading checkpoint shards:   6%|▋         | 1/16 [00:00<00:04,  3.28it/s]
+Loading checkpoint shards:  12%|█▎        | 2/16 [00:00<00:05,  2.61it/s]
+Loading checkpoint shards:  19%|█▉        | 3/16 [00:01<00:05,  2.43it/s]
+Loading checkpoint shards:  25%|██▌       | 4/16 [00:01<00:05,  2.32it/s]
+Loading checkpoint shards:  31%|███▏      | 5/16 [00:02<00:04,  2.22it/s]
+Loading checkpoint shards:  38%|███▊      | 6/16 [00:02<00:04,  2.14it/s]
+Loading checkpoint shards:  44%|████▍     | 7/16 [00:03<00:04,  2.06it/s]
+Loading checkpoint shards:  50%|█████     | 8/16 [00:03<00:04,  1.99it/s]
+Loading checkpoint shards:  56%|█████▋    | 9/16 [00:04<00:03,  1.92it/s]
+Loading checkpoint shards:  62%|██████▎   | 10/16 [00:04<00:03,  1.86it/s]
+Loading checkpoint shards:  69%|██████▉   | 11/16 [00:05<00:02,  1.81it/s]
+Loading checkpoint shards:  75%|███████▌  | 12/16 [00:06<00:02,  1.76it/s]
+Loading checkpoint shards:  81%|████████▏ | 13/16 [00:06<00:01,  1.72it/s]
+Loading checkpoint shards:  88%|████████▊ | 14/16 [00:07<00:01,  1.68it/s]
+Loading checkpoint shards:  94%|█████████▍| 15/16 [00:07<00:00,  1.64it/s]
+Loading checkpoint shards: 100%|██████████| 16/16 [00:07<00:00,  2.02it/s]
+Model dtype: torch.bfloat16
+Operation load_model took 18.23 seconds.
+Operation load_input took 0.0 seconds.
+Operation encode_input took 0.16 seconds.
+Start iteration: 0
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_0 took 340.69 seconds.
+Start iteration: 1
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_1 took 336.61 seconds.
+Start iteration: 2
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Operation generate_iter_2 took 328.12 seconds.
+Operation generate_llm took 1005.43 seconds.
+Operation decode_outputs took 0.0 seconds.
+Save to output file: run10/out-250.json
+Done saving to output file.
